@@ -1,0 +1,788 @@
+{
+  "content": [
+    {
+      "text": "{\"projectId\":\"13227700106738505093\",\"sessionId\":\"14332794445681768711\",\"outputComponents\":[{\"design\":{\"screens\":[{\"screenshot\":{\"name\":\"projects/13227700106738505093/files/17623611e4654319bf67f6e9651f4077\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1X5XVHh3RicksUfxrsA-okNu5fG8-5sWFGOYJf_eJ6rGn4LH581mlp87At74cRZWe8Am87ERsQTMuxZaDStj2pWZnDIrarzc8Dm1OZ_zTmSLIfQyqr7zsu0sq3aXGypmN6ESWdbUT1HQcAdhowsA34Uj-gpozspq_Sbu9-IHWuVCCVp4vbWOCxVg0rOAYDmqyfWAp3nYCeq3xgwGMG1-qPhmwAZQLiMXlEVFEBVZo0fGsdFjucYw1LvSa1j\"},\"htmlCode\":{\"name\":\"projects/13227700106738505093/files/afa875b65c5f4e4a9b9acbc1cff975df\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzQxNDk1MGYyZTFmYTQzMzQ4ZDQ0ODI4Mzc2MTY2OTY2EgsSBxCl7s7f2Q8YAZIBJAoKcHJvamVjdF9pZBIWQhQxMzIyNzcwMDEwNjczODUwNTA5Mw&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"id\":\"b35a75f437b1466ca7de50974a4c9f57\",\"generatedBy\":\"HatterAgent\",\"width\":\"2560\",\"height\":\"2048\",\"title\":\"CoLibri - Inicio (Variante 1: Amatista & Cian)\",\"prompt\":\"Genera la Variante 1 de paleta cromática para CoLibri Inicio: \\\"Amatista Profunda & Cian Glaciar\\\".\\nMantener exactamente la estructura espacial: Navbar superior con CoLibri, Inicio (activo), Libros, Administración, y botón \\\"+ Agregar libro\\\" (sin perfil ni notificaciones). Logo centralizado de 460x330px con src=\\\"colibri2.jpg\\\" y fallback estilizado en verde oliva (#3d4514 / #55601c) con lettering CoLibrí y silueta de colibrí (sin fotografías de personas ni librerías). Buscador centrado tipo píldora (840px x 64px) con lupa y botón Buscar. Debajo, exactamente los 4 filtros: Género (Todos), Subcategoría (Todas), Editorial (Todas), Estado (Todos con opciones Disponible, Vendido, Pedir, En espera). Texto sutil \\\"Buscá un título o autor para ver los resultados.\\\" Footer \\\"CoLibri · Librería\\\". Sin tabla de libros ni resultados.\\nPaleta cromática Variante 1:\\n- Fondo general: Gradiente atmosférico profundo y frío de violeta azulado noche (#1E1035 a #2B184C y toques de #160D29) con sutil halo frío.\\n- Superficie de barra de búsqueda y tarjetas: Lavanda cristalina / amatista suave translúcida (#F4EDFC con borde suave #D8C2F2) para altísima legibilidad y descanso visual en inventario.\\n- Textos: Textos sobre fondo oscuro en blanco perla (#FFFFFF) y lavanda tenue (#D6C7EE). Texto en inputs oscuro amatista (#231438).\\n- Botón principal / acción: Turquesa / Cian vibrante (#0EA5E9 / #06B6D4 o #0891B2 con hover #0284C7) que aporta un contraste frío exquisito con el violeta y resalta el tono oliva del colibrí.\\n- Acentos magenta y turquesa: Badges y detalles con magenta frío (#C026D3) y cian brillante (#22D3EE).\\nAsegurar que armonice orgánicamente con el marco oliva del logo. Conservar tipografía elegante Literata/inter.\",\"name\":\"projects/13227700106738505093/screens/b35a75f437b1466ca7de50974a4c9f57\",\"theme\":{\"colorMode\":\"LIGHT\",\"font\":\"LITERATA\",\"roundness\":\"ROUND_FOUR\",\"customColor\":\"#6d28d9\",\"headlineFont\":\"LITERATA\",\"bodyFont\":\"INTER\",\"labelFont\":\"INTER\",\"namedColors\":{\"inverse_primary\":\"#d3bbff\",\"on_error_container\":\"#93000a\",\"on_secondary\":\"#ffffff\",\"inverse_surface\":\"#391e70\",\"primary_container\":\"#6d28d9\",\"on_tertiary_fixed\":\"#001f28\",\"on_background\":\"#24005b\",\"inverse_on_surface\":\"#f6edff\",\"on_error\":\"#ffffff\",\"surface_container_high\":\"#efe4ff\",\"error_container\":\"#ffdad6\",\"surface_container_low\":\"#f9f1ff\",\"on_secondary_container\":\"#5c0068\",\"outline_variant\":\"#ccc3d7\",\"surface_bright\":\"#fef7ff\",\"surface\":\"#fef7ff\",\"tertiary_container\":\"#006077\",\"surface_variant\":\"#eaddff\",\"tertiary_fixed_dim\":\"#6cd3f7\",\"on_secondary_fixed_variant\":\"#7d008c\",\"tertiary_fixed\":\"#b7eaff\",\"on_surface\":\"#24005b\",\"primary_fixed\":\"#ebddff\",\"primary_fixed_dim\":\"#d3bbff\",\"surface_tint\":\"#7331df\",\"surface_dim\":\"#e2d3ff\",\"secondary_fixed_dim\":\"#fda9ff\",\"error\":\"#ba1a1a\",\"on_primary\":\"#ffffff\",\"secondary\":\"#a400b7\",\"on_surface_variant\":\"#4a4455\",\"on_tertiary\":\"#ffffff\",\"outline\":\"#7b7486\",\"tertiary\":\"#004759\",\"on_tertiary_fixed_variant\":\"#004e61\",\"background\":\"#fef7ff\",\"secondary_fixed\":\"#ffd6fb\",\"surface_container_lowest\":\"#ffffff\",\"on_tertiary_container\":\"#75dbff\",\"surface_container_highest\":\"#eaddff\",\"on_primary_container\":\"#dac5ff\",\"on_secondary_fixed\":\"#36003d\",\"secondary_container\":\"#ef5aff\",\"primary\":\"#5300b7\",\"on_primary_fixed_variant\":\"#5b00c5\",\"surface_container\":\"#f4eaff\",\"on_primary_fixed\":\"#250059\"},\"colorVariant\":\"FIDELITY\",\"overridePrimaryColor\":\"#6d28d9\",\"overrideSecondaryColor\":\"#c026d3\",\"overrideTertiaryColor\":\"#0891b2\",\"overrideNeutralColor\":\"#2e1065\",\"spacingScale\":2,\"typography\":{\"code-table\":{\"fontFamily\":\"Inter\",\"fontSize\":\"12px\",\"fontWeight\":\"400\",\"lineHeight\":\"16px\",\"letterSpacing\":\"-0.02em\"},\"headline-md\":{\"fontFamily\":\"Literata\",\"fontSize\":\"20px\",\"fontWeight\":\"500\",\"lineHeight\":\"28px\",\"letterSpacing\":\"-0.01em\"},\"headline-lg\":{\"fontFamily\":\"Literata\",\"fontSize\":\"24px\",\"fontWeight\":\"600\",\"lineHeight\":\"32px\",\"letterSpacing\":\"-0.015em\"},\"label-sm\":{\"fontFamily\":\"Inter\",\"fontSize\":\"11px\",\"fontWeight\":\"600\",\"lineHeight\":\"14px\",\"letterSpacing\":\"0.03em\"},\"body-lg\":{\"fontFamily\":\"Inter\",\"fontSize\":\"15px\",\"fontWeight\":\"400\",\"lineHeight\":\"22px\",\"letterSpacing\":\"-0.01em\"},\"label-lg\":{\"fontFamily\":\"Inter\",\"fontSize\":\"13px\",\"fontWeight\":\"600\",\"lineHeight\":\"18px\",\"letterSpacing\":\"0.01em\"},\"body-sm\":{\"fontFamily\":\"Inter\",\"fontSize\":\"12px\",\"fontWeight\":\"400\",\"lineHeight\":\"16px\",\"letterSpacing\":\"0.01em\"},\"headline-sm\":{\"fontFamily\":\"Literata\",\"fontSize\":\"16px\",\"fontWeight\":\"600\",\"lineHeight\":\"24px\",\"letterSpacing\":\"0em\"},\"label-md\":{\"fontFamily\":\"Inter\",\"fontSize\":\"12px\",\"fontWeight\":\"500\",\"lineHeight\":\"16px\",\"letterSpacing\":\"0.02em\"},\"display\":{\"fontFamily\":\"Literata\",\"fontSize\":\"32px\",\"fontWeight\":\"600\",\"lineHeight\":\"40px\",\"letterSpacing\":\"-0.02em\"},\"body-md\":{\"fontFamily\":\"Inter\",\"fontSize\":\"13px\",\"fontWeight\":\"400\",\"lineHeight\":\"18px\",\"letterSpacing\":\"0em\"}},\"spacing\":{\"space-sm\":\"0.5rem\",\"space-xl\":\"2rem\",\"gutter-compact\":\"0.5rem\",\"space-md\":\"0.75rem\",\"space-xs\":\"0.25rem\",\"margin-panel\":\"1rem\",\"margin\":\"1.5rem\",\"gutter\":\"1rem\",\"space-lg\":\"1.25rem\"},\"headlineFontFamily\":\"Literata\",\"bodyFontFamily\":\"Inter\",\"labelFontFamily\":\"Inter\"},\"deviceType\":\"DESKTOP\",\"screenType\":\"DESIGN\",\"screenMetadata\":{\"agentType\":\"PRO_AGENT\",\"status\":\"COMPLETE\"},\"designSystem\":{\"name\":\"assets/66f1878ac67745bdaea737acb640031f\",\"designSystem\":{\"displayName\":\"CoLibri Desktop\",\"styleGuidelines\":\"## Brand & Style\\n\\nThis design system establishes a refined, literary-informed workspace engineered for the high-volume operational workflows of Argentine independent booksellers. The brand balances bibliophilic warmth with systematic, software-grade precision. \\n\\nThe aesthetic is Modern Editorial: crisp, highly structured desktop software enriched with classical bookmaking cues. It rejects cold corporate sterility in favor of rich typographic personality and ink-inspired depth, delivering a calm, luminous environment suited for sustained 8-to-10 hour shifts behind checkout counters and warehouse desks.\\n\\nEvery surface evokes clean rag paper, deliberate margins, and sharp printing. Micro-interactions are snappy and understated, reinforcing dependability during fast keyboard navigation, barcode scanning, and multi-attribute catalogue searches.\\n\\n## Layout & Spacing\\n\\nThis design system uses a desktop-first fluid layout optimized for screen resolutions from 1280px to 4K displays.\\n\\n- **Grid Architecture**: Workspaces operate on a persistent 3-tier desktop layout: a fixed 240px utility navigation sidebar, a dynamic contextual panel (collapsible filters or side drawer, 320px–380px), and an elastic main workspace canvas centered on a 12-column sub-grid with `1rem` gutters.\\n- **Workspace Density**: Spacing adheres strictly to an 8px base grid, dialed down to 4px sub-increments for compact data forms. Vertical cell spacing in bulk inventory tables defaults to `0.5rem` (`space-sm`) top-and-bottom padding for rapid scanning, with a generous mode (`space-md`) configurable for receipt verification.\\n- **Form Rhythm**: Input groups utilize `space-md` gaps between fields, with section chunks partitioned by `space-xl`. Visual grouping relies on structural margins rather than excessive borders or decorative boxes.\\n\\n## Elevation & Depth\\n\\nVisual hierarchy uses tonal surface layering combined with whisper-thin borders and restrained ambient shadows. This prevents interface fatigue in high-information environments.\\n\\n- **Canvas Base (`#F6F3FC`)**: The ground layer upon which all application structures rest.\\n- **Surface Level 1 (`#FFFFFF`)**: Primary cards, full-width data grids, and workspace sheets. Outlined with a 1px border of `#E9D5FF` and a soft ambient shadow: `0 1px 3px 0 rgba(46, 16, 101, 0.04), 0 1px 2px -1px rgba(46, 16, 101, 0.04)`.\\n- **Surface Level 2 (Elevated Drawers & Flyouts)**: Quick-edit side panels, autocomplete menus, and filter dropdowns. Bordered with `#DDD6FE` and lifted by `0 10px 15px -3px rgba(46, 16, 101, 0.08), 0 4px 6px -4px rgba(46, 16, 101, 0.04)`.\\n- **Surface Level 3 (Modal Dialogs & Critical Alerts)**: Rest on an atmospheric overlay (`rgba(30, 27, 75, 0.45)` with a 2px backdrop blur) and cast a structured, wide shadow: `0 20px 25px -5px rgba(46, 16, 101, 0.12), 0 8px 10px -6px rgba(46, 16, 101, 0.08)`.\\n\\n## Components\\n\\n### Buttons\\n- **Primary**: Solid `#6D28D9` fill, white Inter Medium text, 4px border radius. Hover: `#5B21B6`. Active: `#4C1D95`. Focus ring: 2px offset with `#DDD6FE` and 2px solid `#6D28D9`.\\n- **Secondary**: `#FFFFFF` background, `#6D28D9` text, 1px border of `#DDD6FE`. Hover: `#F6F3FC`.\\n- **Tertiary/Ghost**: Transparent fill, `#2E1065` text. Hover: `#F6F3FC`.\\n- **Destructive**: `#DC2626` fill or outline for irrevocable operations like deleting title records.\\n\\n### Form Controls & Inputs\\n- **Text Inputs**: `#FFFFFF` background with 1px `#DDD6FE` border, 36px standard desktop height, `8px 12px` padding, `#1E1B4B` text, and `#7C6F93` placeholder. Focus state transitions border to `#6D28D9` with a subtle `0 0 0 3px rgba(109, 40, 217, 0.12)` halo.\\n- **Numeric & Barcode Inputs**: Right-aligned currency inputs with prefixed ARS$ markers; barcode fields integrate a subtle scanner icon button within the right trailing slot.\\n- **Checkboxes & Radios**: 16px squares with 3px radius. Unchecked: 1.5px border of `#DDD6FE` on white. Checked: solid `#6D28D9` with white checkmark.\\n\\n### Inventory Data Tables\\n- **Header Row**: `#F6F3FC` background, 32px height, 1px bottom border `#DDD6FE`. Column headers use `label-sm` in `#2E1065`, uppercase, with subtle sort chevrons.\\n- **Data Rows**: `#FFFFFF` background, 40px default height, separated by 1px bottom border `#F3E8FF`. Hover state: `#FAF8FE`. Selected row: `#F3E8FF` tint with a 2px vertical indicator in `#6D28D9` on the leading cell edge.\\n- **Alignment**: Text left-aligned; quantities, ISBNs, and prices strictly right-aligned with monospace/tabular numeric figures.\\n\\n### Status Chips & Badges\\n- **In Stock / Sync Complete**: `#ECFEFF` fill, `#0891B2` border and text (`label-sm`).\\n- **Low Stock / Critical**: `#FFF1F2` fill, `#BE123C` border and text.\\n- **Special Order / Consignment**: `#FDF4FF` fill, `#C026D3` border and text.\\n- **Archive / Neutral**: `#F3F4F6` fill, `#4B5563` border and text.\\n\\n### Cards & Container Panels\\n- White background, 1px `#E9D5FF` perimeter border, 8px radius. Card headers separate book metadata into clear visual zones using clean `#F6F3FC` sub-bars when demarcating publisher metadata from warehouse physical stocking locations.\",\"theme\":{\"colorMode\":\"LIGHT\",\"font\":\"LITERATA\",\"roundness\":\"ROUND_FOUR\",\"customColor\":\"#6d28d9\",\"headlineFont\":\"LITERATA\",\"bodyFont\":\"INTER\",\"labelFont\":\"INTER\",\"namedColors\":{\"error\":\"#ba1a1a\",\"on_secondary_container\":\"#5c0068\",\"surface_container\":\"#f4eaff\",\"on_secondary_fixed_variant\":\"#7d008c\",\"surface_bright\":\"#fef7ff\",\"on_primary_container\":\"#dac5ff\",\"on_primary_fixed_variant\":\"#5b00c5\",\"surface_container_high\":\"#efe4ff\",\"on_surface_variant\":\"#4a4455\",\"surface_dim\":\"#e2d3ff\",\"surface_container_lowest\":\"#ffffff\",\"on_error\":\"#ffffff\",\"surface_tint\":\"#7331df\",\"outline\":\"#7b7486\",\"primary_fixed\":\"#ebddff\",\"primary\":\"#5300b7\",\"secondary_fixed\":\"#ffd6fb\",\"on_tertiary_container\":\"#75dbff\",\"on_secondary_fixed\":\"#36003d\",\"primary_fixed_dim\":\"#d3bbff\",\"on_tertiary\":\"#ffffff\",\"on_tertiary_fixed_variant\":\"#004e61\",\"on_error_container\":\"#93000a\",\"surface_container_highest\":\"#eaddff\",\"on_secondary\":\"#ffffff\",\"background\":\"#fef7ff\",\"on_background\":\"#24005b\",\"inverse_surface\":\"#391e70\",\"secondary_fixed_dim\":\"#fda9ff\",\"tertiary\":\"#004759\",\"secondary\":\"#a400b7\",\"inverse_primary\":\"#d3bbff\",\"secondary_container\":\"#ef5aff\",\"on_primary\":\"#ffffff\",\"on_primary_fixed\":\"#250059\",\"on_tertiary_fixed\":\"#001f28\",\"surface_variant\":\"#eaddff\",\"primary_container\":\"#6d28d9\",\"inverse_on_surface\":\"#f6edff\",\"surface\":\"#fef7ff\",\"outline_variant\":\"#ccc3d7\",\"error_container\":\"#ffdad6\",\"tertiary_fixed_dim\":\"#6cd3f7\",\"on_surface\":\"#24005b\",\"tertiary_fixed\":\"#b7eaff\",\"surface_container_low\":\"#f9f1ff\",\"tertiary_container\":\"#006077\"},\"designMd\":\"---\\nname: CoLibri Desktop\\ncolors:\\n  surface: '#fef7ff'\\n  surface-dim: '#e2d3ff'\\n  surface-bright: '#fef7ff'\\n  surface-container-lowest: '#ffffff'\\n  surface-container-low: '#f9f1ff'\\n  surface-container: '#f4eaff'\\n  surface-container-high: '#efe4ff'\\n  surface-container-highest: '#eaddff'\\n  on-surface: '#24005b'\\n  on-surface-variant: '#4a4455'\\n  inverse-surface: '#391e70'\\n  inverse-on-surface: '#f6edff'\\n  outline: '#7b7486'\\n  outline-variant: '#ccc3d7'\\n  surface-tint: '#7331df'\\n  primary: '#5300b7'\\n  on-primary: '#ffffff'\\n  primary-container: '#6d28d9'\\n  on-primary-container: '#dac5ff'\\n  inverse-primary: '#d3bbff'\\n  secondary: '#a400b7'\\n  on-secondary: '#ffffff'\\n  secondary-container: '#ef5aff'\\n  on-secondary-container: '#5c0068'\\n  tertiary: '#004759'\\n  on-tertiary: '#ffffff'\\n  tertiary-container: '#006077'\\n  on-tertiary-container: '#75dbff'\\n  error: '#ba1a1a'\\n  on-error: '#ffffff'\\n  error-container: '#ffdad6'\\n  on-error-container: '#93000a'\\n  primary-fixed: '#ebddff'\\n  primary-fixed-dim: '#d3bbff'\\n  on-primary-fixed: '#250059'\\n  on-primary-fixed-variant: '#5b00c5'\\n  secondary-fixed: '#ffd6fb'\\n  secondary-fixed-dim: '#fda9ff'\\n  on-secondary-fixed: '#36003d'\\n  on-secondary-fixed-variant: '#7d008c'\\n  tertiary-fixed: '#b7eaff'\\n  tertiary-fixed-dim: '#6cd3f7'\\n  on-tertiary-fixed: '#001f28'\\n  on-tertiary-fixed-variant: '#004e61'\\n  background: '#fef7ff'\\n  on-background: '#24005b'\\n  surface-variant: '#eaddff'\\ntypography:\\n  display:\\n    fontFamily: Literata\\n    fontSize: 32px\\n    fontWeight: '600'\\n    lineHeight: 40px\\n    letterSpacing: -0.02em\\n  headline-lg:\\n    fontFamily: Literata\\n    fontSize: 24px\\n    fontWeight: '600'\\n    lineHeight: 32px\\n    letterSpacing: -0.015em\\n  headline-md:\\n    fontFamily: Literata\\n    fontSize: 20px\\n    fontWeight: '500'\\n    lineHeight: 28px\\n    letterSpacing: -0.01em\\n  headline-sm:\\n    fontFamily: Literata\\n    fontSize: 16px\\n    fontWeight: '600'\\n    lineHeight: 24px\\n    letterSpacing: 0em\\n  body-lg:\\n    fontFamily: Inter\\n    fontSize: 15px\\n    fontWeight: '400'\\n    lineHeight: 22px\\n    letterSpacing: -0.01em\\n  body-md:\\n    fontFamily: Inter\\n    fontSize: 13px\\n    fontWeight: '400'\\n    lineHeight: 18px\\n    letterSpacing: 0em\\n  body-sm:\\n    fontFamily: Inter\\n    fontSize: 12px\\n    fontWeight: '400'\\n    lineHeight: 16px\\n    letterSpacing: 0.01em\\n  label-lg:\\n    fontFamily: Inter\\n    fontSize: 13px\\n    fontWeight: '600'\\n    lineHeight: 18px\\n    letterSpacing: 0.01em\\n  label-md:\\n    fontFamily: Inter\\n    fontSize: 12px\\n    fontWeight: '500'\\n    lineHeight: 16px\\n    letterSpacing: 0.02em\\n  label-sm:\\n    fontFamily: Inter\\n    fontSize: 11px\\n    fontWeight: '600'\\n    lineHeight: 14px\\n    letterSpacing: 0.03em\\n  code-table:\\n    fontFamily: Inter\\n    fontSize: 12px\\n    fontWeight: '400'\\n    lineHeight: 16px\\n    letterSpacing: -0.02em\\nrounded:\\n  sm: 0.125rem\\n  DEFAULT: 0.25rem\\n  md: 0.375rem\\n  lg: 0.5rem\\n  xl: 0.75rem\\n  full: 9999px\\nspacing:\\n  gutter: 1rem\\n  gutter-compact: 0.5rem\\n  margin: 1.5rem\\n  margin-panel: 1rem\\n  space-xs: 0.25rem\\n  space-sm: 0.5rem\\n  space-md: 0.75rem\\n  space-lg: 1.25rem\\n  space-xl: 2rem\\n---\\n\\n## Brand & Style\\n\\nThis design system establishes a refined, literary-informed workspace engineered for the high-volume operational workflows of Argentine independent booksellers. The brand balances bibliophilic warmth with systematic, software-grade precision. \\n\\nThe aesthetic is Modern Editorial: crisp, highly structured desktop software enriched with classical bookmaking cues. It rejects cold corporate sterility in favor of rich typographic personality and ink-inspired depth, delivering a calm, luminous environment suited for sustained 8-to-10 hour shifts behind checkout counters and warehouse desks.\\n\\nEvery surface evokes clean rag paper, deliberate margins, and sharp printing. Micro-interactions are snappy and understated, reinforcing dependability during fast keyboard navigation, barcode scanning, and multi-attribute catalogue searches.\\n\\n## Colors\\n\\nThe palette grounds high-density data in rich, pigment-like hues.\\n\\n- **Primary (`#6D28D9`)**: Deep violet used for principal interactions, active focus rings, key action states, and primary navigational wayfinding.\\n- **Secondary (`#C026D3`)**: Cool magenta reserved for promotional tags, special editions, highlighting consignments, and secondary callouts.\\n- **Tertiary (`#0891B2`)**: Turquoise accent applied strategically to inventory status signals (e.g., in transit, stock arrival, active syncs, and system tags) to provide clear chromatic separation from retail actions.\\n- **Backgrounds**: The canvas uses pale lavender (`#F6F3FC`) to eliminate harsh monitor glare, while interactive elevated work surfaces and data tables sit on pure white (`#FFFFFF`).\\n- **Typography & Neutrals**: Text rendering avoids pure black. Deep plum (`#2E1065`) serves as the high-contrast baseline for titles, headers, and essential metrics, shifting to `#1E1B4B` for primary body copy and dense tabular values. Muted text rests at `#5B4A78`.\\n- **Borders & Dividers**: Subtle structured containment is achieved via pale violet borders (`#E9D5FF` for default boundaries and `#DDD6FE` for interactive row/cell separators and column outlines).\\n\\n## Typography\\n\\nThe typography pairing contrasts the literary heritage of Latin American publishing with pragmatic desktop interface utility.\\n\\n- **Headings (Literata)**: Chosen for its warm, humanist proportions and mechanical sturdiness designed specifically for intensive reading. It provides bookstore managers with an authentic editorial feel on screen headers, book titles, author credits, and sectional overviews.\\n- **Body & UI (Inter)**: Handles all transactional work, inventory tables, form fields, inputs, and operational labels. Inter’s tall x-height and neutral geometry ensure maximum legibility when scanning ISBNs, price points in Argentine Pesos (ARS$), SKU numbers, and stock counts.\\n- **Numbers & Data Cells**: Numeric readouts in data grids must employ tabular figures (`tnum`) and slashed zeros to prevent columnar misalignment during rapid audits.\\n\\n## Layout & Spacing\\n\\nThis design system uses a desktop-first fluid layout optimized for screen resolutions from 1280px to 4K displays.\\n\\n- **Grid Architecture**: Workspaces operate on a persistent 3-tier desktop layout: a fixed 240px utility navigation sidebar, a dynamic contextual panel (collapsible filters or side drawer, 320px–380px), and an elastic main workspace canvas centered on a 12-column sub-grid with `1rem` gutters.\\n- **Workspace Density**: Spacing adheres strictly to an 8px base grid, dialed down to 4px sub-increments for compact data forms. Vertical cell spacing in bulk inventory tables defaults to `0.5rem` (`space-sm`) top-and-bottom padding for rapid scanning, with a generous mode (`space-md`) configurable for receipt verification.\\n- **Form Rhythm**: Input groups utilize `space-md` gaps between fields, with section chunks partitioned by `space-xl`. Visual grouping relies on structural margins rather than excessive borders or decorative boxes.\\n\\n## Elevation & Depth\\n\\nVisual hierarchy uses tonal surface layering combined with whisper-thin borders and restrained ambient shadows. This prevents interface fatigue in high-information environments.\\n\\n- **Canvas Base (`#F6F3FC`)**: The ground layer upon which all application structures rest.\\n- **Surface Level 1 (`#FFFFFF`)**: Primary cards, full-width data grids, and workspace sheets. Outlined with a 1px border of `#E9D5FF` and a soft ambient shadow: `0 1px 3px 0 rgba(46, 16, 101, 0.04), 0 1px 2px -1px rgba(46, 16, 101, 0.04)`.\\n- **Surface Level 2 (Elevated Drawers & Flyouts)**: Quick-edit side panels, autocomplete menus, and filter dropdowns. Bordered with `#DDD6FE` and lifted by `0 10px 15px -3px rgba(46, 16, 101, 0.08), 0 4px 6px -4px rgba(46, 16, 101, 0.04)`.\\n- **Surface Level 3 (Modal Dialogs & Critical Alerts)**: Rest on an atmospheric overlay (`rgba(30, 27, 75, 0.45)` with a 2px backdrop blur) and cast a structured, wide shadow: `0 20px 25px -5px rgba(46, 16, 101, 0.12), 0 8px 10px -6px rgba(46, 16, 101, 0.08)`.\\n\\n## Shapes\\n\\nThe system implements a refined, soft curvature (`0.25rem` / `4px` base radius) that reflects industrial desktop software rather than mobile-consumer styles.\\n\\n- **Inputs, Buttons, and Chips**: Set to standard `4px` corner radii. This preserves maximum pixel area for readable text inside tight data fields and maintains clean vertical alignment down straight form columns.\\n- **Cards, Table Shells, and Modals**: Employ `rounded-lg` (`0.5rem` / `8px`), offering gentle boundary definition without softening the architectural feel of dense data displays.\\n- **Status Pills & Count Badges**: Can utilize fully rounded caps (`9999px`) to immediately differentiate metadata tokens from clickable interactive triggers.\\n\\n## Components\\n\\n### Buttons\\n- **Primary**: Solid `#6D28D9` fill, white Inter Medium text, 4px border radius. Hover: `#5B21B6`. Active: `#4C1D95`. Focus ring: 2px offset with `#DDD6FE` and 2px solid `#6D28D9`.\\n- **Secondary**: `#FFFFFF` background, `#6D28D9` text, 1px border of `#DDD6FE`. Hover: `#F6F3FC`.\\n- **Tertiary/Ghost**: Transparent fill, `#2E1065` text. Hover: `#F6F3FC`.\\n- **Destructive**: `#DC2626` fill or outline for irrevocable operations like deleting title records.\\n\\n### Form Controls & Inputs\\n- **Text Inputs**: `#FFFFFF` background with 1px `#DDD6FE` border, 36px standard desktop height, `8px 12px` padding, `#1E1B4B` text, and `#7C6F93` placeholder. Focus state transitions border to `#6D28D9` with a subtle `0 0 0 3px rgba(109, 40, 217, 0.12)` halo.\\n- **Numeric & Barcode Inputs**: Right-aligned currency inputs with prefixed ARS$ markers; barcode fields integrate a subtle scanner icon button within the right trailing slot.\\n- **Checkboxes & Radios**: 16px squares with 3px radius. Unchecked: 1.5px border of `#DDD6FE` on white. Checked: solid `#6D28D9` with white checkmark.\\n\\n### Inventory Data Tables\\n- **Header Row**: `#F6F3FC` background, 32px height, 1px bottom border `#DDD6FE`. Column headers use `label-sm` in `#2E1065`, uppercase, with subtle sort chevrons.\\n- **Data Rows**: `#FFFFFF` background, 40px default height, separated by 1px bottom border `#F3E8FF`. Hover state: `#FAF8FE`. Selected row: `#F3E8FF` tint with a 2px vertical indicator in `#6D28D9` on the leading cell edge.\\n- **Alignment**: Text left-aligned; quantities, ISBNs, and prices strictly right-aligned with monospace/tabular numeric figures.\\n\\n### Status Chips & Badges\\n- **In Stock / Sync Complete**: `#ECFEFF` fill, `#0891B2` border and text (`label-sm`).\\n- **Low Stock / Critical**: `#FFF1F2` fill, `#BE123C` border and text.\\n- **Special Order / Consignment**: `#FDF4FF` fill, `#C026D3` border and text.\\n- **Archive / Neutral**: `#F3F4F6` fill, `#4B5563` border and text.\\n\\n### Cards & Container Panels\\n- White background, 1px `#E9D5FF` perimeter border, 8px radius. Card headers separate book metadata into clear visual zones using clean `#F6F3FC` sub-bars when demarcating publisher metadata from warehouse physical stocking locations.\",\"colorVariant\":\"FIDELITY\",\"overridePrimaryColor\":\"#6d28d9\",\"overrideSecondaryColor\":\"#c026d3\",\"overrideTertiaryColor\":\"#0891b2\",\"overrideNeutralColor\":\"#2e1065\",\"spacingScale\":2,\"typography\":{\"body-sm\":{\"fontFamily\":\"Inter\",\"fontSize\":\"12px\",\"fontWeight\":\"400\",\"lineHeight\":\"16px\",\"letterSpacing\":\"0.01em\"},\"headline-sm\":{\"fontFamily\":\"Literata\",\"fontSize\":\"16px\",\"fontWeight\":\"600\",\"lineHeight\":\"24px\",\"letterSpacing\":\"0em\"},\"label-lg\":{\"fontFamily\":\"Inter\",\"fontSize\":\"13px\",\"fontWeight\":\"600\",\"lineHeight\":\"18px\",\"letterSpacing\":\"0.01em\"},\"display\":{\"fontFamily\":\"Literata\",\"fontSize\":\"32px\",\"fontWeight\":\"600\",\"lineHeight\":\"40px\",\"letterSpacing\":\"-0.02em\"},\"label-md\":{\"fontFamily\":\"Inter\",\"fontSize\":\"12px\",\"fontWeight\":\"500\",\"lineHeight\":\"16px\",\"letterSpacing\":\"0.02em\"},\"body-md\":{\"fontFamily\":\"Inter\",\"fontSize\":\"13px\",\"fontWeight\":\"400\",\"lineHeight\":\"18px\",\"letterSpacing\":\"0em\"},\"headline-lg\":{\"fontFamily\":\"Literata\",\"fontSize\":\"24px\",\"fontWeight\":\"600\",\"lineHeight\":\"32px\",\"letterSpacing\":\"-0.015em\"},\"headline-md\":{\"fontFamily\":\"Literata\",\"fontSize\":\"20px\",\"fontWeight\":\"500\",\"lineHeight\":\"28px\",\"letterSpacing\":\"-0.01em\"},\"code-table\":{\"fontFamily\":\"Inter\",\"fontSize\":\"12px\",\"fontWeight\":\"400\",\"lineHeight\":\"16px\",\"letterSpacing\":\"-0.02em\"},\"body-lg\":{\"fontFamily\":\"Inter\",\"fontSize\":\"15px\",\"fontWeight\":\"400\",\"lineHeight\":\"22px\",\"letterSpacing\":\"-0.01em\"},\"label-sm\":{\"fontFamily\":\"Inter\",\"fontSize\":\"11px\",\"fontWeight\":\"600\",\"lineHeight\":\"14px\",\"letterSpacing\":\"0.03em\"}},\"spacing\":{\"space-md\":\"0.75rem\",\"space-xs\":\"0.25rem\",\"space-sm\":\"0.5rem\",\"margin-panel\":\"1rem\",\"space-xl\":\"2rem\",\"gutter-compact\":\"0.5rem\",\"margin\":\"1.5rem\",\"space-lg\":\"1.25rem\",\"gutter\":\"1rem\"},\"headlineFontFamily\":\"Literata\",\"bodyFontFamily\":\"Inter\",\"labelFontFamily\":\"Inter\"}},\"version\":\"1\"}},{\"screenshot\":{\"name\":\"projects/13227700106738505093/files/3b26a72209b648858354439d9c4e671b\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1UC35QWABCwXkjkLTDs9g_HvrNBvU47U4w9b_whmbCsQmRm4sY4_tSQyL_wWWN1OvVoEqP47coW5-dn3-OM1asGCJHXMpp9vsRTENm8ddJIfIsLbzBtqSj6eziSvG82qQAzBegy9xb_wmPLP2SlAqMNHGivJbgCp3S-ECE9rL-Nj-aYGCnoD4K4r2Mhj4tTuwVXSFqCICgOO6QbtW2B9Vbcj4MZDlnKLy1J9OK-0wyVrcmIzJMJ873wWwL1\"},\"htmlCode\":{\"name\":\"projects/13227700106738505093/files/a5c988c806dd4aa8bce44eb50e07f037\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzY5Mzg3MWI4NzcyMjQxYWZiNzY5ZWJlYWE1ZjJjNGJiEgsSBxCl7s7f2Q8YAZIBJAoKcHJvamVjdF9pZBIWQhQxMzIyNzcwMDEwNjczODUwNTA5Mw&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"id\":\"47ed7f753cb84690bbc82e67b73fe890\",\"generatedBy\":\"HatterAgent\",\"width\":\"2560\",\"height\":\"2048\",\"title\":\"CoLibri - Inicio (Variante 2: Ciruela & Magenta)\",\"prompt\":\"Genera la Variante 2 de paleta cromática para CoLibri Inicio: \\\"Ciruela Terciopelo, Magenta Orquídea & Turquesa Joya\\\".\\nMantener exactamente la misma estructura de Inicio: Navbar superior limpia con enlaces CoLibri, Inicio (activo con borde magenta), Libros, Administración y botón \\\"+ Agregar libro\\\". Contenedor central de logo 460x330px con img src=\\\"colibri2.jpg\\\" y marco/fallback oliva de marca (#3B4319 con texto CoLibrí) sin fotos de stock. Barra de búsqueda central tipo Google de 840px x 64px con placeholder \\\"Buscar por título o autor/a...\\\" y botón de búsqueda destacado. Cuatro filtros desplegables inferiores (Género, Subcategoría, Editorial, Estado) todos en Todos. Hint sutil inferior \\\"Buscá un título o autor para ver los resultados.\\\" Footer minimalista \\\"CoLibri · Librería\\\". Sin tabla ni inventario visible.\\nPaleta cromática Variante 2:\\n- Fondo general: Ciruela intenso y morado real con transiciones aterciopeladas (#38104A a #4F1668 a #240A31) con tenue brillo magenta difuso en el fondo.\\n- Superficie del buscador e inputs: Fondo lila pálido empolvado (#F7F0FB con sutil relieve y borde #E4D0F0) que garantiza contraste perfecto para lectura prolongada sin encandilar con blanco puro.\\n- Botón principal / primario: Magenta intenso aterciopelado (#A21CAF / #9333EA) con texto blanco puro.\\n- Acento Turquesa: Detalles activos, selector hover o pill indicadora en turquesa mineral (#0D9488 / #14B8A6), generando una tríada cromática sofisticada (Ciruela - Magenta - Turquesa) que dialoga armónicamente con la base oliva amarillo del logo.\\n- Texto principal: Blanco (#FFFFFF) sobre fondo oscuro; violeta ciruela profundo (#2A0E38) en campos de entrada y dropdowns.\\nResultado visual impecable, refinado y confortable para software de librería.\",\"name\":\"projects/13227700106738505093/screens/47ed7f753cb84690bbc82e67b73fe890\",\"theme\":{\"colorMode\":\"LIGHT\",\"font\":\"LITERATA\",\"roundness\":\"ROUND_FOUR\",\"customColor\":\"#6d28d9\",\"headlineFont\":\"LITERATA\",\"bodyFont\":\"INTER\",\"labelFont\":\"INTER\",\"namedColors\":{\"tertiary\":\"#004759\",\"secondary\":\"#a400b7\",\"outline_variant\":\"#ccc3d7\",\"on_primary\":\"#ffffff\",\"surface_container\":\"#f4eaff\",\"error_container\":\"#ffdad6\",\"on_secondary_fixed_variant\":\"#7d008c\",\"on_surface_variant\":\"#4a4455\",\"on_tertiary\":\"#ffffff\",\"on_secondary\":\"#ffffff\",\"surface_variant\":\"#eaddff\",\"surface_bright\":\"#fef7ff\",\"on_surface\":\"#24005b\",\"inverse_primary\":\"#d3bbff\",\"surface\":\"#fef7ff\",\"on_tertiary_container\":\"#75dbff\",\"on_primary_fixed\":\"#250059\",\"on_background\":\"#24005b\",\"inverse_surface\":\"#391e70\",\"surface_dim\":\"#e2d3ff\",\"surface_container_high\":\"#efe4ff\",\"primary_fixed_dim\":\"#d3bbff\",\"background\":\"#fef7ff\",\"error\":\"#ba1a1a\",\"on_secondary_container\":\"#5c0068\",\"on_secondary_fixed\":\"#36003d\",\"on_error\":\"#ffffff\",\"on_tertiary_fixed_variant\":\"#004e61\",\"surface_container_lowest\":\"#ffffff\",\"on_error_container\":\"#93000a\",\"primary_fixed\":\"#ebddff\",\"secondary_fixed\":\"#ffd6fb\",\"surface_container_highest\":\"#eaddff\",\"secondary_container\":\"#ef5aff\",\"surface_tint\":\"#7331df\",\"on_primary_fixed_variant\":\"#5b00c5\",\"surface_container_low\":\"#f9f1ff\",\"primary\":\"#5300b7\",\"primary_container\":\"#6d28d9\",\"on_primary_container\":\"#dac5ff\",\"inverse_on_surface\":\"#f6edff\",\"secondary_fixed_dim\":\"#fda9ff\",\"on_tertiary_fixed\":\"#001f28\",\"tertiary_fixed\":\"#b7eaff\",\"tertiary_fixed_dim\":\"#6cd3f7\",\"outline\":\"#7b7486\",\"tertiary_container\":\"#006077\"},\"colorVariant\":\"FIDELITY\",\"overridePrimaryColor\":\"#6d28d9\",\"overrideSecondaryColor\":\"#c026d3\",\"overrideTertiaryColor\":\"#0891b2\",\"overrideNeutralColor\":\"#2e1065\",\"spacingScale\":2,\"typography\":{\"body-lg\":{\"fontFamily\":\"Inter\",\"fontSize\":\"15px\",\"fontWeight\":\"400\",\"lineHeight\":\"22px\",\"letterSpacing\":\"-0.01em\"},\"headline-sm\":{\"fontFamily\":\"Literata\",\"fontSize\":\"16px\",\"fontWeight\":\"600\",\"lineHeight\":\"24px\",\"letterSpacing\":\"0em\"},\"code-table\":{\"fontFamily\":\"Inter\",\"fontSize\":\"12px\",\"fontWeight\":\"400\",\"lineHeight\":\"16px\",\"letterSpacing\":\"-0.02em\"},\"label-lg\":{\"fontFamily\":\"Inter\",\"fontSize\":\"13px\",\"fontWeight\":\"600\",\"lineHeight\":\"18px\",\"letterSpacing\":\"0.01em\"},\"label-md\":{\"fontFamily\":\"Inter\",\"fontSize\":\"12px\",\"fontWeight\":\"500\",\"lineHeight\":\"16px\",\"letterSpacing\":\"0.02em\"},\"body-sm\":{\"fontFamily\":\"Inter\",\"fontSize\":\"12px\",\"fontWeight\":\"400\",\"lineHeight\":\"16px\",\"letterSpacing\":\"0.01em\"},\"body-md\":{\"fontFamily\":\"Inter\",\"fontSize\":\"13px\",\"fontWeight\":\"400\",\"lineHeight\":\"18px\",\"letterSpacing\":\"0em\"},\"display\":{\"fontFamily\":\"Literata\",\"fontSize\":\"32px\",\"fontWeight\":\"600\",\"lineHeight\":\"40px\",\"letterSpacing\":\"-0.02em\"},\"label-sm\":{\"fontFamily\":\"Inter\",\"fontSize\":\"11px\",\"fontWeight\":\"600\",\"lineHeight\":\"14px\",\"letterSpacing\":\"0.03em\"},\"headline-md\":{\"fontFamily\":\"Literata\",\"fontSize\":\"20px\",\"fontWeight\":\"500\",\"lineHeight\":\"28px\",\"letterSpacing\":\"-0.01em\"},\"headline-lg\":{\"fontFamily\":\"Literata\",\"fontSize\":\"24px\",\"fontWeight\":\"600\",\"lineHeight\":\"32px\",\"letterSpacing\":\"-0.015em\"}},\"spacing\":{\"space-sm\":\"0.5rem\",\"space-xl\":\"2rem\",\"space-md\":\"0.75rem\",\"space-xs\":\"0.25rem\",\"gutter\":\"1rem\",\"margin\":\"1.5rem\",\"margin-panel\":\"1rem\",\"gutter-compact\":\"0.5rem\",\"space-lg\":\"1.25rem\"},\"headlineFontFamily\":\"Literata\",\"bodyFontFamily\":\"Inter\",\"labelFontFamily\":\"Inter\"},\"deviceType\":\"DESKTOP\",\"screenType\":\"DESIGN\",\"screenMetadata\":{\"agentType\":\"PRO_AGENT\",\"status\":\"COMPLETE\"},\"designSystem\":{\"name\":\"assets/66f1878ac67745bdaea737acb640031f\",\"designSystem\":{\"displayName\":\"CoLibri Desktop\",\"styleGuidelines\":\"## Brand & Style\\n\\nThis design system establishes a refined, literary-informed workspace engineered for the high-volume operational workflows of Argentine independent booksellers. The brand balances bibliophilic warmth with systematic, software-grade precision. \\n\\nThe aesthetic is Modern Editorial: crisp, highly structured desktop software enriched with classical bookmaking cues. It rejects cold corporate sterility in favor of rich typographic personality and ink-inspired depth, delivering a calm, luminous environment suited for sustained 8-to-10 hour shifts behind checkout counters and warehouse desks.\\n\\nEvery surface evokes clean rag paper, deliberate margins, and sharp printing. Micro-interactions are snappy and understated, reinforcing dependability during fast keyboard navigation, barcode scanning, and multi-attribute catalogue searches.\\n\\n## Layout & Spacing\\n\\nThis design system uses a desktop-first fluid layout optimized for screen resolutions from 1280px to 4K displays.\\n\\n- **Grid Architecture**: Workspaces operate on a persistent 3-tier desktop layout: a fixed 240px utility navigation sidebar, a dynamic contextual panel (collapsible filters or side drawer, 320px–380px), and an elastic main workspace canvas centered on a 12-column sub-grid with `1rem` gutters.\\n- **Workspace Density**: Spacing adheres strictly to an 8px base grid, dialed down to 4px sub-increments for compact data forms. Vertical cell spacing in bulk inventory tables defaults to `0.5rem` (`space-sm`) top-and-bottom padding for rapid scanning, with a generous mode (`space-md`) configurable for receipt verification.\\n- **Form Rhythm**: Input groups utilize `space-md` gaps between fields, with section chunks partitioned by `space-xl`. Visual grouping relies on structural margins rather than excessive borders or decorative boxes.\\n\\n## Elevation & Depth\\n\\nVisual hierarchy uses tonal surface layering combined with whisper-thin borders and restrained ambient shadows. This prevents interface fatigue in high-information environments.\\n\\n- **Canvas Base (`#F6F3FC`)**: The ground layer upon which all application structures rest.\\n- **Surface Level 1 (`#FFFFFF`)**: Primary cards, full-width data grids, and workspace sheets. Outlined with a 1px border of `#E9D5FF` and a soft ambient shadow: `0 1px 3px 0 rgba(46, 16, 101, 0.04), 0 1px 2px -1px rgba(46, 16, 101, 0.04)`.\\n- **Surface Level 2 (Elevated Drawers & Flyouts)**: Quick-edit side panels, autocomplete menus, and filter dropdowns. Bordered with `#DDD6FE` and lifted by `0 10px 15px -3px rgba(46, 16, 101, 0.08), 0 4px 6px -4px rgba(46, 16, 101, 0.04)`.\\n- **Surface Level 3 (Modal Dialogs & Critical Alerts)**: Rest on an atmospheric overlay (`rgba(30, 27, 75, 0.45)` with a 2px backdrop blur) and cast a structured, wide shadow: `0 20px 25px -5px rgba(46, 16, 101, 0.12), 0 8px 10px -6px rgba(46, 16, 101, 0.08)`.\\n\\n## Components\\n\\n### Buttons\\n- **Primary**: Solid `#6D28D9` fill, white Inter Medium text, 4px border radius. Hover: `#5B21B6`. Active: `#4C1D95`. Focus ring: 2px offset with `#DDD6FE` and 2px solid `#6D28D9`.\\n- **Secondary**: `#FFFFFF` background, `#6D28D9` text, 1px border of `#DDD6FE`. Hover: `#F6F3FC`.\\n- **Tertiary/Ghost**: Transparent fill, `#2E1065` text. Hover: `#F6F3FC`.\\n- **Destructive**: `#DC2626` fill or outline for irrevocable operations like deleting title records.\\n\\n### Form Controls & Inputs\\n- **Text Inputs**: `#FFFFFF` background with 1px `#DDD6FE` border, 36px standard desktop height, `8px 12px` padding, `#1E1B4B` text, and `#7C6F93` placeholder. Focus state transitions border to `#6D28D9` with a subtle `0 0 0 3px rgba(109, 40, 217, 0.12)` halo.\\n- **Numeric & Barcode Inputs**: Right-aligned currency inputs with prefixed ARS$ markers; barcode fields integrate a subtle scanner icon button within the right trailing slot.\\n- **Checkboxes & Radios**: 16px squares with 3px radius. Unchecked: 1.5px border of `#DDD6FE` on white. Checked: solid `#6D28D9` with white checkmark.\\n\\n### Inventory Data Tables\\n- **Header Row**: `#F6F3FC` background, 32px height, 1px bottom border `#DDD6FE`. Column headers use `label-sm` in `#2E1065`, uppercase, with subtle sort chevrons.\\n- **Data Rows**: `#FFFFFF` background, 40px default height, separated by 1px bottom border `#F3E8FF`. Hover state: `#FAF8FE`. Selected row: `#F3E8FF` tint with a 2px vertical indicator in `#6D28D9` on the leading cell edge.\\n- **Alignment**: Text left-aligned; quantities, ISBNs, and prices strictly right-aligned with monospace/tabular numeric figures.\\n\\n### Status Chips & Badges\\n- **In Stock / Sync Complete**: `#ECFEFF` fill, `#0891B2` border and text (`label-sm`).\\n- **Low Stock / Critical**: `#FFF1F2` fill, `#BE123C` border and text.\\n- **Special Order / Consignment**: `#FDF4FF` fill, `#C026D3` border and text.\\n- **Archive / Neutral**: `#F3F4F6` fill, `#4B5563` border and text.\\n\\n### Cards & Container Panels\\n- White background, 1px `#E9D5FF` perimeter border, 8px radius. Card headers separate book metadata into clear visual zones using clean `#F6F3FC` sub-bars when demarcating publisher metadata from warehouse physical stocking locations.\",\"theme\":{\"colorMode\":\"LIGHT\",\"font\":\"LITERATA\",\"roundness\":\"ROUND_FOUR\",\"customColor\":\"#6d28d9\",\"headlineFont\":\"LITERATA\",\"bodyFont\":\"INTER\",\"labelFont\":\"INTER\",\"namedColors\":{\"on_surface\":\"#24005b\",\"surface_bright\":\"#fef7ff\",\"inverse_primary\":\"#d3bbff\",\"primary\":\"#5300b7\",\"inverse_on_surface\":\"#f6edff\",\"inverse_surface\":\"#391e70\",\"surface_dim\":\"#e2d3ff\",\"outline\":\"#7b7486\",\"on_primary\":\"#ffffff\",\"on_secondary_container\":\"#5c0068\",\"tertiary_container\":\"#006077\",\"surface_container_high\":\"#efe4ff\",\"tertiary\":\"#004759\",\"secondary_fixed_dim\":\"#fda9ff\",\"tertiary_fixed_dim\":\"#6cd3f7\",\"primary_fixed\":\"#ebddff\",\"background\":\"#fef7ff\",\"on_secondary_fixed_variant\":\"#7d008c\",\"surface_container_highest\":\"#eaddff\",\"secondary_container\":\"#ef5aff\",\"on_error_container\":\"#93000a\",\"on_tertiary\":\"#ffffff\",\"error_container\":\"#ffdad6\",\"on_tertiary_fixed_variant\":\"#004e61\",\"on_primary_container\":\"#dac5ff\",\"outline_variant\":\"#ccc3d7\",\"on_tertiary_fixed\":\"#001f28\",\"surface_container_low\":\"#f9f1ff\",\"secondary\":\"#a400b7\",\"surface_tint\":\"#7331df\",\"surface_variant\":\"#eaddff\",\"primary_container\":\"#6d28d9\",\"on_background\":\"#24005b\",\"surface\":\"#fef7ff\",\"on_secondary_fixed\":\"#36003d\",\"surface_container\":\"#f4eaff\",\"on_error\":\"#ffffff\",\"error\":\"#ba1a1a\",\"secondary_fixed\":\"#ffd6fb\",\"primary_fixed_dim\":\"#d3bbff\",\"on_primary_fixed_variant\":\"#5b00c5\",\"tertiary_fixed\":\"#b7eaff\",\"on_tertiary_container\":\"#75dbff\",\"on_secondary\":\"#ffffff\",\"surface_container_lowest\":\"#ffffff\",\"on_primary_fixed\":\"#250059\",\"on_surface_variant\":\"#4a4455\"},\"designMd\":\"---\\nname: CoLibri Desktop\\ncolors:\\n  surface: '#fef7ff'\\n  surface-dim: '#e2d3ff'\\n  surface-bright: '#fef7ff'\\n  surface-container-lowest: '#ffffff'\\n  surface-container-low: '#f9f1ff'\\n  surface-container: '#f4eaff'\\n  surface-container-high: '#efe4ff'\\n  surface-container-highest: '#eaddff'\\n  on-surface: '#24005b'\\n  on-surface-variant: '#4a4455'\\n  inverse-surface: '#391e70'\\n  inverse-on-surface: '#f6edff'\\n  outline: '#7b7486'\\n  outline-variant: '#ccc3d7'\\n  surface-tint: '#7331df'\\n  primary: '#5300b7'\\n  on-primary: '#ffffff'\\n  primary-container: '#6d28d9'\\n  on-primary-container: '#dac5ff'\\n  inverse-primary: '#d3bbff'\\n  secondary: '#a400b7'\\n  on-secondary: '#ffffff'\\n  secondary-container: '#ef5aff'\\n  on-secondary-container: '#5c0068'\\n  tertiary: '#004759'\\n  on-tertiary: '#ffffff'\\n  tertiary-container: '#006077'\\n  on-tertiary-container: '#75dbff'\\n  error: '#ba1a1a'\\n  on-error: '#ffffff'\\n  error-container: '#ffdad6'\\n  on-error-container: '#93000a'\\n  primary-fixed: '#ebddff'\\n  primary-fixed-dim: '#d3bbff'\\n  on-primary-fixed: '#250059'\\n  on-primary-fixed-variant: '#5b00c5'\\n  secondary-fixed: '#ffd6fb'\\n  secondary-fixed-dim: '#fda9ff'\\n  on-secondary-fixed: '#36003d'\\n  on-secondary-fixed-variant: '#7d008c'\\n  tertiary-fixed: '#b7eaff'\\n  tertiary-fixed-dim: '#6cd3f7'\\n  on-tertiary-fixed: '#001f28'\\n  on-tertiary-fixed-variant: '#004e61'\\n  background: '#fef7ff'\\n  on-background: '#24005b'\\n  surface-variant: '#eaddff'\\ntypography:\\n  display:\\n    fontFamily: Literata\\n    fontSize: 32px\\n    fontWeight: '600'\\n    lineHeight: 40px\\n    letterSpacing: -0.02em\\n  headline-lg:\\n    fontFamily: Literata\\n    fontSize: 24px\\n    fontWeight: '600'\\n    lineHeight: 32px\\n    letterSpacing: -0.015em\\n  headline-md:\\n    fontFamily: Literata\\n    fontSize: 20px\\n    fontWeight: '500'\\n    lineHeight: 28px\\n    letterSpacing: -0.01em\\n  headline-sm:\\n    fontFamily: Literata\\n    fontSize: 16px\\n    fontWeight: '600'\\n    lineHeight: 24px\\n    letterSpacing: 0em\\n  body-lg:\\n    fontFamily: Inter\\n    fontSize: 15px\\n    fontWeight: '400'\\n    lineHeight: 22px\\n    letterSpacing: -0.01em\\n  body-md:\\n    fontFamily: Inter\\n    fontSize: 13px\\n    fontWeight: '400'\\n    lineHeight: 18px\\n    letterSpacing: 0em\\n  body-sm:\\n    fontFamily: Inter\\n    fontSize: 12px\\n    fontWeight: '400'\\n    lineHeight: 16px\\n    letterSpacing: 0.01em\\n  label-lg:\\n    fontFamily: Inter\\n    fontSize: 13px\\n    fontWeight: '600'\\n    lineHeight: 18px\\n    letterSpacing: 0.01em\\n  label-md:\\n    fontFamily: Inter\\n    fontSize: 12px\\n    fontWeight: '500'\\n    lineHeight: 16px\\n    letterSpacing: 0.02em\\n  label-sm:\\n    fontFamily: Inter\\n    fontSize: 11px\\n    fontWeight: '600'\\n    lineHeight: 14px\\n    letterSpacing: 0.03em\\n  code-table:\\n    fontFamily: Inter\\n    fontSize: 12px\\n    fontWeight: '400'\\n    lineHeight: 16px\\n    letterSpacing: -0.02em\\nrounded:\\n  sm: 0.125rem\\n  DEFAULT: 0.25rem\\n  md: 0.375rem\\n  lg: 0.5rem\\n  xl: 0.75rem\\n  full: 9999px\\nspacing:\\n  gutter: 1rem\\n  gutter-compact: 0.5rem\\n  margin: 1.5rem\\n  margin-panel: 1rem\\n  space-xs: 0.25rem\\n  space-sm: 0.5rem\\n  space-md: 0.75rem\\n  space-lg: 1.25rem\\n  space-xl: 2rem\\n---\\n\\n## Brand & Style\\n\\nThis design system establishes a refined, literary-informed workspace engineered for the high-volume operational workflows of Argentine independent booksellers. The brand balances bibliophilic warmth with systematic, software-grade precision. \\n\\nThe aesthetic is Modern Editorial: crisp, highly structured desktop software enriched with classical bookmaking cues. It rejects cold corporate sterility in favor of rich typographic personality and ink-inspired depth, delivering a calm, luminous environment suited for sustained 8-to-10 hour shifts behind checkout counters and warehouse desks.\\n\\nEvery surface evokes clean rag paper, deliberate margins, and sharp printing. Micro-interactions are snappy and understated, reinforcing dependability during fast keyboard navigation, barcode scanning, and multi-attribute catalogue searches.\\n\\n## Colors\\n\\nThe palette grounds high-density data in rich, pigment-like hues.\\n\\n- **Primary (`#6D28D9`)**: Deep violet used for principal interactions, active focus rings, key action states, and primary navigational wayfinding.\\n- **Secondary (`#C026D3`)**: Cool magenta reserved for promotional tags, special editions, highlighting consignments, and secondary callouts.\\n- **Tertiary (`#0891B2`)**: Turquoise accent applied strategically to inventory status signals (e.g., in transit, stock arrival, active syncs, and system tags) to provide clear chromatic separation from retail actions.\\n- **Backgrounds**: The canvas uses pale lavender (`#F6F3FC`) to eliminate harsh monitor glare, while interactive elevated work surfaces and data tables sit on pure white (`#FFFFFF`).\\n- **Typography & Neutrals**: Text rendering avoids pure black. Deep plum (`#2E1065`) serves as the high-contrast baseline for titles, headers, and essential metrics, shifting to `#1E1B4B` for primary body copy and dense tabular values. Muted text rests at `#5B4A78`.\\n- **Borders & Dividers**: Subtle structured containment is achieved via pale violet borders (`#E9D5FF` for default boundaries and `#DDD6FE` for interactive row/cell separators and column outlines).\\n\\n## Typography\\n\\nThe typography pairing contrasts the literary heritage of Latin American publishing with pragmatic desktop interface utility.\\n\\n- **Headings (Literata)**: Chosen for its warm, humanist proportions and mechanical sturdiness designed specifically for intensive reading. It provides bookstore managers with an authentic editorial feel on screen headers, book titles, author credits, and sectional overviews.\\n- **Body & UI (Inter)**: Handles all transactional work, inventory tables, form fields, inputs, and operational labels. Inter’s tall x-height and neutral geometry ensure maximum legibility when scanning ISBNs, price points in Argentine Pesos (ARS$), SKU numbers, and stock counts.\\n- **Numbers & Data Cells**: Numeric readouts in data grids must employ tabular figures (`tnum`) and slashed zeros to prevent columnar misalignment during rapid audits.\\n\\n## Layout & Spacing\\n\\nThis design system uses a desktop-first fluid layout optimized for screen resolutions from 1280px to 4K displays.\\n\\n- **Grid Architecture**: Workspaces operate on a persistent 3-tier desktop layout: a fixed 240px utility navigation sidebar, a dynamic contextual panel (collapsible filters or side drawer, 320px–380px), and an elastic main workspace canvas centered on a 12-column sub-grid with `1rem` gutters.\\n- **Workspace Density**: Spacing adheres strictly to an 8px base grid, dialed down to 4px sub-increments for compact data forms. Vertical cell spacing in bulk inventory tables defaults to `0.5rem` (`space-sm`) top-and-bottom padding for rapid scanning, with a generous mode (`space-md`) configurable for receipt verification.\\n- **Form Rhythm**: Input groups utilize `space-md` gaps between fields, with section chunks partitioned by `space-xl`. Visual grouping relies on structural margins rather than excessive borders or decorative boxes.\\n\\n## Elevation & Depth\\n\\nVisual hierarchy uses tonal surface layering combined with whisper-thin borders and restrained ambient shadows. This prevents interface fatigue in high-information environments.\\n\\n- **Canvas Base (`#F6F3FC`)**: The ground layer upon which all application structures rest.\\n- **Surface Level 1 (`#FFFFFF`)**: Primary cards, full-width data grids, and workspace sheets. Outlined with a 1px border of `#E9D5FF` and a soft ambient shadow: `0 1px 3px 0 rgba(46, 16, 101, 0.04), 0 1px 2px -1px rgba(46, 16, 101, 0.04)`.\\n- **Surface Level 2 (Elevated Drawers & Flyouts)**: Quick-edit side panels, autocomplete menus, and filter dropdowns. Bordered with `#DDD6FE` and lifted by `0 10px 15px -3px rgba(46, 16, 101, 0.08), 0 4px 6px -4px rgba(46, 16, 101, 0.04)`.\\n- **Surface Level 3 (Modal Dialogs & Critical Alerts)**: Rest on an atmospheric overlay (`rgba(30, 27, 75, 0.45)` with a 2px backdrop blur) and cast a structured, wide shadow: `0 20px 25px -5px rgba(46, 16, 101, 0.12), 0 8px 10px -6px rgba(46, 16, 101, 0.08)`.\\n\\n## Shapes\\n\\nThe system implements a refined, soft curvature (`0.25rem` / `4px` base radius) that reflects industrial desktop software rather than mobile-consumer styles.\\n\\n- **Inputs, Buttons, and Chips**: Set to standard `4px` corner radii. This preserves maximum pixel area for readable text inside tight data fields and maintains clean vertical alignment down straight form columns.\\n- **Cards, Table Shells, and Modals**: Employ `rounded-lg` (`0.5rem` / `8px`), offering gentle boundary definition without softening the architectural feel of dense data displays.\\n- **Status Pills & Count Badges**: Can utilize fully rounded caps (`9999px`) to immediately differentiate metadata tokens from clickable interactive triggers.\\n\\n## Components\\n\\n### Buttons\\n- **Primary**: Solid `#6D28D9` fill, white Inter Medium text, 4px border radius. Hover: `#5B21B6`. Active: `#4C1D95`. Focus ring: 2px offset with `#DDD6FE` and 2px solid `#6D28D9`.\\n- **Secondary**: `#FFFFFF` background, `#6D28D9` text, 1px border of `#DDD6FE`. Hover: `#F6F3FC`.\\n- **Tertiary/Ghost**: Transparent fill, `#2E1065` text. Hover: `#F6F3FC`.\\n- **Destructive**: `#DC2626` fill or outline for irrevocable operations like deleting title records.\\n\\n### Form Controls & Inputs\\n- **Text Inputs**: `#FFFFFF` background with 1px `#DDD6FE` border, 36px standard desktop height, `8px 12px` padding, `#1E1B4B` text, and `#7C6F93` placeholder. Focus state transitions border to `#6D28D9` with a subtle `0 0 0 3px rgba(109, 40, 217, 0.12)` halo.\\n- **Numeric & Barcode Inputs**: Right-aligned currency inputs with prefixed ARS$ markers; barcode fields integrate a subtle scanner icon button within the right trailing slot.\\n- **Checkboxes & Radios**: 16px squares with 3px radius. Unchecked: 1.5px border of `#DDD6FE` on white. Checked: solid `#6D28D9` with white checkmark.\\n\\n### Inventory Data Tables\\n- **Header Row**: `#F6F3FC` background, 32px height, 1px bottom border `#DDD6FE`. Column headers use `label-sm` in `#2E1065`, uppercase, with subtle sort chevrons.\\n- **Data Rows**: `#FFFFFF` background, 40px default height, separated by 1px bottom border `#F3E8FF`. Hover state: `#FAF8FE`. Selected row: `#F3E8FF` tint with a 2px vertical indicator in `#6D28D9` on the leading cell edge.\\n- **Alignment**: Text left-aligned; quantities, ISBNs, and prices strictly right-aligned with monospace/tabular numeric figures.\\n\\n### Status Chips & Badges\\n- **In Stock / Sync Complete**: `#ECFEFF` fill, `#0891B2` border and text (`label-sm`).\\n- **Low Stock / Critical**: `#FFF1F2` fill, `#BE123C` border and text.\\n- **Special Order / Consignment**: `#FDF4FF` fill, `#C026D3` border and text.\\n- **Archive / Neutral**: `#F3F4F6` fill, `#4B5563` border and text.\\n\\n### Cards & Container Panels\\n- White background, 1px `#E9D5FF` perimeter border, 8px radius. Card headers separate book metadata into clear visual zones using clean `#F6F3FC` sub-bars when demarcating publisher metadata from warehouse physical stocking locations.\",\"colorVariant\":\"FIDELITY\",\"overridePrimaryColor\":\"#6d28d9\",\"overrideSecondaryColor\":\"#c026d3\",\"overrideTertiaryColor\":\"#0891b2\",\"overrideNeutralColor\":\"#2e1065\",\"spacingScale\":2,\"typography\":{\"code-table\":{\"fontFamily\":\"Inter\",\"fontSize\":\"12px\",\"fontWeight\":\"400\",\"lineHeight\":\"16px\",\"letterSpacing\":\"-0.02em\"},\"label-md\":{\"fontFamily\":\"Inter\",\"fontSize\":\"12px\",\"fontWeight\":\"500\",\"lineHeight\":\"16px\",\"letterSpacing\":\"0.02em\"},\"body-lg\":{\"fontFamily\":\"Inter\",\"fontSize\":\"15px\",\"fontWeight\":\"400\",\"lineHeight\":\"22px\",\"letterSpacing\":\"-0.01em\"},\"headline-sm\":{\"fontFamily\":\"Literata\",\"fontSize\":\"16px\",\"fontWeight\":\"600\",\"lineHeight\":\"24px\",\"letterSpacing\":\"0em\"},\"label-lg\":{\"fontFamily\":\"Inter\",\"fontSize\":\"13px\",\"fontWeight\":\"600\",\"lineHeight\":\"18px\",\"letterSpacing\":\"0.01em\"},\"display\":{\"fontFamily\":\"Literata\",\"fontSize\":\"32px\",\"fontWeight\":\"600\",\"lineHeight\":\"40px\",\"letterSpacing\":\"-0.02em\"},\"body-md\":{\"fontFamily\":\"Inter\",\"fontSize\":\"13px\",\"fontWeight\":\"400\",\"lineHeight\":\"18px\",\"letterSpacing\":\"0em\"},\"headline-lg\":{\"fontFamily\":\"Literata\",\"fontSize\":\"24px\",\"fontWeight\":\"600\",\"lineHeight\":\"32px\",\"letterSpacing\":\"-0.015em\"},\"headline-md\":{\"fontFamily\":\"Literata\",\"fontSize\":\"20px\",\"fontWeight\":\"500\",\"lineHeight\":\"28px\",\"letterSpacing\":\"-0.01em\"},\"label-sm\":{\"fontFamily\":\"Inter\",\"fontSize\":\"11px\",\"fontWeight\":\"600\",\"lineHeight\":\"14px\",\"letterSpacing\":\"0.03em\"},\"body-sm\":{\"fontFamily\":\"Inter\",\"fontSize\":\"12px\",\"fontWeight\":\"400\",\"lineHeight\":\"16px\",\"letterSpacing\":\"0.01em\"}},\"spacing\":{\"space-xl\":\"2rem\",\"space-sm\":\"0.5rem\",\"space-xs\":\"0.25rem\",\"space-md\":\"0.75rem\",\"gutter-compact\":\"0.5rem\",\"margin-panel\":\"1rem\",\"margin\":\"1.5rem\",\"space-lg\":\"1.25rem\",\"gutter\":\"1rem\"},\"headlineFontFamily\":\"Literata\",\"bodyFontFamily\":\"Inter\",\"labelFontFamily\":\"Inter\"}},\"version\":\"1\"}}],\"theme\":{}}},{\"text\":\"Se han generado exactamente **2 variantes de paleta cromática** sobre la pantalla de **Inicio** de **CoLibri**, preservando con máxima fidelidad la estructura, el contenido, la composición centrada de búsqueda y la integración del logotipo original (`colibri2.jpg` sobre fondo oliva de resguardo, sin fotografías ni tablas).\\n\\nA continuación se detalla la propuesta cromática con sus valores **HEX** recomendados y sus funciones, junto con su proyección coherente para las pantallas de *Libros (Resultados)*, *Nuevo libro (Formulario de alta)* y *Administración*:\\n\\n---\\n\\n### **Propuesta 1: «Amatista Noche & Cian Glaciar»** (Pantalla: `CoLibri - Inicio (Variante 1)`)\\n*Una atmósfera profunda, fría y serena inspirada en violetas azulados nocturnos, con acentos cian/turquesa de alta precisión y luminosidad.*\\n\\n* **Valores HEX y funciones:**\\n  * **Fondo general:** `#1E1035` degradando suavemente a `#291547` y base `#160B29`. Genera profundidad espacial envolvente sin sensación pesada ni deslumbramiento.\\n  * **Superficie de tarjetas y barra de búsqueda:** `#F4EDFC` (lavanda cristalina suave con borde `#D8C2F2`). Ofrece descanso visual, nitidez de lectura y excelente contraste respecto al fondo oscuro.\\n  * **Texto principal:** `#FFFFFF` sobre fondos oscuros; `#231438` (amatista oscuro profundo) dentro de inputs, tablas y tarjetas.\\n  * **Texto secundario:** `#D6C7EE` (lavanda claro) en áreas oscuras; `#685980` en placeholders y subtítulos de tarjetas.\\n  * **Botón principal (CTA):** `#0891B2` / `#06B6D4` (cian glaciar / turquesa brillante, hover `#0E7490`). Aporta un acento nítido, contemporáneo y limpio que equilibra el fondo violeta.\\n  * **Acento Turquesa:** `#22D3EE` (para badges de stock, links activos y estados *Disponible*).\\n  * **Acento Magenta:** `#C026D3` (para avisos sutiles, detalles secundarios de selección o focus rings).\\n\\n* **Integración con el logo oliva (`#3D4514` / `#D4DF96`):**\\n  El contraste complementario entre el violeta azulado frío y el tono oliva dorado del colibrí genera un maridaje orgánico y distinguido, evitando fricciones cromáticas.\\n\\n* **Aplicación sugerida en otras pantallas:**\\n  * **Libros (Resultados):** Fondo `#1E1035`, tabla en contenedor `#F4EDFC` con filas en blanco y lavanda sutil, badges de disponibilidad en turquesa `#0891B2`, botones de edición en amatista `#231438`.\\n  * **Nuevo libro (Alta):** Formulario en panel `#F4EDFC`, labels en `#231438`, botón de guardado en cian/turquesa `#0891B2`.\\n  * **Administración:** Pestañas activas y botones de acción en turquesa `#0891B2`, con badges numéricos en lila/magenta `#C026D3`.\\n\\n---\\n\\n### **Propuesta 2: «Ciruela Terciopelo & Magenta Orquídea con Turquesa Joya»** (Pantalla: `CoLibri - Inicio (Variante 2)`)\\n*Una paleta más cálida dentro de la gama fría: morados de gran riqueza tonal, notas ciruela y fucsia/magenta eléctrico compensadas por toques turquesa mineral.*\\n\\n* **Valores HEX y funciones:**\\n  * **Fondo general:** `#341147` transicionando a ciruela aterciopelado `#4A1564` y fondo base `#230B30`. Aporta calidez nocturna y carácter editorial sofisticado.\\n  * **Superficie de tarjetas y barra de búsqueda:** `#F7F0FB` (lila empolvado luminoso con contorno `#E4D0F0`).\\n  * **Texto principal:** `#FFFFFF` sobre superficies oscuras; `#280E36` (ciruela profundo casi negro) en campos y tarjetas.\\n  * **Texto secundario:** `#E0CEEC` en fondos oscuros; `#71557F` en textos de apoyo e instrucciones.\\n  * **Botón principal (CTA):** `#A21CAF` / `#9333EA` (magenta orquídea intenso con texto blanco `#FFFFFF`).\\n  * **Acento Turquesa:** `#0D9488` / `#14B8A6` (turquesa esmeralda / cerceta para selectores, pills de estado y badges positivos).\\n  * **Acento Magenta:** `#E879F9` / `#C026D3` (indicador de navegación activa, bordes de foco y destacados clave).\\n\\n* **Integración con el logo oliva (`#3D4514` / `#D4DF96`):**\\n  Al estar el ciruela y el oliva en una relación tonal análoga-complementaria (tonos terrosos y pigmentos densos), el logo se funde con naturalidad dentro de la interfaz.\\n\\n* **Aplicación sugerida en otras pantallas:**\\n  * **Libros (Resultados):** Tarjeta contenedora `#F7F0FB`, headers de tabla con sutil tinte `#ECE0F5`, botones de acción en magenta `#A21CAF` y pills de estado en turquesa `#0D9488`.\\n  * **Nuevo libro (Alta):** Botón *Guardar libro* en `#A21CAF`, campos en fondo blanco/lila tenue con focus ring en turquesa `#14B8A6`.\\n  * **Administración:** Pestañas en ciruela suave `#EDE2F5`, pestaña activa y botón *+ Nueva editorial* en turquesa `#0D9488` para una lectura jerárquica clara.\\n\\n---\\n\\nAmbas variantes se encuentran publicadas en el Canvas listas para tu revisión comparativa. Quedan intactas las pantallas previas del proyecto para que puedas elegir la dirección cromática que mejor represente a CoLibri.\"},{\"suggestion\":\"Aplicar la paleta de la Variante 1 (Amatista & Cian) a Libros y Administración\"},{\"suggestion\":\"Aplicar la paleta de la Variante 2 (Ciruela & Magenta) a todas las pantallas\"},{\"suggestion\":\"Ajustar los niveles de contraste o saturación de una de las variantes\"},{\"sessionEvent\":{\"eventId\":\"7bf2ce30\",\"eventType\":\"project.file_update\",\"actor\":\"Agent\",\"eventTime\":\"2026-10-09T20:22:52.839763952Z\",\"eventPayload\":{\"dom_operations\":[{\"selector\":\"main div.h-\\\\[330px\\\\]\",\"target_element_goal\":\"Reemplazar el contenido del contenedor central del logo con la etiqueta de imagen requerida apuntando a colibri2.jpg con su respaldo correspondiente.\",\"action\":\"replace_content\",\"attr_name\":null,\"class_name\":null,\"selector_strategy\":\"Target the main logo container which is uniquely identified by max-w-[92vw] and h-[330px] under main.\",\"verified_html_context\":\"\\u003cdiv class=\\\"w-[460px] max-w-[92vw] h-[330px] rounded-[24px] overflow-hidden shadow-[0_20px_45px_-12px_rgba(20,4,28,0.75)] ring-2 ring-[#3b4319]/80 bg-[#3b4319] relative flex-shrink-0 transition-transform duration-300 hover:scale-[1.01] flex items-center justify-center\\\"\\u003e\",\"content\":\"\\u003cimg src=\\\"colibri2.jpg\\\" alt=\\\"CoLibri\\\" class=\\\"w-full h-full object-cover\\\" style=\\\"object-position: 50% 52%;\\\" onerror=\\\"this.onerror=null; this.parentElement.innerHTML='\\u003cdiv class=\\\\'w-full h-full bg-[#3d4514] flex flex-col items-center justify-center p-8 rounded-2xl border border-[#55601c]/40 text-[#d4df96]\\\\'\\u003e\\u003cdiv class=\\\\'text-5xl font-serif font-bold tracking-tight mb-2\\\\'\\u003eCo\\u003cbr\\u003eLibrí\\u003c/div\\u003e\\u003cdiv class=\\\\'text-xs tracking-widest uppercase opacity-75\\\\'\\u003eLibrería Independiente\\u003c/div\\u003e\\u003c/div\\u003e';\\\" /\\u003e\",\"attr_value\":null}],\"screen_id\":\"SCREEN_48\",\"payload_type\":\"DomOperationEvent\"}}},{\"sessionEvent\":{\"eventId\":\"17d3e112\",\"eventType\":\"project.file_update\",\"actor\":\"Agent\",\"eventTime\":\"2026-10-09T20:22:52.839769020Z\",\"eventPayload\":{\"screen_id\":\"SCREEN_50\",\"payload_type\":\"DomOperationEvent\",\"dom_operations\":[{\"selector_strategy\":\"El contenedor central del logo tiene la clase única w-[460px] y contiene la etiqueta img como primer hijo. Seleccionamos el elemento img dentro de ese contenedor.\",\"attr_name\":null,\"selector\":\"div.w-\\\\[460px\\\\] \\u003e img\",\"action\":\"replace_element\",\"content\":\"\\u003cimg src=\\\"colibri2.jpg\\\" alt=\\\"CoLibri\\\" class=\\\"w-full h-full object-cover\\\" style=\\\"object-position: 50% 52%;\\\" onerror=\\\"this.onerror=null; this.parentElement.innerHTML='\\u003cdiv class=\\\\'w-full h-full bg-[#3d4514] flex flex-col items-center justify-center p-8 rounded-2xl border border-[#55601c]/40 text-[#d4df96]\\\\'\\u003e\\u003cdiv class=\\\\'text-5xl font-serif font-bold tracking-tight mb-2\\\\'\\u003eCo\\u003cbr\\u003eLibrí\\u003c/div\\u003e\\u003cdiv class=\\\\'text-xs tracking-widest uppercase opacity-75\\\\'\\u003eLibrería Independiente\\u003c/div\\u003e\\u003c/div\\u003e';\\\" /\\u003e\",\"target_element_goal\":\"Reemplazar la imagen fotográfica actual del colibrí por la referencia requerida a 'colibri2.jpg' con sus atributos, estilo inline y fallback onerror específico.\",\"verified_html_context\":\"\\u003cimg alt=\\\"CoLibri\\\" class=\\\"absolute inset-0 w-full h-full object-cover z-10\\\" onerror=\\\"this.style.display='none'\\\" src=\\\"https://lh3.googleusercontent.com/aida-public/AB6AXuBmoxTyd_uhD8ul0DByL79TXAvcQsIKwRptJwZCGC-9r7C80sdXKRtIrpmEGfbiz9o7Ojt03D673sswzv-05PCM1rm8IOXNDhrfOlPFcp76OjftSgZG25h-y71CWoHIbm2tiP7WzNd3fcf6QFPK1gN781L06W8weSIlsc2JbNV1ar-2UhKLMpmQGUGGPD_T56Gr6KsuxL3CODunP5DUWy_h3ep9zYNxw5rjw0uuhQ2MD2Ns94lZNEZAxuMQ4TygDC5q_qkcOSxZM4-V\\\"/\\u003e\",\"attr_value\":null,\"class_name\":null},{\"verified_html_context\":\"\\u003cdiv class=\\\"relative z-0 flex flex-col items-center justify-center text-center p-8 select-none\\\"\\u003e\",\"attr_name\":null,\"target_element_goal\":\"Eliminar el div de fallback estilizado anterior para que el contenedor use el fallback provisto directamente en el onerror del img y mantenga el fondo oliva oscuro #3d4514 y dimensiones 460px x 330px.\",\"selector_strategy\":\"Seleccionar el div secundario de fallback dentro de div.w-[460px] que quedó detrás.\",\"content\":null,\"attr_value\":null,\"class_name\":null,\"selector\":\"div.w-\\\\[460px\\\\] \\u003e div\",\"action\":\"remove_element\"}]}}}]}",
+      "type": "text"
+    }
+  ],
+  "structuredContent": {
+    "outputComponents": [
+      {
+        "design": {
+          "screens": [
+            {
+              "designSystem": {
+                "designSystem": {
+                  "displayName": "CoLibri Desktop",
+                  "styleGuidelines": "## Brand & Style\n\nThis design system establishes a refined, literary-informed workspace engineered for the high-volume operational workflows of Argentine independent booksellers. The brand balances bibliophilic warmth with systematic, software-grade precision. \n\nThe aesthetic is Modern Editorial: crisp, highly structured desktop software enriched with classical bookmaking cues. It rejects cold corporate sterility in favor of rich typographic personality and ink-inspired depth, delivering a calm, luminous environment suited for sustained 8-to-10 hour shifts behind checkout counters and warehouse desks.\n\nEvery surface evokes clean rag paper, deliberate margins, and sharp printing. Micro-interactions are snappy and understated, reinforcing dependability during fast keyboard navigation, barcode scanning, and multi-attribute catalogue searches.\n\n## Layout & Spacing\n\nThis design system uses a desktop-first fluid layout optimized for screen resolutions from 1280px to 4K displays.\n\n- **Grid Architecture**: Workspaces operate on a persistent 3-tier desktop layout: a fixed 240px utility navigation sidebar, a dynamic contextual panel (collapsible filters or side drawer, 320px–380px), and an elastic main workspace canvas centered on a 12-column sub-grid with `1rem` gutters.\n- **Workspace Density**: Spacing adheres strictly to an 8px base grid, dialed down to 4px sub-increments for compact data forms. Vertical cell spacing in bulk inventory tables defaults to `0.5rem` (`space-sm`) top-and-bottom padding for rapid scanning, with a generous mode (`space-md`) configurable for receipt verification.\n- **Form Rhythm**: Input groups utilize `space-md` gaps between fields, with section chunks partitioned by `space-xl`. Visual grouping relies on structural margins rather than excessive borders or decorative boxes.\n\n## Elevation & Depth\n\nVisual hierarchy uses tonal surface layering combined with whisper-thin borders and restrained ambient shadows. This prevents interface fatigue in high-information environments.\n\n- **Canvas Base (`#F6F3FC`)**: The ground layer upon which all application structures rest.\n- **Surface Level 1 (`#FFFFFF`)**: Primary cards, full-width data grids, and workspace sheets. Outlined with a 1px border of `#E9D5FF` and a soft ambient shadow: `0 1px 3px 0 rgba(46, 16, 101, 0.04), 0 1px 2px -1px rgba(46, 16, 101, 0.04)`.\n- **Surface Level 2 (Elevated Drawers & Flyouts)**: Quick-edit side panels, autocomplete menus, and filter dropdowns. Bordered with `#DDD6FE` and lifted by `0 10px 15px -3px rgba(46, 16, 101, 0.08), 0 4px 6px -4px rgba(46, 16, 101, 0.04)`.\n- **Surface Level 3 (Modal Dialogs & Critical Alerts)**: Rest on an atmospheric overlay (`rgba(30, 27, 75, 0.45)` with a 2px backdrop blur) and cast a structured, wide shadow: `0 20px 25px -5px rgba(46, 16, 101, 0.12), 0 8px 10px -6px rgba(46, 16, 101, 0.08)`.\n\n## Components\n\n### Buttons\n- **Primary**: Solid `#6D28D9` fill, white Inter Medium text, 4px border radius. Hover: `#5B21B6`. Active: `#4C1D95`. Focus ring: 2px offset with `#DDD6FE` and 2px solid `#6D28D9`.\n- **Secondary**: `#FFFFFF` background, `#6D28D9` text, 1px border of `#DDD6FE`. Hover: `#F6F3FC`.\n- **Tertiary/Ghost**: Transparent fill, `#2E1065` text. Hover: `#F6F3FC`.\n- **Destructive**: `#DC2626` fill or outline for irrevocable operations like deleting title records.\n\n### Form Controls & Inputs\n- **Text Inputs**: `#FFFFFF` background with 1px `#DDD6FE` border, 36px standard desktop height, `8px 12px` padding, `#1E1B4B` text, and `#7C6F93` placeholder. Focus state transitions border to `#6D28D9` with a subtle `0 0 0 3px rgba(109, 40, 217, 0.12)` halo.\n- **Numeric & Barcode Inputs**: Right-aligned currency inputs with prefixed ARS$ markers; barcode fields integrate a subtle scanner icon button within the right trailing slot.\n- **Checkboxes & Radios**: 16px squares with 3px radius. Unchecked: 1.5px border of `#DDD6FE` on white. Checked: solid `#6D28D9` with white checkmark.\n\n### Inventory Data Tables\n- **Header Row**: `#F6F3FC` background, 32px height, 1px bottom border `#DDD6FE`. Column headers use `label-sm` in `#2E1065`, uppercase, with subtle sort chevrons.\n- **Data Rows**: `#FFFFFF` background, 40px default height, separated by 1px bottom border `#F3E8FF`. Hover state: `#FAF8FE`. Selected row: `#F3E8FF` tint with a 2px vertical indicator in `#6D28D9` on the leading cell edge.\n- **Alignment**: Text left-aligned; quantities, ISBNs, and prices strictly right-aligned with monospace/tabular numeric figures.\n\n### Status Chips & Badges\n- **In Stock / Sync Complete**: `#ECFEFF` fill, `#0891B2` border and text (`label-sm`).\n- **Low Stock / Critical**: `#FFF1F2` fill, `#BE123C` border and text.\n- **Special Order / Consignment**: `#FDF4FF` fill, `#C026D3` border and text.\n- **Archive / Neutral**: `#F3F4F6` fill, `#4B5563` border and text.\n\n### Cards & Container Panels\n- White background, 1px `#E9D5FF` perimeter border, 8px radius. Card headers separate book metadata into clear visual zones using clean `#F6F3FC` sub-bars when demarcating publisher metadata from warehouse physical stocking locations.",
+                  "theme": {
+                    "bodyFont": "INTER",
+                    "bodyFontFamily": "Inter",
+                    "colorMode": "LIGHT",
+                    "colorVariant": "FIDELITY",
+                    "customColor": "#6d28d9",
+                    "designMd": "---\nname: CoLibri Desktop\ncolors:\n  surface: '#fef7ff'\n  surface-dim: '#e2d3ff'\n  surface-bright: '#fef7ff'\n  surface-container-lowest: '#ffffff'\n  surface-container-low: '#f9f1ff'\n  surface-container: '#f4eaff'\n  surface-container-high: '#efe4ff'\n  surface-container-highest: '#eaddff'\n  on-surface: '#24005b'\n  on-surface-variant: '#4a4455'\n  inverse-surface: '#391e70'\n  inverse-on-surface: '#f6edff'\n  outline: '#7b7486'\n  outline-variant: '#ccc3d7'\n  surface-tint: '#7331df'\n  primary: '#5300b7'\n  on-primary: '#ffffff'\n  primary-container: '#6d28d9'\n  on-primary-container: '#dac5ff'\n  inverse-primary: '#d3bbff'\n  secondary: '#a400b7'\n  on-secondary: '#ffffff'\n  secondary-container: '#ef5aff'\n  on-secondary-container: '#5c0068'\n  tertiary: '#004759'\n  on-tertiary: '#ffffff'\n  tertiary-container: '#006077'\n  on-tertiary-container: '#75dbff'\n  error: '#ba1a1a'\n  on-error: '#ffffff'\n  error-container: '#ffdad6'\n  on-error-container: '#93000a'\n  primary-fixed: '#ebddff'\n  primary-fixed-dim: '#d3bbff'\n  on-primary-fixed: '#250059'\n  on-primary-fixed-variant: '#5b00c5'\n  secondary-fixed: '#ffd6fb'\n  secondary-fixed-dim: '#fda9ff'\n  on-secondary-fixed: '#36003d'\n  on-secondary-fixed-variant: '#7d008c'\n  tertiary-fixed: '#b7eaff'\n  tertiary-fixed-dim: '#6cd3f7'\n  on-tertiary-fixed: '#001f28'\n  on-tertiary-fixed-variant: '#004e61'\n  background: '#fef7ff'\n  on-background: '#24005b'\n  surface-variant: '#eaddff'\ntypography:\n  display:\n    fontFamily: Literata\n    fontSize: 32px\n    fontWeight: '600'\n    lineHeight: 40px\n    letterSpacing: -0.02em\n  headline-lg:\n    fontFamily: Literata\n    fontSize: 24px\n    fontWeight: '600'\n    lineHeight: 32px\n    letterSpacing: -0.015em\n  headline-md:\n    fontFamily: Literata\n    fontSize: 20px\n    fontWeight: '500'\n    lineHeight: 28px\n    letterSpacing: -0.01em\n  headline-sm:\n    fontFamily: Literata\n    fontSize: 16px\n    fontWeight: '600'\n    lineHeight: 24px\n    letterSpacing: 0em\n  body-lg:\n    fontFamily: Inter\n    fontSize: 15px\n    fontWeight: '400'\n    lineHeight: 22px\n    letterSpacing: -0.01em\n  body-md:\n    fontFamily: Inter\n    fontSize: 13px\n    fontWeight: '400'\n    lineHeight: 18px\n    letterSpacing: 0em\n  body-sm:\n    fontFamily: Inter\n    fontSize: 12px\n    fontWeight: '400'\n    lineHeight: 16px\n    letterSpacing: 0.01em\n  label-lg:\n    fontFamily: Inter\n    fontSize: 13px\n    fontWeight: '600'\n    lineHeight: 18px\n    letterSpacing: 0.01em\n  label-md:\n    fontFamily: Inter\n    fontSize: 12px\n    fontWeight: '500'\n    lineHeight: 16px\n    letterSpacing: 0.02em\n  label-sm:\n    fontFamily: Inter\n    fontSize: 11px\n    fontWeight: '600'\n    lineHeight: 14px\n    letterSpacing: 0.03em\n  code-table:\n    fontFamily: Inter\n    fontSize: 12px\n    fontWeight: '400'\n    lineHeight: 16px\n    letterSpacing: -0.02em\nrounded:\n  sm: 0.125rem\n  DEFAULT: 0.25rem\n  md: 0.375rem\n  lg: 0.5rem\n  xl: 0.75rem\n  full: 9999px\nspacing:\n  gutter: 1rem\n  gutter-compact: 0.5rem\n  margin: 1.5rem\n  margin-panel: 1rem\n  space-xs: 0.25rem\n  space-sm: 0.5rem\n  space-md: 0.75rem\n  space-lg: 1.25rem\n  space-xl: 2rem\n---\n\n## Brand & Style\n\nThis design system establishes a refined, literary-informed workspace engineered for the high-volume operational workflows of Argentine independent booksellers. The brand balances bibliophilic warmth with systematic, software-grade precision. \n\nThe aesthetic is Modern Editorial: crisp, highly structured desktop software enriched with classical bookmaking cues. It rejects cold corporate sterility in favor of rich typographic personality and ink-inspired depth, delivering a calm, luminous environment suited for sustained 8-to-10 hour shifts behind checkout counters and warehouse desks.\n\nEvery surface evokes clean rag paper, deliberate margins, and sharp printing. Micro-interactions are snappy and understated, reinforcing dependability during fast keyboard navigation, barcode scanning, and multi-attribute catalogue searches.\n\n## Colors\n\nThe palette grounds high-density data in rich, pigment-like hues.\n\n- **Primary (`#6D28D9`)**: Deep violet used for principal interactions, active focus rings, key action states, and primary navigational wayfinding.\n- **Secondary (`#C026D3`)**: Cool magenta reserved for promotional tags, special editions, highlighting consignments, and secondary callouts.\n- **Tertiary (`#0891B2`)**: Turquoise accent applied strategically to inventory status signals (e.g., in transit, stock arrival, active syncs, and system tags) to provide clear chromatic separation from retail actions.\n- **Backgrounds**: The canvas uses pale lavender (`#F6F3FC`) to eliminate harsh monitor glare, while interactive elevated work surfaces and data tables sit on pure white (`#FFFFFF`).\n- **Typography & Neutrals**: Text rendering avoids pure black. Deep plum (`#2E1065`) serves as the high-contrast baseline for titles, headers, and essential metrics, shifting to `#1E1B4B` for primary body copy and dense tabular values. Muted text rests at `#5B4A78`.\n- **Borders & Dividers**: Subtle structured containment is achieved via pale violet borders (`#E9D5FF` for default boundaries and `#DDD6FE` for interactive row/cell separators and column outlines).\n\n## Typography\n\nThe typography pairing contrasts the literary heritage of Latin American publishing with pragmatic desktop interface utility.\n\n- **Headings (Literata)**: Chosen for its warm, humanist proportions and mechanical sturdiness designed specifically for intensive reading. It provides bookstore managers with an authentic editorial feel on screen headers, book titles, author credits, and sectional overviews.\n- **Body & UI (Inter)**: Handles all transactional work, inventory tables, form fields, inputs, and operational labels. Inter’s tall x-height and neutral geometry ensure maximum legibility when scanning ISBNs, price points in Argentine Pesos (ARS$), SKU numbers, and stock counts.\n- **Numbers & Data Cells**: Numeric readouts in data grids must employ tabular figures (`tnum`) and slashed zeros to prevent columnar misalignment during rapid audits.\n\n## Layout & Spacing\n\nThis design system uses a desktop-first fluid layout optimized for screen resolutions from 1280px to 4K displays.\n\n- **Grid Architecture**: Workspaces operate on a persistent 3-tier desktop layout: a fixed 240px utility navigation sidebar, a dynamic contextual panel (collapsible filters or side drawer, 320px–380px), and an elastic main workspace canvas centered on a 12-column sub-grid with `1rem` gutters.\n- **Workspace Density**: Spacing adheres strictly to an 8px base grid, dialed down to 4px sub-increments for compact data forms. Vertical cell spacing in bulk inventory tables defaults to `0.5rem` (`space-sm`) top-and-bottom padding for rapid scanning, with a generous mode (`space-md`) configurable for receipt verification.\n- **Form Rhythm**: Input groups utilize `space-md` gaps between fields, with section chunks partitioned by `space-xl`. Visual grouping relies on structural margins rather than excessive borders or decorative boxes.\n\n## Elevation & Depth\n\nVisual hierarchy uses tonal surface layering combined with whisper-thin borders and restrained ambient shadows. This prevents interface fatigue in high-information environments.\n\n- **Canvas Base (`#F6F3FC`)**: The ground layer upon which all application structures rest.\n- **Surface Level 1 (`#FFFFFF`)**: Primary cards, full-width data grids, and workspace sheets. Outlined with a 1px border of `#E9D5FF` and a soft ambient shadow: `0 1px 3px 0 rgba(46, 16, 101, 0.04), 0 1px 2px -1px rgba(46, 16, 101, 0.04)`.\n- **Surface Level 2 (Elevated Drawers & Flyouts)**: Quick-edit side panels, autocomplete menus, and filter dropdowns. Bordered with `#DDD6FE` and lifted by `0 10px 15px -3px rgba(46, 16, 101, 0.08), 0 4px 6px -4px rgba(46, 16, 101, 0.04)`.\n- **Surface Level 3 (Modal Dialogs & Critical Alerts)**: Rest on an atmospheric overlay (`rgba(30, 27, 75, 0.45)` with a 2px backdrop blur) and cast a structured, wide shadow: `0 20px 25px -5px rgba(46, 16, 101, 0.12), 0 8px 10px -6px rgba(46, 16, 101, 0.08)`.\n\n## Shapes\n\nThe system implements a refined, soft curvature (`0.25rem` / `4px` base radius) that reflects industrial desktop software rather than mobile-consumer styles.\n\n- **Inputs, Buttons, and Chips**: Set to standard `4px` corner radii. This preserves maximum pixel area for readable text inside tight data fields and maintains clean vertical alignment down straight form columns.\n- **Cards, Table Shells, and Modals**: Employ `rounded-lg` (`0.5rem` / `8px`), offering gentle boundary definition without softening the architectural feel of dense data displays.\n- **Status Pills & Count Badges**: Can utilize fully rounded caps (`9999px`) to immediately differentiate metadata tokens from clickable interactive triggers.\n\n## Components\n\n### Buttons\n- **Primary**: Solid `#6D28D9` fill, white Inter Medium text, 4px border radius. Hover: `#5B21B6`. Active: `#4C1D95`. Focus ring: 2px offset with `#DDD6FE` and 2px solid `#6D28D9`.\n- **Secondary**: `#FFFFFF` background, `#6D28D9` text, 1px border of `#DDD6FE`. Hover: `#F6F3FC`.\n- **Tertiary/Ghost**: Transparent fill, `#2E1065` text. Hover: `#F6F3FC`.\n- **Destructive**: `#DC2626` fill or outline for irrevocable operations like deleting title records.\n\n### Form Controls & Inputs\n- **Text Inputs**: `#FFFFFF` background with 1px `#DDD6FE` border, 36px standard desktop height, `8px 12px` padding, `#1E1B4B` text, and `#7C6F93` placeholder. Focus state transitions border to `#6D28D9` with a subtle `0 0 0 3px rgba(109, 40, 217, 0.12)` halo.\n- **Numeric & Barcode Inputs**: Right-aligned currency inputs with prefixed ARS$ markers; barcode fields integrate a subtle scanner icon button within the right trailing slot.\n- **Checkboxes & Radios**: 16px squares with 3px radius. Unchecked: 1.5px border of `#DDD6FE` on white. Checked: solid `#6D28D9` with white checkmark.\n\n### Inventory Data Tables\n- **Header Row**: `#F6F3FC` background, 32px height, 1px bottom border `#DDD6FE`. Column headers use `label-sm` in `#2E1065`, uppercase, with subtle sort chevrons.\n- **Data Rows**: `#FFFFFF` background, 40px default height, separated by 1px bottom border `#F3E8FF`. Hover state: `#FAF8FE`. Selected row: `#F3E8FF` tint with a 2px vertical indicator in `#6D28D9` on the leading cell edge.\n- **Alignment**: Text left-aligned; quantities, ISBNs, and prices strictly right-aligned with monospace/tabular numeric figures.\n\n### Status Chips & Badges\n- **In Stock / Sync Complete**: `#ECFEFF` fill, `#0891B2` border and text (`label-sm`).\n- **Low Stock / Critical**: `#FFF1F2` fill, `#BE123C` border and text.\n- **Special Order / Consignment**: `#FDF4FF` fill, `#C026D3` border and text.\n- **Archive / Neutral**: `#F3F4F6` fill, `#4B5563` border and text.\n\n### Cards & Container Panels\n- White background, 1px `#E9D5FF` perimeter border, 8px radius. Card headers separate book metadata into clear visual zones using clean `#F6F3FC` sub-bars when demarcating publisher metadata from warehouse physical stocking locations.",
+                    "font": "LITERATA",
+                    "headlineFont": "LITERATA",
+                    "headlineFontFamily": "Literata",
+                    "labelFont": "INTER",
+                    "labelFontFamily": "Inter",
+                    "namedColors": {
+                      "background": "#fef7ff",
+                      "error": "#ba1a1a",
+                      "error_container": "#ffdad6",
+                      "inverse_on_surface": "#f6edff",
+                      "inverse_primary": "#d3bbff",
+                      "inverse_surface": "#391e70",
+                      "on_background": "#24005b",
+                      "on_error": "#ffffff",
+                      "on_error_container": "#93000a",
+                      "on_primary": "#ffffff",
+                      "on_primary_container": "#dac5ff",
+                      "on_primary_fixed": "#250059",
+                      "on_primary_fixed_variant": "#5b00c5",
+                      "on_secondary": "#ffffff",
+                      "on_secondary_container": "#5c0068",
+                      "on_secondary_fixed": "#36003d",
+                      "on_secondary_fixed_variant": "#7d008c",
+                      "on_surface": "#24005b",
+                      "on_surface_variant": "#4a4455",
+                      "on_tertiary": "#ffffff",
+                      "on_tertiary_container": "#75dbff",
+                      "on_tertiary_fixed": "#001f28",
+                      "on_tertiary_fixed_variant": "#004e61",
+                      "outline": "#7b7486",
+                      "outline_variant": "#ccc3d7",
+                      "primary": "#5300b7",
+                      "primary_container": "#6d28d9",
+                      "primary_fixed": "#ebddff",
+                      "primary_fixed_dim": "#d3bbff",
+                      "secondary": "#a400b7",
+                      "secondary_container": "#ef5aff",
+                      "secondary_fixed": "#ffd6fb",
+                      "secondary_fixed_dim": "#fda9ff",
+                      "surface": "#fef7ff",
+                      "surface_bright": "#fef7ff",
+                      "surface_container": "#f4eaff",
+                      "surface_container_high": "#efe4ff",
+                      "surface_container_highest": "#eaddff",
+                      "surface_container_low": "#f9f1ff",
+                      "surface_container_lowest": "#ffffff",
+                      "surface_dim": "#e2d3ff",
+                      "surface_tint": "#7331df",
+                      "surface_variant": "#eaddff",
+                      "tertiary": "#004759",
+                      "tertiary_container": "#006077",
+                      "tertiary_fixed": "#b7eaff",
+                      "tertiary_fixed_dim": "#6cd3f7"
+                    },
+                    "overrideNeutralColor": "#2e1065",
+                    "overridePrimaryColor": "#6d28d9",
+                    "overrideSecondaryColor": "#c026d3",
+                    "overrideTertiaryColor": "#0891b2",
+                    "roundness": "ROUND_FOUR",
+                    "spacing": {
+                      "gutter": "1rem",
+                      "gutter-compact": "0.5rem",
+                      "margin": "1.5rem",
+                      "margin-panel": "1rem",
+                      "space-lg": "1.25rem",
+                      "space-md": "0.75rem",
+                      "space-sm": "0.5rem",
+                      "space-xl": "2rem",
+                      "space-xs": "0.25rem"
+                    },
+                    "spacingScale": 2,
+                    "typography": {
+                      "body-lg": {
+                        "fontFamily": "Inter",
+                        "fontSize": "15px",
+                        "fontWeight": "400",
+                        "letterSpacing": "-0.01em",
+                        "lineHeight": "22px"
+                      },
+                      "body-md": {
+                        "fontFamily": "Inter",
+                        "fontSize": "13px",
+                        "fontWeight": "400",
+                        "letterSpacing": "0em",
+                        "lineHeight": "18px"
+                      },
+                      "body-sm": {
+                        "fontFamily": "Inter",
+                        "fontSize": "12px",
+                        "fontWeight": "400",
+                        "letterSpacing": "0.01em",
+                        "lineHeight": "16px"
+                      },
+                      "code-table": {
+                        "fontFamily": "Inter",
+                        "fontSize": "12px",
+                        "fontWeight": "400",
+                        "letterSpacing": "-0.02em",
+                        "lineHeight": "16px"
+                      },
+                      "display": {
+                        "fontFamily": "Literata",
+                        "fontSize": "32px",
+                        "fontWeight": "600",
+                        "letterSpacing": "-0.02em",
+                        "lineHeight": "40px"
+                      },
+                      "headline-lg": {
+                        "fontFamily": "Literata",
+                        "fontSize": "24px",
+                        "fontWeight": "600",
+                        "letterSpacing": "-0.015em",
+                        "lineHeight": "32px"
+                      },
+                      "headline-md": {
+                        "fontFamily": "Literata",
+                        "fontSize": "20px",
+                        "fontWeight": "500",
+                        "letterSpacing": "-0.01em",
+                        "lineHeight": "28px"
+                      },
+                      "headline-sm": {
+                        "fontFamily": "Literata",
+                        "fontSize": "16px",
+                        "fontWeight": "600",
+                        "letterSpacing": "0em",
+                        "lineHeight": "24px"
+                      },
+                      "label-lg": {
+                        "fontFamily": "Inter",
+                        "fontSize": "13px",
+                        "fontWeight": "600",
+                        "letterSpacing": "0.01em",
+                        "lineHeight": "18px"
+                      },
+                      "label-md": {
+                        "fontFamily": "Inter",
+                        "fontSize": "12px",
+                        "fontWeight": "500",
+                        "letterSpacing": "0.02em",
+                        "lineHeight": "16px"
+                      },
+                      "label-sm": {
+                        "fontFamily": "Inter",
+                        "fontSize": "11px",
+                        "fontWeight": "600",
+                        "letterSpacing": "0.03em",
+                        "lineHeight": "14px"
+                      }
+                    }
+                  }
+                },
+                "name": "assets/66f1878ac67745bdaea737acb640031f",
+                "version": "1"
+              },
+              "deviceType": "DESKTOP",
+              "generatedBy": "HatterAgent",
+              "height": "2048",
+              "htmlCode": {
+                "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzQxNDk1MGYyZTFmYTQzMzQ4ZDQ0ODI4Mzc2MTY2OTY2EgsSBxCl7s7f2Q8YAZIBJAoKcHJvamVjdF9pZBIWQhQxMzIyNzcwMDEwNjczODUwNTA5Mw&filename=&opi=96797242",
+                "mimeType": "text/html",
+                "name": "projects/13227700106738505093/files/afa875b65c5f4e4a9b9acbc1cff975df"
+              },
+              "id": "b35a75f437b1466ca7de50974a4c9f57",
+              "name": "projects/13227700106738505093/screens/b35a75f437b1466ca7de50974a4c9f57",
+              "prompt": "Genera la Variante 1 de paleta cromática para CoLibri Inicio: \"Amatista Profunda & Cian Glaciar\".\nMantener exactamente la estructura espacial: Navbar superior con CoLibri, Inicio (activo), Libros, Administración, y botón \"+ Agregar libro\" (sin perfil ni notificaciones). Logo centralizado de 460x330px con src=\"colibri2.jpg\" y fallback estilizado en verde oliva (#3d4514 / #55601c) con lettering CoLibrí y silueta de colibrí (sin fotografías de personas ni librerías). Buscador centrado tipo píldora (840px x 64px) con lupa y botón Buscar. Debajo, exactamente los 4 filtros: Género (Todos), Subcategoría (Todas), Editorial (Todas), Estado (Todos con opciones Disponible, Vendido, Pedir, En espera). Texto sutil \"Buscá un título o autor para ver los resultados.\" Footer \"CoLibri · Librería\". Sin tabla de libros ni resultados.\nPaleta cromática Variante 1:\n- Fondo general: Gradiente atmosférico profundo y frío de violeta azulado noche (#1E1035 a #2B184C y toques de #160D29) con sutil halo frío.\n- Superficie de barra de búsqueda y tarjetas: Lavanda cristalina / amatista suave translúcida (#F4EDFC con borde suave #D8C2F2) para altísima legibilidad y descanso visual en inventario.\n- Textos: Textos sobre fondo oscuro en blanco perla (#FFFFFF) y lavanda tenue (#D6C7EE). Texto en inputs oscuro amatista (#231438).\n- Botón principal / acción: Turquesa / Cian vibrante (#0EA5E9 / #06B6D4 o #0891B2 con hover #0284C7) que aporta un contraste frío exquisito con el violeta y resalta el tono oliva del colibrí.\n- Acentos magenta y turquesa: Badges y detalles con magenta frío (#C026D3) y cian brillante (#22D3EE).\nAsegurar que armonice orgánicamente con el marco oliva del logo. Conservar tipografía elegante Literata/inter.",
+              "screenMetadata": {
+                "agentType": "PRO_AGENT",
+                "status": "COMPLETE"
+              },
+              "screenType": "DESIGN",
+              "screenshot": {
+                "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1X5XVHh3RicksUfxrsA-okNu5fG8-5sWFGOYJf_eJ6rGn4LH581mlp87At74cRZWe8Am87ERsQTMuxZaDStj2pWZnDIrarzc8Dm1OZ_zTmSLIfQyqr7zsu0sq3aXGypmN6ESWdbUT1HQcAdhowsA34Uj-gpozspq_Sbu9-IHWuVCCVp4vbWOCxVg0rOAYDmqyfWAp3nYCeq3xgwGMG1-qPhmwAZQLiMXlEVFEBVZo0fGsdFjucYw1LvSa1j",
+                "name": "projects/13227700106738505093/files/17623611e4654319bf67f6e9651f4077"
+              },
+              "theme": {
+                "bodyFont": "INTER",
+                "bodyFontFamily": "Inter",
+                "colorMode": "LIGHT",
+                "colorVariant": "FIDELITY",
+                "customColor": "#6d28d9",
+                "font": "LITERATA",
+                "headlineFont": "LITERATA",
+                "headlineFontFamily": "Literata",
+                "labelFont": "INTER",
+                "labelFontFamily": "Inter",
+                "namedColors": {
+                  "background": "#fef7ff",
+                  "error": "#ba1a1a",
+                  "error_container": "#ffdad6",
+                  "inverse_on_surface": "#f6edff",
+                  "inverse_primary": "#d3bbff",
+                  "inverse_surface": "#391e70",
+                  "on_background": "#24005b",
+                  "on_error": "#ffffff",
+                  "on_error_container": "#93000a",
+                  "on_primary": "#ffffff",
+                  "on_primary_container": "#dac5ff",
+                  "on_primary_fixed": "#250059",
+                  "on_primary_fixed_variant": "#5b00c5",
+                  "on_secondary": "#ffffff",
+                  "on_secondary_container": "#5c0068",
+                  "on_secondary_fixed": "#36003d",
+                  "on_secondary_fixed_variant": "#7d008c",
+                  "on_surface": "#24005b",
+                  "on_surface_variant": "#4a4455",
+                  "on_tertiary": "#ffffff",
+                  "on_tertiary_container": "#75dbff",
+                  "on_tertiary_fixed": "#001f28",
+                  "on_tertiary_fixed_variant": "#004e61",
+                  "outline": "#7b7486",
+                  "outline_variant": "#ccc3d7",
+                  "primary": "#5300b7",
+                  "primary_container": "#6d28d9",
+                  "primary_fixed": "#ebddff",
+                  "primary_fixed_dim": "#d3bbff",
+                  "secondary": "#a400b7",
+                  "secondary_container": "#ef5aff",
+                  "secondary_fixed": "#ffd6fb",
+                  "secondary_fixed_dim": "#fda9ff",
+                  "surface": "#fef7ff",
+                  "surface_bright": "#fef7ff",
+                  "surface_container": "#f4eaff",
+                  "surface_container_high": "#efe4ff",
+                  "surface_container_highest": "#eaddff",
+                  "surface_container_low": "#f9f1ff",
+                  "surface_container_lowest": "#ffffff",
+                  "surface_dim": "#e2d3ff",
+                  "surface_tint": "#7331df",
+                  "surface_variant": "#eaddff",
+                  "tertiary": "#004759",
+                  "tertiary_container": "#006077",
+                  "tertiary_fixed": "#b7eaff",
+                  "tertiary_fixed_dim": "#6cd3f7"
+                },
+                "overrideNeutralColor": "#2e1065",
+                "overridePrimaryColor": "#6d28d9",
+                "overrideSecondaryColor": "#c026d3",
+                "overrideTertiaryColor": "#0891b2",
+                "roundness": "ROUND_FOUR",
+                "spacing": {
+                  "gutter": "1rem",
+                  "gutter-compact": "0.5rem",
+                  "margin": "1.5rem",
+                  "margin-panel": "1rem",
+                  "space-lg": "1.25rem",
+                  "space-md": "0.75rem",
+                  "space-sm": "0.5rem",
+                  "space-xl": "2rem",
+                  "space-xs": "0.25rem"
+                },
+                "spacingScale": 2,
+                "typography": {
+                  "body-lg": {
+                    "fontFamily": "Inter",
+                    "fontSize": "15px",
+                    "fontWeight": "400",
+                    "letterSpacing": "-0.01em",
+                    "lineHeight": "22px"
+                  },
+                  "body-md": {
+                    "fontFamily": "Inter",
+                    "fontSize": "13px",
+                    "fontWeight": "400",
+                    "letterSpacing": "0em",
+                    "lineHeight": "18px"
+                  },
+                  "body-sm": {
+                    "fontFamily": "Inter",
+                    "fontSize": "12px",
+                    "fontWeight": "400",
+                    "letterSpacing": "0.01em",
+                    "lineHeight": "16px"
+                  },
+                  "code-table": {
+                    "fontFamily": "Inter",
+                    "fontSize": "12px",
+                    "fontWeight": "400",
+                    "letterSpacing": "-0.02em",
+                    "lineHeight": "16px"
+                  },
+                  "display": {
+                    "fontFamily": "Literata",
+                    "fontSize": "32px",
+                    "fontWeight": "600",
+                    "letterSpacing": "-0.02em",
+                    "lineHeight": "40px"
+                  },
+                  "headline-lg": {
+                    "fontFamily": "Literata",
+                    "fontSize": "24px",
+                    "fontWeight": "600",
+                    "letterSpacing": "-0.015em",
+                    "lineHeight": "32px"
+                  },
+                  "headline-md": {
+                    "fontFamily": "Literata",
+                    "fontSize": "20px",
+                    "fontWeight": "500",
+                    "letterSpacing": "-0.01em",
+                    "lineHeight": "28px"
+                  },
+                  "headline-sm": {
+                    "fontFamily": "Literata",
+                    "fontSize": "16px",
+                    "fontWeight": "600",
+                    "letterSpacing": "0em",
+                    "lineHeight": "24px"
+                  },
+                  "label-lg": {
+                    "fontFamily": "Inter",
+                    "fontSize": "13px",
+                    "fontWeight": "600",
+                    "letterSpacing": "0.01em",
+                    "lineHeight": "18px"
+                  },
+                  "label-md": {
+                    "fontFamily": "Inter",
+                    "fontSize": "12px",
+                    "fontWeight": "500",
+                    "letterSpacing": "0.02em",
+                    "lineHeight": "16px"
+                  },
+                  "label-sm": {
+                    "fontFamily": "Inter",
+                    "fontSize": "11px",
+                    "fontWeight": "600",
+                    "letterSpacing": "0.03em",
+                    "lineHeight": "14px"
+                  }
+                }
+              },
+              "title": "CoLibri - Inicio (Variante 1: Amatista & Cian)",
+              "width": "2560"
+            },
+            {
+              "designSystem": {
+                "designSystem": {
+                  "displayName": "CoLibri Desktop",
+                  "styleGuidelines": "## Brand & Style\n\nThis design system establishes a refined, literary-informed workspace engineered for the high-volume operational workflows of Argentine independent booksellers. The brand balances bibliophilic warmth with systematic, software-grade precision. \n\nThe aesthetic is Modern Editorial: crisp, highly structured desktop software enriched with classical bookmaking cues. It rejects cold corporate sterility in favor of rich typographic personality and ink-inspired depth, delivering a calm, luminous environment suited for sustained 8-to-10 hour shifts behind checkout counters and warehouse desks.\n\nEvery surface evokes clean rag paper, deliberate margins, and sharp printing. Micro-interactions are snappy and understated, reinforcing dependability during fast keyboard navigation, barcode scanning, and multi-attribute catalogue searches.\n\n## Layout & Spacing\n\nThis design system uses a desktop-first fluid layout optimized for screen resolutions from 1280px to 4K displays.\n\n- **Grid Architecture**: Workspaces operate on a persistent 3-tier desktop layout: a fixed 240px utility navigation sidebar, a dynamic contextual panel (collapsible filters or side drawer, 320px–380px), and an elastic main workspace canvas centered on a 12-column sub-grid with `1rem` gutters.\n- **Workspace Density**: Spacing adheres strictly to an 8px base grid, dialed down to 4px sub-increments for compact data forms. Vertical cell spacing in bulk inventory tables defaults to `0.5rem` (`space-sm`) top-and-bottom padding for rapid scanning, with a generous mode (`space-md`) configurable for receipt verification.\n- **Form Rhythm**: Input groups utilize `space-md` gaps between fields, with section chunks partitioned by `space-xl`. Visual grouping relies on structural margins rather than excessive borders or decorative boxes.\n\n## Elevation & Depth\n\nVisual hierarchy uses tonal surface layering combined with whisper-thin borders and restrained ambient shadows. This prevents interface fatigue in high-information environments.\n\n- **Canvas Base (`#F6F3FC`)**: The ground layer upon which all application structures rest.\n- **Surface Level 1 (`#FFFFFF`)**: Primary cards, full-width data grids, and workspace sheets. Outlined with a 1px border of `#E9D5FF` and a soft ambient shadow: `0 1px 3px 0 rgba(46, 16, 101, 0.04), 0 1px 2px -1px rgba(46, 16, 101, 0.04)`.\n- **Surface Level 2 (Elevated Drawers & Flyouts)**: Quick-edit side panels, autocomplete menus, and filter dropdowns. Bordered with `#DDD6FE` and lifted by `0 10px 15px -3px rgba(46, 16, 101, 0.08), 0 4px 6px -4px rgba(46, 16, 101, 0.04)`.\n- **Surface Level 3 (Modal Dialogs & Critical Alerts)**: Rest on an atmospheric overlay (`rgba(30, 27, 75, 0.45)` with a 2px backdrop blur) and cast a structured, wide shadow: `0 20px 25px -5px rgba(46, 16, 101, 0.12), 0 8px 10px -6px rgba(46, 16, 101, 0.08)`.\n\n## Components\n\n### Buttons\n- **Primary**: Solid `#6D28D9` fill, white Inter Medium text, 4px border radius. Hover: `#5B21B6`. Active: `#4C1D95`. Focus ring: 2px offset with `#DDD6FE` and 2px solid `#6D28D9`.\n- **Secondary**: `#FFFFFF` background, `#6D28D9` text, 1px border of `#DDD6FE`. Hover: `#F6F3FC`.\n- **Tertiary/Ghost**: Transparent fill, `#2E1065` text. Hover: `#F6F3FC`.\n- **Destructive**: `#DC2626` fill or outline for irrevocable operations like deleting title records.\n\n### Form Controls & Inputs\n- **Text Inputs**: `#FFFFFF` background with 1px `#DDD6FE` border, 36px standard desktop height, `8px 12px` padding, `#1E1B4B` text, and `#7C6F93` placeholder. Focus state transitions border to `#6D28D9` with a subtle `0 0 0 3px rgba(109, 40, 217, 0.12)` halo.\n- **Numeric & Barcode Inputs**: Right-aligned currency inputs with prefixed ARS$ markers; barcode fields integrate a subtle scanner icon button within the right trailing slot.\n- **Checkboxes & Radios**: 16px squares with 3px radius. Unchecked: 1.5px border of `#DDD6FE` on white. Checked: solid `#6D28D9` with white checkmark.\n\n### Inventory Data Tables\n- **Header Row**: `#F6F3FC` background, 32px height, 1px bottom border `#DDD6FE`. Column headers use `label-sm` in `#2E1065`, uppercase, with subtle sort chevrons.\n- **Data Rows**: `#FFFFFF` background, 40px default height, separated by 1px bottom border `#F3E8FF`. Hover state: `#FAF8FE`. Selected row: `#F3E8FF` tint with a 2px vertical indicator in `#6D28D9` on the leading cell edge.\n- **Alignment**: Text left-aligned; quantities, ISBNs, and prices strictly right-aligned with monospace/tabular numeric figures.\n\n### Status Chips & Badges\n- **In Stock / Sync Complete**: `#ECFEFF` fill, `#0891B2` border and text (`label-sm`).\n- **Low Stock / Critical**: `#FFF1F2` fill, `#BE123C` border and text.\n- **Special Order / Consignment**: `#FDF4FF` fill, `#C026D3` border and text.\n- **Archive / Neutral**: `#F3F4F6` fill, `#4B5563` border and text.\n\n### Cards & Container Panels\n- White background, 1px `#E9D5FF` perimeter border, 8px radius. Card headers separate book metadata into clear visual zones using clean `#F6F3FC` sub-bars when demarcating publisher metadata from warehouse physical stocking locations.",
+                  "theme": {
+                    "bodyFont": "INTER",
+                    "bodyFontFamily": "Inter",
+                    "colorMode": "LIGHT",
+                    "colorVariant": "FIDELITY",
+                    "customColor": "#6d28d9",
+                    "designMd": "---\nname: CoLibri Desktop\ncolors:\n  surface: '#fef7ff'\n  surface-dim: '#e2d3ff'\n  surface-bright: '#fef7ff'\n  surface-container-lowest: '#ffffff'\n  surface-container-low: '#f9f1ff'\n  surface-container: '#f4eaff'\n  surface-container-high: '#efe4ff'\n  surface-container-highest: '#eaddff'\n  on-surface: '#24005b'\n  on-surface-variant: '#4a4455'\n  inverse-surface: '#391e70'\n  inverse-on-surface: '#f6edff'\n  outline: '#7b7486'\n  outline-variant: '#ccc3d7'\n  surface-tint: '#7331df'\n  primary: '#5300b7'\n  on-primary: '#ffffff'\n  primary-container: '#6d28d9'\n  on-primary-container: '#dac5ff'\n  inverse-primary: '#d3bbff'\n  secondary: '#a400b7'\n  on-secondary: '#ffffff'\n  secondary-container: '#ef5aff'\n  on-secondary-container: '#5c0068'\n  tertiary: '#004759'\n  on-tertiary: '#ffffff'\n  tertiary-container: '#006077'\n  on-tertiary-container: '#75dbff'\n  error: '#ba1a1a'\n  on-error: '#ffffff'\n  error-container: '#ffdad6'\n  on-error-container: '#93000a'\n  primary-fixed: '#ebddff'\n  primary-fixed-dim: '#d3bbff'\n  on-primary-fixed: '#250059'\n  on-primary-fixed-variant: '#5b00c5'\n  secondary-fixed: '#ffd6fb'\n  secondary-fixed-dim: '#fda9ff'\n  on-secondary-fixed: '#36003d'\n  on-secondary-fixed-variant: '#7d008c'\n  tertiary-fixed: '#b7eaff'\n  tertiary-fixed-dim: '#6cd3f7'\n  on-tertiary-fixed: '#001f28'\n  on-tertiary-fixed-variant: '#004e61'\n  background: '#fef7ff'\n  on-background: '#24005b'\n  surface-variant: '#eaddff'\ntypography:\n  display:\n    fontFamily: Literata\n    fontSize: 32px\n    fontWeight: '600'\n    lineHeight: 40px\n    letterSpacing: -0.02em\n  headline-lg:\n    fontFamily: Literata\n    fontSize: 24px\n    fontWeight: '600'\n    lineHeight: 32px\n    letterSpacing: -0.015em\n  headline-md:\n    fontFamily: Literata\n    fontSize: 20px\n    fontWeight: '500'\n    lineHeight: 28px\n    letterSpacing: -0.01em\n  headline-sm:\n    fontFamily: Literata\n    fontSize: 16px\n    fontWeight: '600'\n    lineHeight: 24px\n    letterSpacing: 0em\n  body-lg:\n    fontFamily: Inter\n    fontSize: 15px\n    fontWeight: '400'\n    lineHeight: 22px\n    letterSpacing: -0.01em\n  body-md:\n    fontFamily: Inter\n    fontSize: 13px\n    fontWeight: '400'\n    lineHeight: 18px\n    letterSpacing: 0em\n  body-sm:\n    fontFamily: Inter\n    fontSize: 12px\n    fontWeight: '400'\n    lineHeight: 16px\n    letterSpacing: 0.01em\n  label-lg:\n    fontFamily: Inter\n    fontSize: 13px\n    fontWeight: '600'\n    lineHeight: 18px\n    letterSpacing: 0.01em\n  label-md:\n    fontFamily: Inter\n    fontSize: 12px\n    fontWeight: '500'\n    lineHeight: 16px\n    letterSpacing: 0.02em\n  label-sm:\n    fontFamily: Inter\n    fontSize: 11px\n    fontWeight: '600'\n    lineHeight: 14px\n    letterSpacing: 0.03em\n  code-table:\n    fontFamily: Inter\n    fontSize: 12px\n    fontWeight: '400'\n    lineHeight: 16px\n    letterSpacing: -0.02em\nrounded:\n  sm: 0.125rem\n  DEFAULT: 0.25rem\n  md: 0.375rem\n  lg: 0.5rem\n  xl: 0.75rem\n  full: 9999px\nspacing:\n  gutter: 1rem\n  gutter-compact: 0.5rem\n  margin: 1.5rem\n  margin-panel: 1rem\n  space-xs: 0.25rem\n  space-sm: 0.5rem\n  space-md: 0.75rem\n  space-lg: 1.25rem\n  space-xl: 2rem\n---\n\n## Brand & Style\n\nThis design system establishes a refined, literary-informed workspace engineered for the high-volume operational workflows of Argentine independent booksellers. The brand balances bibliophilic warmth with systematic, software-grade precision. \n\nThe aesthetic is Modern Editorial: crisp, highly structured desktop software enriched with classical bookmaking cues. It rejects cold corporate sterility in favor of rich typographic personality and ink-inspired depth, delivering a calm, luminous environment suited for sustained 8-to-10 hour shifts behind checkout counters and warehouse desks.\n\nEvery surface evokes clean rag paper, deliberate margins, and sharp printing. Micro-interactions are snappy and understated, reinforcing dependability during fast keyboard navigation, barcode scanning, and multi-attribute catalogue searches.\n\n## Colors\n\nThe palette grounds high-density data in rich, pigment-like hues.\n\n- **Primary (`#6D28D9`)**: Deep violet used for principal interactions, active focus rings, key action states, and primary navigational wayfinding.\n- **Secondary (`#C026D3`)**: Cool magenta reserved for promotional tags, special editions, highlighting consignments, and secondary callouts.\n- **Tertiary (`#0891B2`)**: Turquoise accent applied strategically to inventory status signals (e.g., in transit, stock arrival, active syncs, and system tags) to provide clear chromatic separation from retail actions.\n- **Backgrounds**: The canvas uses pale lavender (`#F6F3FC`) to eliminate harsh monitor glare, while interactive elevated work surfaces and data tables sit on pure white (`#FFFFFF`).\n- **Typography & Neutrals**: Text rendering avoids pure black. Deep plum (`#2E1065`) serves as the high-contrast baseline for titles, headers, and essential metrics, shifting to `#1E1B4B` for primary body copy and dense tabular values. Muted text rests at `#5B4A78`.\n- **Borders & Dividers**: Subtle structured containment is achieved via pale violet borders (`#E9D5FF` for default boundaries and `#DDD6FE` for interactive row/cell separators and column outlines).\n\n## Typography\n\nThe typography pairing contrasts the literary heritage of Latin American publishing with pragmatic desktop interface utility.\n\n- **Headings (Literata)**: Chosen for its warm, humanist proportions and mechanical sturdiness designed specifically for intensive reading. It provides bookstore managers with an authentic editorial feel on screen headers, book titles, author credits, and sectional overviews.\n- **Body & UI (Inter)**: Handles all transactional work, inventory tables, form fields, inputs, and operational labels. Inter’s tall x-height and neutral geometry ensure maximum legibility when scanning ISBNs, price points in Argentine Pesos (ARS$), SKU numbers, and stock counts.\n- **Numbers & Data Cells**: Numeric readouts in data grids must employ tabular figures (`tnum`) and slashed zeros to prevent columnar misalignment during rapid audits.\n\n## Layout & Spacing\n\nThis design system uses a desktop-first fluid layout optimized for screen resolutions from 1280px to 4K displays.\n\n- **Grid Architecture**: Workspaces operate on a persistent 3-tier desktop layout: a fixed 240px utility navigation sidebar, a dynamic contextual panel (collapsible filters or side drawer, 320px–380px), and an elastic main workspace canvas centered on a 12-column sub-grid with `1rem` gutters.\n- **Workspace Density**: Spacing adheres strictly to an 8px base grid, dialed down to 4px sub-increments for compact data forms. Vertical cell spacing in bulk inventory tables defaults to `0.5rem` (`space-sm`) top-and-bottom padding for rapid scanning, with a generous mode (`space-md`) configurable for receipt verification.\n- **Form Rhythm**: Input groups utilize `space-md` gaps between fields, with section chunks partitioned by `space-xl`. Visual grouping relies on structural margins rather than excessive borders or decorative boxes.\n\n## Elevation & Depth\n\nVisual hierarchy uses tonal surface layering combined with whisper-thin borders and restrained ambient shadows. This prevents interface fatigue in high-information environments.\n\n- **Canvas Base (`#F6F3FC`)**: The ground layer upon which all application structures rest.\n- **Surface Level 1 (`#FFFFFF`)**: Primary cards, full-width data grids, and workspace sheets. Outlined with a 1px border of `#E9D5FF` and a soft ambient shadow: `0 1px 3px 0 rgba(46, 16, 101, 0.04), 0 1px 2px -1px rgba(46, 16, 101, 0.04)`.\n- **Surface Level 2 (Elevated Drawers & Flyouts)**: Quick-edit side panels, autocomplete menus, and filter dropdowns. Bordered with `#DDD6FE` and lifted by `0 10px 15px -3px rgba(46, 16, 101, 0.08), 0 4px 6px -4px rgba(46, 16, 101, 0.04)`.\n- **Surface Level 3 (Modal Dialogs & Critical Alerts)**: Rest on an atmospheric overlay (`rgba(30, 27, 75, 0.45)` with a 2px backdrop blur) and cast a structured, wide shadow: `0 20px 25px -5px rgba(46, 16, 101, 0.12), 0 8px 10px -6px rgba(46, 16, 101, 0.08)`.\n\n## Shapes\n\nThe system implements a refined, soft curvature (`0.25rem` / `4px` base radius) that reflects industrial desktop software rather than mobile-consumer styles.\n\n- **Inputs, Buttons, and Chips**: Set to standard `4px` corner radii. This preserves maximum pixel area for readable text inside tight data fields and maintains clean vertical alignment down straight form columns.\n- **Cards, Table Shells, and Modals**: Employ `rounded-lg` (`0.5rem` / `8px`), offering gentle boundary definition without softening the architectural feel of dense data displays.\n- **Status Pills & Count Badges**: Can utilize fully rounded caps (`9999px`) to immediately differentiate metadata tokens from clickable interactive triggers.\n\n## Components\n\n### Buttons\n- **Primary**: Solid `#6D28D9` fill, white Inter Medium text, 4px border radius. Hover: `#5B21B6`. Active: `#4C1D95`. Focus ring: 2px offset with `#DDD6FE` and 2px solid `#6D28D9`.\n- **Secondary**: `#FFFFFF` background, `#6D28D9` text, 1px border of `#DDD6FE`. Hover: `#F6F3FC`.\n- **Tertiary/Ghost**: Transparent fill, `#2E1065` text. Hover: `#F6F3FC`.\n- **Destructive**: `#DC2626` fill or outline for irrevocable operations like deleting title records.\n\n### Form Controls & Inputs\n- **Text Inputs**: `#FFFFFF` background with 1px `#DDD6FE` border, 36px standard desktop height, `8px 12px` padding, `#1E1B4B` text, and `#7C6F93` placeholder. Focus state transitions border to `#6D28D9` with a subtle `0 0 0 3px rgba(109, 40, 217, 0.12)` halo.\n- **Numeric & Barcode Inputs**: Right-aligned currency inputs with prefixed ARS$ markers; barcode fields integrate a subtle scanner icon button within the right trailing slot.\n- **Checkboxes & Radios**: 16px squares with 3px radius. Unchecked: 1.5px border of `#DDD6FE` on white. Checked: solid `#6D28D9` with white checkmark.\n\n### Inventory Data Tables\n- **Header Row**: `#F6F3FC` background, 32px height, 1px bottom border `#DDD6FE`. Column headers use `label-sm` in `#2E1065`, uppercase, with subtle sort chevrons.\n- **Data Rows**: `#FFFFFF` background, 40px default height, separated by 1px bottom border `#F3E8FF`. Hover state: `#FAF8FE`. Selected row: `#F3E8FF` tint with a 2px vertical indicator in `#6D28D9` on the leading cell edge.\n- **Alignment**: Text left-aligned; quantities, ISBNs, and prices strictly right-aligned with monospace/tabular numeric figures.\n\n### Status Chips & Badges\n- **In Stock / Sync Complete**: `#ECFEFF` fill, `#0891B2` border and text (`label-sm`).\n- **Low Stock / Critical**: `#FFF1F2` fill, `#BE123C` border and text.\n- **Special Order / Consignment**: `#FDF4FF` fill, `#C026D3` border and text.\n- **Archive / Neutral**: `#F3F4F6` fill, `#4B5563` border and text.\n\n### Cards & Container Panels\n- White background, 1px `#E9D5FF` perimeter border, 8px radius. Card headers separate book metadata into clear visual zones using clean `#F6F3FC` sub-bars when demarcating publisher metadata from warehouse physical stocking locations.",
+                    "font": "LITERATA",
+                    "headlineFont": "LITERATA",
+                    "headlineFontFamily": "Literata",
+                    "labelFont": "INTER",
+                    "labelFontFamily": "Inter",
+                    "namedColors": {
+                      "background": "#fef7ff",
+                      "error": "#ba1a1a",
+                      "error_container": "#ffdad6",
+                      "inverse_on_surface": "#f6edff",
+                      "inverse_primary": "#d3bbff",
+                      "inverse_surface": "#391e70",
+                      "on_background": "#24005b",
+                      "on_error": "#ffffff",
+                      "on_error_container": "#93000a",
+                      "on_primary": "#ffffff",
+                      "on_primary_container": "#dac5ff",
+                      "on_primary_fixed": "#250059",
+                      "on_primary_fixed_variant": "#5b00c5",
+                      "on_secondary": "#ffffff",
+                      "on_secondary_container": "#5c0068",
+                      "on_secondary_fixed": "#36003d",
+                      "on_secondary_fixed_variant": "#7d008c",
+                      "on_surface": "#24005b",
+                      "on_surface_variant": "#4a4455",
+                      "on_tertiary": "#ffffff",
+                      "on_tertiary_container": "#75dbff",
+                      "on_tertiary_fixed": "#001f28",
+                      "on_tertiary_fixed_variant": "#004e61",
+                      "outline": "#7b7486",
+                      "outline_variant": "#ccc3d7",
+                      "primary": "#5300b7",
+                      "primary_container": "#6d28d9",
+                      "primary_fixed": "#ebddff",
+                      "primary_fixed_dim": "#d3bbff",
+                      "secondary": "#a400b7",
+                      "secondary_container": "#ef5aff",
+                      "secondary_fixed": "#ffd6fb",
+                      "secondary_fixed_dim": "#fda9ff",
+                      "surface": "#fef7ff",
+                      "surface_bright": "#fef7ff",
+                      "surface_container": "#f4eaff",
+                      "surface_container_high": "#efe4ff",
+                      "surface_container_highest": "#eaddff",
+                      "surface_container_low": "#f9f1ff",
+                      "surface_container_lowest": "#ffffff",
+                      "surface_dim": "#e2d3ff",
+                      "surface_tint": "#7331df",
+                      "surface_variant": "#eaddff",
+                      "tertiary": "#004759",
+                      "tertiary_container": "#006077",
+                      "tertiary_fixed": "#b7eaff",
+                      "tertiary_fixed_dim": "#6cd3f7"
+                    },
+                    "overrideNeutralColor": "#2e1065",
+                    "overridePrimaryColor": "#6d28d9",
+                    "overrideSecondaryColor": "#c026d3",
+                    "overrideTertiaryColor": "#0891b2",
+                    "roundness": "ROUND_FOUR",
+                    "spacing": {
+                      "gutter": "1rem",
+                      "gutter-compact": "0.5rem",
+                      "margin": "1.5rem",
+                      "margin-panel": "1rem",
+                      "space-lg": "1.25rem",
+                      "space-md": "0.75rem",
+                      "space-sm": "0.5rem",
+                      "space-xl": "2rem",
+                      "space-xs": "0.25rem"
+                    },
+                    "spacingScale": 2,
+                    "typography": {
+                      "body-lg": {
+                        "fontFamily": "Inter",
+                        "fontSize": "15px",
+                        "fontWeight": "400",
+                        "letterSpacing": "-0.01em",
+                        "lineHeight": "22px"
+                      },
+                      "body-md": {
+                        "fontFamily": "Inter",
+                        "fontSize": "13px",
+                        "fontWeight": "400",
+                        "letterSpacing": "0em",
+                        "lineHeight": "18px"
+                      },
+                      "body-sm": {
+                        "fontFamily": "Inter",
+                        "fontSize": "12px",
+                        "fontWeight": "400",
+                        "letterSpacing": "0.01em",
+                        "lineHeight": "16px"
+                      },
+                      "code-table": {
+                        "fontFamily": "Inter",
+                        "fontSize": "12px",
+                        "fontWeight": "400",
+                        "letterSpacing": "-0.02em",
+                        "lineHeight": "16px"
+                      },
+                      "display": {
+                        "fontFamily": "Literata",
+                        "fontSize": "32px",
+                        "fontWeight": "600",
+                        "letterSpacing": "-0.02em",
+                        "lineHeight": "40px"
+                      },
+                      "headline-lg": {
+                        "fontFamily": "Literata",
+                        "fontSize": "24px",
+                        "fontWeight": "600",
+                        "letterSpacing": "-0.015em",
+                        "lineHeight": "32px"
+                      },
+                      "headline-md": {
+                        "fontFamily": "Literata",
+                        "fontSize": "20px",
+                        "fontWeight": "500",
+                        "letterSpacing": "-0.01em",
+                        "lineHeight": "28px"
+                      },
+                      "headline-sm": {
+                        "fontFamily": "Literata",
+                        "fontSize": "16px",
+                        "fontWeight": "600",
+                        "letterSpacing": "0em",
+                        "lineHeight": "24px"
+                      },
+                      "label-lg": {
+                        "fontFamily": "Inter",
+                        "fontSize": "13px",
+                        "fontWeight": "600",
+                        "letterSpacing": "0.01em",
+                        "lineHeight": "18px"
+                      },
+                      "label-md": {
+                        "fontFamily": "Inter",
+                        "fontSize": "12px",
+                        "fontWeight": "500",
+                        "letterSpacing": "0.02em",
+                        "lineHeight": "16px"
+                      },
+                      "label-sm": {
+                        "fontFamily": "Inter",
+                        "fontSize": "11px",
+                        "fontWeight": "600",
+                        "letterSpacing": "0.03em",
+                        "lineHeight": "14px"
+                      }
+                    }
+                  }
+                },
+                "name": "assets/66f1878ac67745bdaea737acb640031f",
+                "version": "1"
+              },
+              "deviceType": "DESKTOP",
+              "generatedBy": "HatterAgent",
+              "height": "2048",
+              "htmlCode": {
+                "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzY5Mzg3MWI4NzcyMjQxYWZiNzY5ZWJlYWE1ZjJjNGJiEgsSBxCl7s7f2Q8YAZIBJAoKcHJvamVjdF9pZBIWQhQxMzIyNzcwMDEwNjczODUwNTA5Mw&filename=&opi=96797242",
+                "mimeType": "text/html",
+                "name": "projects/13227700106738505093/files/a5c988c806dd4aa8bce44eb50e07f037"
+              },
+              "id": "47ed7f753cb84690bbc82e67b73fe890",
+              "name": "projects/13227700106738505093/screens/47ed7f753cb84690bbc82e67b73fe890",
+              "prompt": "Genera la Variante 2 de paleta cromática para CoLibri Inicio: \"Ciruela Terciopelo, Magenta Orquídea & Turquesa Joya\".\nMantener exactamente la misma estructura de Inicio: Navbar superior limpia con enlaces CoLibri, Inicio (activo con borde magenta), Libros, Administración y botón \"+ Agregar libro\". Contenedor central de logo 460x330px con img src=\"colibri2.jpg\" y marco/fallback oliva de marca (#3B4319 con texto CoLibrí) sin fotos de stock. Barra de búsqueda central tipo Google de 840px x 64px con placeholder \"Buscar por título o autor/a...\" y botón de búsqueda destacado. Cuatro filtros desplegables inferiores (Género, Subcategoría, Editorial, Estado) todos en Todos. Hint sutil inferior \"Buscá un título o autor para ver los resultados.\" Footer minimalista \"CoLibri · Librería\". Sin tabla ni inventario visible.\nPaleta cromática Variante 2:\n- Fondo general: Ciruela intenso y morado real con transiciones aterciopeladas (#38104A a #4F1668 a #240A31) con tenue brillo magenta difuso en el fondo.\n- Superficie del buscador e inputs: Fondo lila pálido empolvado (#F7F0FB con sutil relieve y borde #E4D0F0) que garantiza contraste perfecto para lectura prolongada sin encandilar con blanco puro.\n- Botón principal / primario: Magenta intenso aterciopelado (#A21CAF / #9333EA) con texto blanco puro.\n- Acento Turquesa: Detalles activos, selector hover o pill indicadora en turquesa mineral (#0D9488 / #14B8A6), generando una tríada cromática sofisticada (Ciruela - Magenta - Turquesa) que dialoga armónicamente con la base oliva amarillo del logo.\n- Texto principal: Blanco (#FFFFFF) sobre fondo oscuro; violeta ciruela profundo (#2A0E38) en campos de entrada y dropdowns.\nResultado visual impecable, refinado y confortable para software de librería.",
+              "screenMetadata": {
+                "agentType": "PRO_AGENT",
+                "status": "COMPLETE"
+              },
+              "screenType": "DESIGN",
+              "screenshot": {
+                "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1UC35QWABCwXkjkLTDs9g_HvrNBvU47U4w9b_whmbCsQmRm4sY4_tSQyL_wWWN1OvVoEqP47coW5-dn3-OM1asGCJHXMpp9vsRTENm8ddJIfIsLbzBtqSj6eziSvG82qQAzBegy9xb_wmPLP2SlAqMNHGivJbgCp3S-ECE9rL-Nj-aYGCnoD4K4r2Mhj4tTuwVXSFqCICgOO6QbtW2B9Vbcj4MZDlnKLy1J9OK-0wyVrcmIzJMJ873wWwL1",
+                "name": "projects/13227700106738505093/files/3b26a72209b648858354439d9c4e671b"
+              },
+              "theme": {
+                "bodyFont": "INTER",
+                "bodyFontFamily": "Inter",
+                "colorMode": "LIGHT",
+                "colorVariant": "FIDELITY",
+                "customColor": "#6d28d9",
+                "font": "LITERATA",
+                "headlineFont": "LITERATA",
+                "headlineFontFamily": "Literata",
+                "labelFont": "INTER",
+                "labelFontFamily": "Inter",
+                "namedColors": {
+                  "background": "#fef7ff",
+                  "error": "#ba1a1a",
+                  "error_container": "#ffdad6",
+                  "inverse_on_surface": "#f6edff",
+                  "inverse_primary": "#d3bbff",
+                  "inverse_surface": "#391e70",
+                  "on_background": "#24005b",
+                  "on_error": "#ffffff",
+                  "on_error_container": "#93000a",
+                  "on_primary": "#ffffff",
+                  "on_primary_container": "#dac5ff",
+                  "on_primary_fixed": "#250059",
+                  "on_primary_fixed_variant": "#5b00c5",
+                  "on_secondary": "#ffffff",
+                  "on_secondary_container": "#5c0068",
+                  "on_secondary_fixed": "#36003d",
+                  "on_secondary_fixed_variant": "#7d008c",
+                  "on_surface": "#24005b",
+                  "on_surface_variant": "#4a4455",
+                  "on_tertiary": "#ffffff",
+                  "on_tertiary_container": "#75dbff",
+                  "on_tertiary_fixed": "#001f28",
+                  "on_tertiary_fixed_variant": "#004e61",
+                  "outline": "#7b7486",
+                  "outline_variant": "#ccc3d7",
+                  "primary": "#5300b7",
+                  "primary_container": "#6d28d9",
+                  "primary_fixed": "#ebddff",
+                  "primary_fixed_dim": "#d3bbff",
+                  "secondary": "#a400b7",
+                  "secondary_container": "#ef5aff",
+                  "secondary_fixed": "#ffd6fb",
+                  "secondary_fixed_dim": "#fda9ff",
+                  "surface": "#fef7ff",
+                  "surface_bright": "#fef7ff",
+                  "surface_container": "#f4eaff",
+                  "surface_container_high": "#efe4ff",
+                  "surface_container_highest": "#eaddff",
+                  "surface_container_low": "#f9f1ff",
+                  "surface_container_lowest": "#ffffff",
+                  "surface_dim": "#e2d3ff",
+                  "surface_tint": "#7331df",
+                  "surface_variant": "#eaddff",
+                  "tertiary": "#004759",
+                  "tertiary_container": "#006077",
+                  "tertiary_fixed": "#b7eaff",
+                  "tertiary_fixed_dim": "#6cd3f7"
+                },
+                "overrideNeutralColor": "#2e1065",
+                "overridePrimaryColor": "#6d28d9",
+                "overrideSecondaryColor": "#c026d3",
+                "overrideTertiaryColor": "#0891b2",
+                "roundness": "ROUND_FOUR",
+                "spacing": {
+                  "gutter": "1rem",
+                  "gutter-compact": "0.5rem",
+                  "margin": "1.5rem",
+                  "margin-panel": "1rem",
+                  "space-lg": "1.25rem",
+                  "space-md": "0.75rem",
+                  "space-sm": "0.5rem",
+                  "space-xl": "2rem",
+                  "space-xs": "0.25rem"
+                },
+                "spacingScale": 2,
+                "typography": {
+                  "body-lg": {
+                    "fontFamily": "Inter",
+                    "fontSize": "15px",
+                    "fontWeight": "400",
+                    "letterSpacing": "-0.01em",
+                    "lineHeight": "22px"
+                  },
+                  "body-md": {
+                    "fontFamily": "Inter",
+                    "fontSize": "13px",
+                    "fontWeight": "400",
+                    "letterSpacing": "0em",
+                    "lineHeight": "18px"
+                  },
+                  "body-sm": {
+                    "fontFamily": "Inter",
+                    "fontSize": "12px",
+                    "fontWeight": "400",
+                    "letterSpacing": "0.01em",
+                    "lineHeight": "16px"
+                  },
+                  "code-table": {
+                    "fontFamily": "Inter",
+                    "fontSize": "12px",
+                    "fontWeight": "400",
+                    "letterSpacing": "-0.02em",
+                    "lineHeight": "16px"
+                  },
+                  "display": {
+                    "fontFamily": "Literata",
+                    "fontSize": "32px",
+                    "fontWeight": "600",
+                    "letterSpacing": "-0.02em",
+                    "lineHeight": "40px"
+                  },
+                  "headline-lg": {
+                    "fontFamily": "Literata",
+                    "fontSize": "24px",
+                    "fontWeight": "600",
+                    "letterSpacing": "-0.015em",
+                    "lineHeight": "32px"
+                  },
+                  "headline-md": {
+                    "fontFamily": "Literata",
+                    "fontSize": "20px",
+                    "fontWeight": "500",
+                    "letterSpacing": "-0.01em",
+                    "lineHeight": "28px"
+                  },
+                  "headline-sm": {
+                    "fontFamily": "Literata",
+                    "fontSize": "16px",
+                    "fontWeight": "600",
+                    "letterSpacing": "0em",
+                    "lineHeight": "24px"
+                  },
+                  "label-lg": {
+                    "fontFamily": "Inter",
+                    "fontSize": "13px",
+                    "fontWeight": "600",
+                    "letterSpacing": "0.01em",
+                    "lineHeight": "18px"
+                  },
+                  "label-md": {
+                    "fontFamily": "Inter",
+                    "fontSize": "12px",
+                    "fontWeight": "500",
+                    "letterSpacing": "0.02em",
+                    "lineHeight": "16px"
+                  },
+                  "label-sm": {
+                    "fontFamily": "Inter",
+                    "fontSize": "11px",
+                    "fontWeight": "600",
+                    "letterSpacing": "0.03em",
+                    "lineHeight": "14px"
+                  }
+                }
+              },
+              "title": "CoLibri - Inicio (Variante 2: Ciruela & Magenta)",
+              "width": "2560"
+            }
+          ],
+          "theme": {}
+        }
+      },
+      {
+        "text": "Se han generado exactamente **2 variantes de paleta cromática** sobre la pantalla de **Inicio** de **CoLibri**, preservando con máxima fidelidad la estructura, el contenido, la composición centrada de búsqueda y la integración del logotipo original (`colibri2.jpg` sobre fondo oliva de resguardo, sin fotografías ni tablas).\n\nA continuación se detalla la propuesta cromática con sus valores **HEX** recomendados y sus funciones, junto con su proyección coherente para las pantallas de *Libros (Resultados)*, *Nuevo libro (Formulario de alta)* y *Administración*:\n\n---\n\n### **Propuesta 1: «Amatista Noche & Cian Glaciar»** (Pantalla: `CoLibri - Inicio (Variante 1)`)\n*Una atmósfera profunda, fría y serena inspirada en violetas azulados nocturnos, con acentos cian/turquesa de alta precisión y luminosidad.*\n\n* **Valores HEX y funciones:**\n  * **Fondo general:** `#1E1035` degradando suavemente a `#291547` y base `#160B29`. Genera profundidad espacial envolvente sin sensación pesada ni deslumbramiento.\n  * **Superficie de tarjetas y barra de búsqueda:** `#F4EDFC` (lavanda cristalina suave con borde `#D8C2F2`). Ofrece descanso visual, nitidez de lectura y excelente contraste respecto al fondo oscuro.\n  * **Texto principal:** `#FFFFFF` sobre fondos oscuros; `#231438` (amatista oscuro profundo) dentro de inputs, tablas y tarjetas.\n  * **Texto secundario:** `#D6C7EE` (lavanda claro) en áreas oscuras; `#685980` en placeholders y subtítulos de tarjetas.\n  * **Botón principal (CTA):** `#0891B2` / `#06B6D4` (cian glaciar / turquesa brillante, hover `#0E7490`). Aporta un acento nítido, contemporáneo y limpio que equilibra el fondo violeta.\n  * **Acento Turquesa:** `#22D3EE` (para badges de stock, links activos y estados *Disponible*).\n  * **Acento Magenta:** `#C026D3` (para avisos sutiles, detalles secundarios de selección o focus rings).\n\n* **Integración con el logo oliva (`#3D4514` / `#D4DF96`):**\n  El contraste complementario entre el violeta azulado frío y el tono oliva dorado del colibrí genera un maridaje orgánico y distinguido, evitando fricciones cromáticas.\n\n* **Aplicación sugerida en otras pantallas:**\n  * **Libros (Resultados):** Fondo `#1E1035`, tabla en contenedor `#F4EDFC` con filas en blanco y lavanda sutil, badges de disponibilidad en turquesa `#0891B2`, botones de edición en amatista `#231438`.\n  * **Nuevo libro (Alta):** Formulario en panel `#F4EDFC`, labels en `#231438`, botón de guardado en cian/turquesa `#0891B2`.\n  * **Administración:** Pestañas activas y botones de acción en turquesa `#0891B2`, con badges numéricos en lila/magenta `#C026D3`.\n\n---\n\n### **Propuesta 2: «Ciruela Terciopelo & Magenta Orquídea con Turquesa Joya»** (Pantalla: `CoLibri - Inicio (Variante 2)`)\n*Una paleta más cálida dentro de la gama fría: morados de gran riqueza tonal, notas ciruela y fucsia/magenta eléctrico compensadas por toques turquesa mineral.*\n\n* **Valores HEX y funciones:**\n  * **Fondo general:** `#341147` transicionando a ciruela aterciopelado `#4A1564` y fondo base `#230B30`. Aporta calidez nocturna y carácter editorial sofisticado.\n  * **Superficie de tarjetas y barra de búsqueda:** `#F7F0FB` (lila empolvado luminoso con contorno `#E4D0F0`).\n  * **Texto principal:** `#FFFFFF` sobre superficies oscuras; `#280E36` (ciruela profundo casi negro) en campos y tarjetas.\n  * **Texto secundario:** `#E0CEEC` en fondos oscuros; `#71557F` en textos de apoyo e instrucciones.\n  * **Botón principal (CTA):** `#A21CAF` / `#9333EA` (magenta orquídea intenso con texto blanco `#FFFFFF`).\n  * **Acento Turquesa:** `#0D9488` / `#14B8A6` (turquesa esmeralda / cerceta para selectores, pills de estado y badges positivos).\n  * **Acento Magenta:** `#E879F9` / `#C026D3` (indicador de navegación activa, bordes de foco y destacados clave).\n\n* **Integración con el logo oliva (`#3D4514` / `#D4DF96`):**\n  Al estar el ciruela y el oliva en una relación tonal análoga-complementaria (tonos terrosos y pigmentos densos), el logo se funde con naturalidad dentro de la interfaz.\n\n* **Aplicación sugerida en otras pantallas:**\n  * **Libros (Resultados):** Tarjeta contenedora `#F7F0FB`, headers de tabla con sutil tinte `#ECE0F5`, botones de acción en magenta `#A21CAF` y pills de estado en turquesa `#0D9488`.\n  * **Nuevo libro (Alta):** Botón *Guardar libro* en `#A21CAF`, campos en fondo blanco/lila tenue con focus ring en turquesa `#14B8A6`.\n  * **Administración:** Pestañas en ciruela suave `#EDE2F5`, pestaña activa y botón *+ Nueva editorial* en turquesa `#0D9488` para una lectura jerárquica clara.\n\n---\n\nAmbas variantes se encuentran publicadas en el Canvas listas para tu revisión comparativa. Quedan intactas las pantallas previas del proyecto para que puedas elegir la dirección cromática que mejor represente a CoLibri."
+      },
+      {
+        "suggestion": "Aplicar la paleta de la Variante 1 (Amatista & Cian) a Libros y Administración"
+      },
+      {
+        "suggestion": "Aplicar la paleta de la Variante 2 (Ciruela & Magenta) a todas las pantallas"
+      },
+      {
+        "suggestion": "Ajustar los niveles de contraste o saturación de una de las variantes"
+      },
+      {
+        "sessionEvent": {
+          "actor": "Agent",
+          "eventId": "7bf2ce30",
+          "eventPayload": {
+            "dom_operations": [
+              {
+                "action": "replace_content",
+                "attr_name": null,
+                "attr_value": null,
+                "class_name": null,
+                "content": "<img src=\"colibri2.jpg\" alt=\"CoLibri\" class=\"w-full h-full object-cover\" style=\"object-position: 50% 52%;\" onerror=\"this.onerror=null; this.parentElement.innerHTML='<div class=\\'w-full h-full bg-[#3d4514] flex flex-col items-center justify-center p-8 rounded-2xl border border-[#55601c]/40 text-[#d4df96]\\'><div class=\\'text-5xl font-serif font-bold tracking-tight mb-2\\'>Co<br>Librí</div><div class=\\'text-xs tracking-widest uppercase opacity-75\\'>Librería Independiente</div></div>';\" />",
+                "selector": "main div.h-\\[330px\\]",
+                "selector_strategy": "Target the main logo container which is uniquely identified by max-w-[92vw] and h-[330px] under main.",
+                "target_element_goal": "Reemplazar el contenido del contenedor central del logo con la etiqueta de imagen requerida apuntando a colibri2.jpg con su respaldo correspondiente.",
+                "verified_html_context": "<div class=\"w-[460px] max-w-[92vw] h-[330px] rounded-[24px] overflow-hidden shadow-[0_20px_45px_-12px_rgba(20,4,28,0.75)] ring-2 ring-[#3b4319]/80 bg-[#3b4319] relative flex-shrink-0 transition-transform duration-300 hover:scale-[1.01] flex items-center justify-center\">"
+              }
+            ],
+            "payload_type": "DomOperationEvent",
+            "screen_id": "SCREEN_48"
+          },
+          "eventTime": "2026-10-09T20:22:52.839763952Z",
+          "eventType": "project.file_update"
+        }
+      },
+      {
+        "sessionEvent": {
+          "actor": "Agent",
+          "eventId": "17d3e112",
+          "eventPayload": {
+            "dom_operations": [
+              {
+                "action": "replace_element",
+                "attr_name": null,
+                "attr_value": null,
+                "class_name": null,
+                "content": "<img src=\"colibri2.jpg\" alt=\"CoLibri\" class=\"w-full h-full object-cover\" style=\"object-position: 50% 52%;\" onerror=\"this.onerror=null; this.parentElement.innerHTML='<div class=\\'w-full h-full bg-[#3d4514] flex flex-col items-center justify-center p-8 rounded-2xl border border-[#55601c]/40 text-[#d4df96]\\'><div class=\\'text-5xl font-serif font-bold tracking-tight mb-2\\'>Co<br>Librí</div><div class=\\'text-xs tracking-widest uppercase opacity-75\\'>Librería Independiente</div></div>';\" />",
+                "selector": "div.w-\\[460px\\] > img",
+                "selector_strategy": "El contenedor central del logo tiene la clase única w-[460px] y contiene la etiqueta img como primer hijo. Seleccionamos el elemento img dentro de ese contenedor.",
+                "target_element_goal": "Reemplazar la imagen fotográfica actual del colibrí por la referencia requerida a 'colibri2.jpg' con sus atributos, estilo inline y fallback onerror específico.",
+                "verified_html_context": "<img alt=\"CoLibri\" class=\"absolute inset-0 w-full h-full object-cover z-10\" onerror=\"this.style.display='none'\" src=\"https://lh3.googleusercontent.com/aida-public/AB6AXuBmoxTyd_uhD8ul0DByL79TXAvcQsIKwRptJwZCGC-9r7C80sdXKRtIrpmEGfbiz9o7Ojt03D673sswzv-05PCM1rm8IOXNDhrfOlPFcp76OjftSgZG25h-y71CWoHIbm2tiP7WzNd3fcf6QFPK1gN781L06W8weSIlsc2JbNV1ar-2UhKLMpmQGUGGPD_T56Gr6KsuxL3CODunP5DUWy_h3ep9zYNxw5rjw0uuhQ2MD2Ns94lZNEZAxuMQ4TygDC5q_qkcOSxZM4-V\"/>"
+              },
+              {
+                "action": "remove_element",
+                "attr_name": null,
+                "attr_value": null,
+                "class_name": null,
+                "content": null,
+                "selector": "div.w-\\[460px\\] > div",
+                "selector_strategy": "Seleccionar el div secundario de fallback dentro de div.w-[460px] que quedó detrás.",
+                "target_element_goal": "Eliminar el div de fallback estilizado anterior para que el contenedor use el fallback provisto directamente en el onerror del img y mantenga el fondo oliva oscuro #3d4514 y dimensiones 460px x 330px.",
+                "verified_html_context": "<div class=\"relative z-0 flex flex-col items-center justify-center text-center p-8 select-none\">"
+              }
+            ],
+            "payload_type": "DomOperationEvent",
+            "screen_id": "SCREEN_50"
+          },
+          "eventTime": "2026-10-09T20:22:52.839769020Z",
+          "eventType": "project.file_update"
+        }
+      }
+    ],
+    "projectId": "13227700106738505093",
+    "sessionId": "14332794445681768711"
+  }
+}

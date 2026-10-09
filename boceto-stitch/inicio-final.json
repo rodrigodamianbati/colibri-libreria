@@ -1,0 +1,24 @@
+{
+  "content": [
+    {
+      "text": "{\"name\":\"projects/13227700106738505093/screens/05099592fd3c4934966637d17fc05b43\",\"title\":\"CoLibri - Inicio / Buscar Libros (Ajustado)\",\"screenshot\":{\"name\":\"projects/13227700106738505093/files/6a1d4101271b4a358e9359e22c05c703\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1UkTz99nGqxJsGxycAXWGL8X9J5xKQMgWrAxQCRBUBdYSlbhA8pC9TKSA_flOyXENfv_1dvEVSeAL8lDfAKbDyuenQqyl7miVCBZehhR6KwlV9TwosNycAUXyv1BL4vjS9diZoCeA2wSG6KyDwvMA_R3fu7TcJ0kE4n5D_h0MEZkqCTaqeSgvxDez6hZeXM_epZ-1HAiqdthyclEi8OsovLLhOStKjuXOcfFbjvTR7noWmwapvOjZWYbiI\"},\"htmlCode\":{\"name\":\"projects/13227700106738505093/files/757ddc6dc685415e81593d395d23d35d\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzZhOWUwODE0MDliYTQwOTg5OTY3ODc5NDE4YmNhNGRmEgsSBxCl7s7f2Q8YAZIBJAoKcHJvamVjdF9pZBIWQhQxMzIyNzcwMDEwNjczODUwNTA5Mw&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2048\",\"deviceType\":\"DESKTOP\"}",
+      "type": "text"
+    }
+  ],
+  "structuredContent": {
+    "deviceType": "DESKTOP",
+    "height": "2048",
+    "htmlCode": {
+      "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzZhOWUwODE0MDliYTQwOTg5OTY3ODc5NDE4YmNhNGRmEgsSBxCl7s7f2Q8YAZIBJAoKcHJvamVjdF9pZBIWQhQxMzIyNzcwMDEwNjczODUwNTA5Mw&filename=&opi=96797242",
+      "mimeType": "text/html",
+      "name": "projects/13227700106738505093/files/757ddc6dc685415e81593d395d23d35d"
+    },
+    "name": "projects/13227700106738505093/screens/05099592fd3c4934966637d17fc05b43",
+    "screenshot": {
+      "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1UkTz99nGqxJsGxycAXWGL8X9J5xKQMgWrAxQCRBUBdYSlbhA8pC9TKSA_flOyXENfv_1dvEVSeAL8lDfAKbDyuenQqyl7miVCBZehhR6KwlV9TwosNycAUXyv1BL4vjS9diZoCeA2wSG6KyDwvMA_R3fu7TcJ0kE4n5D_h0MEZkqCTaqeSgvxDez6hZeXM_epZ-1HAiqdthyclEi8OsovLLhOStKjuXOcfFbjvTR7noWmwapvOjZWYbiI",
+      "name": "projects/13227700106738505093/files/6a1d4101271b4a358e9359e22c05c703"
+    },
+    "title": "CoLibri - Inicio / Buscar Libros (Ajustado)",
+    "width": "2560"
+  }
+}

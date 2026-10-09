@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CoLibri - Administración / Editoriales</title>
+<!-- Google Fonts: Inter & Literata -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "surface-variant": "#eaddff",
+            "tertiary-fixed-dim": "#6cd3f7",
+            "primary-fixed-dim": "#d3bbff",
+            "on-background": "#24005b",
+            "tertiary-container": "#006077",
+            "on-tertiary-fixed": "#001f28",
+            "surface-tint": "#7331df",
+            "error": "#ba1a1a",
+            "secondary-fixed-dim": "#fda9ff",
+            "secondary": "#a400b7",
+            "on-surface-variant": "#4a4455",
+            "on-tertiary": "#ffffff",
+            "on-primary-fixed": "#250059",
+            "secondary-container": "#ef5aff",
+            "surface-container-highest": "#eaddff",
+            "surface-container-low": "#f9f1ff",
+            "primary-fixed": "#ebddff",
+            "outline": "#7b7486",
+            "surface-container-high": "#efe4ff",
+            "surface-dim": "#e2d3ff",
+            "on-primary-container": "#dac5ff",
+            "on-error": "#ffffff",
+            "on-tertiary-container": "#75dbff",
+            "surface-bright": "#fef7ff",
+            "on-primary-fixed-variant": "#5b00c5",
+            "surface-container-lowest": "#ffffff",
+            "surface-container": "#f4eaff",
+            "on-tertiary-fixed-variant": "#004e61",
+            "background": "#fef7ff",
+            "inverse-on-surface": "#f6edff",
+            "on-error-container": "#93000a",
+            "inverse-primary": "#d3bbff",
+            "surface": "#fef7ff",
+            "on-secondary-fixed-variant": "#7d008c",
+            "inverse-surface": "#391e70",
+            "outline-variant": "#ccc3d7",
+            "on-surface": "#24005b",
+            "tertiary": "#004759",
+            "on-secondary-fixed": "#36003d",
+            "on-secondary-container": "#5c0068",
+            "on-secondary": "#ffffff",
+            "error-container": "#ffdad6",
+            "tertiary-fixed": "#b7eaff",
+            "primary": "#5300b7",
+            "primary-container": "#6d28d9",
+            "on-primary": "#ffffff",
+            "secondary-fixed": "#ffd6fb"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "gutter-compact": "0.5rem",
+            "space-md": "0.75rem",
+            "margin-panel": "1rem",
+            "space-lg": "1.25rem",
+            "margin": "1.5rem",
+            "space-xs": "0.25rem",
+            "space-xl": "2rem",
+            "space-sm": "0.5rem",
+            "gutter": "1rem"
+          },
+          "fontFamily": {
+            "label-md": ["Inter"],
+            "body-sm": ["Inter"],
+            "headline-lg": ["Literata"],
+            "code-table": ["Inter"],
+            "label-lg": ["Inter"],
+            "headline-md": ["Literata"],
+            "display": ["Literata"],
+            "label-sm": ["Inter"],
+            "headline-sm": ["Literata"],
+            "body-md": ["Inter"],
+            "body-lg": ["Inter"]
+          },
+          "fontSize": {
+            "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500" }],
+            "body-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.01em", "fontWeight": "400" }],
+            "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "600" }],
+            "code-table": ["12px", { "lineHeight": "16px", "letterSpacing": "-0.02em", "fontWeight": "400" }],
+            "label-lg": ["13px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "600" }],
+            "headline-md": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "500" }],
+            "display": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "600" }],
+            "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "600" }],
+            "headline-sm": ["16px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "600" }],
+            "body-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0em", "fontWeight": "400" }],
+            "body-lg": ["15px", { "lineHeight": "22px", "letterSpacing": "-0.01em", "fontWeight": "400" }]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 20;
+      vertical-align: middle;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    body {
+      background-color: #f2f7f9;
+      color: #24005b;
+      -webkit-font-smoothing: antialiased;
+    }
+    .custom-scroll::-webkit-scrollbar {
+      width: 5px;
+      height: 5px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb {
+      background: #ccc3d7;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body class="min-h-full flex flex-col font-body-md text-on-surface antialiased bg-[#f2f7f9]">
+<!-- TopNavBar (Shared Component from JSON) -->
+<header class="docked full-width top-0 sticky z-40 bg-surface-container-lowest border-b border-surface-container-highest shadow-sm">
+<div class="flex items-center justify-between px-margin w-full h-14 bg-surface-container-lowest border-b border-surface-container-highest">
+<!-- Left: Brand Logo & Navigation Links -->
+<div class="flex items-center space-x-8">
+<a class="flex items-center gap-2 group" href="#">
+<span class="font-display text-headline-lg text-primary tracking-tight font-semibold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[26px]">local_library</span>
+            CoLibri
+          </span>
+<span class="text-[10px] uppercase tracking-wider font-semibold px-1.5 py-0.5 rounded bg-primary-fixed text-primary ml-1">Editorial</span>
+</a>
+<!-- Navigation Links (Administración is Active) -->
+<nav class="hidden md:flex items-center space-x-6 h-14 pt-0.5">
+<a class="text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface hover:bg-surface-container-low transition-colors duration-150 px-2 py-1 rounded-sm" href="#">
+            Inicio
+          </a>
+<a class="text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface hover:bg-surface-container-low transition-colors duration-150 px-2 py-1 rounded-sm" href="#">
+            Libros
+          </a>
+<a class="text-primary font-label-lg text-label-lg border-b-2 border-primary pb-1 active:scale-[0.98] transition-transform duration-100 flex items-center gap-1" href="#">
+            Administración
+          </a>
+</nav>
+</div>
+<!-- Right: Action Buttons & Account -->
+<div class="flex items-center space-x-3"><button class="bg-primary-container hover:bg-[#5b21b6] text-on-primary font-label-lg text-label-lg px-3.5 py-1.5 rounded-lg shadow-sm flex items-center gap-1.5 active:scale-[0.98] transition-all duration-100"><span class="material-symbols-outlined text-[18px]">add</span><span>Agregar libro</span></button></div>
+</div>
+</header>
+<!-- Page Content Area -->
+<main class="flex-1 w-full max-w-[1440px] mx-auto px-margin py-6">
+<!-- 1. Breadcrumb / Context header -->
+<div class="mb-5">
+<div class="flex items-center gap-2 text-label-md font-label-md text-on-surface-variant mb-1.5">
+<a class="inline-flex items-center gap-1 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[15px]">arrow_back</span>
+<span>Volver al catálogo</span>
+</a>
+<span class="text-outline-variant">/</span>
+<span class="text-tertiary font-medium">Configuración de inventario</span>
+</div>
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-2">
+<div>
+<h1 class="font-display text-display text-[#1e1b4b] tracking-tight">Administrar listas</h1>
+<p class="font-body-md text-body-md text-[#4a4455] mt-0.5">
+            Personalizá las opciones que usás en las fichas de tus libros.
+          </p>
+</div>
+</div>
+</div>
+<!-- 2. Category Navigation (Clean horizontal row of category tabs) -->
+<div class="border-b border-surface-container-highest bg-surface-container-lowest rounded-t-xl px-3 pt-3 shadow-sm mb-6">
+<nav aria-label="Categorías de listas" class="flex items-center space-x-1 overflow-x-auto custom-scroll pb-2.5">
+<button class="px-3.5 py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-low transition-colors whitespace-nowrap">
+          Géneros
+        </button>
+<button class="px-3.5 py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-low transition-colors whitespace-nowrap">
+          Subcategorías
+        </button>
+<!-- Editoriales ACTIVE Tab with turquoise accent #0891b2 -->
+<button class="px-3.5 py-1.5 rounded-lg font-label-md text-label-md bg-[#0891b2] text-white shadow-sm font-medium whitespace-nowrap flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">domain</span>
+<span>Editoriales</span>
+<span class="ml-1 bg-white/20 text-white text-[11px] px-1.5 py-0.2 rounded-full font-semibold">5</span>
+</button>
+<button class="px-3.5 py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-low transition-colors whitespace-nowrap">
+          Formatos
+        </button>
+<button class="px-3.5 py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-low transition-colors whitespace-nowrap">
+          Ubicaciones
+        </button>
+<button class="px-3.5 py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-low transition-colors whitespace-nowrap">
+          Estados
+        </button>
+<button class="px-3.5 py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-low transition-colors whitespace-nowrap">
+          Idiomas
+        </button>
+</nav>
+</div>
+<!-- 3. Main Content Grid (Two-column layout) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+<!-- Left / Main column: Card 'Editoriales' (Table & Search) -->
+<section class="lg:col-span-8 bg-surface-container-lowest rounded-xl border border-[#e9d5ff] shadow-sm flex flex-col overflow-hidden">
+<!-- Card Header with Search input & '+ Nueva editorial' button -->
+<div class="p-4 border-b border-[#f3e8ff] bg-white flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+<div class="flex items-center gap-2">
+<span class="w-8 h-8 rounded-lg bg-[#ecfeff] text-[#0891b2] flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">auto_stories</span>
+</span>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-[#1e1b4b]">Editoriales registradas</h2>
+<p class="font-body-sm text-body-sm text-[#4a4455]">Sellos editoriales asociados al catálogo</p>
+</div>
+</div>
+<div class="flex items-center gap-2.5">
+<!-- Search bar -->
+<div class="relative flex-1 sm:w-60">
+<span class="material-symbols-outlined absolute left-2.5 top-1/2 -translate-y-1/2 text-outline-variant text-[18px]">search</span>
+<input class="w-full h-9 pl-8 pr-3 bg-white border border-[#ddd6fe] rounded text-body-md text-[#1e1b4b] placeholder-[#7c6f93] focus:border-[#0891b2] focus:ring-1 focus:ring-[#0891b2] text-sm" placeholder="Buscar editorial..." type="text"/>
+</div>
+<!-- Button + Nueva editorial (turquoise accent) -->
+<button class="h-9 px-3 bg-[#0891b2] hover:bg-[#0e7490] text-white font-label-md text-label-md rounded flex items-center gap-1.5 shadow-sm transition-colors whitespace-nowrap">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>+ Nueva editorial</span>
+</button>
+</div>
+</div>
+<!-- Inventory Data Table -->
+<div class="overflow-x-auto flex-1">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-[#f6f3fc] border-b border-[#ddd6fe] h-8 text-[11px] font-semibold text-[#2e1065] uppercase tracking-wider">
+<th class="py-2 px-4 w-5/12" scope="col">
+<div class="flex items-center gap-1 cursor-pointer group">
+<span>NOMBRE</span>
+<span class="material-symbols-outlined text-[14px] text-outline-variant group-hover:text-primary">unfold_more</span>
+</div>
+</th>
+<th class="py-2 px-4 w-4/12" scope="col">
+<div class="flex items-center gap-1 cursor-pointer group">
+<span>LIBROS QUE LA USAN</span>
+<span class="material-symbols-outlined text-[14px] text-outline-variant group-hover:text-primary">unfold_more</span>
+</div>
+</th>
+<th class="py-2 px-4 w-3/12 text-right" scope="col">
+<span>ACCIONES</span>
+</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-[#f3e8ff] text-body-md text-[#1e1b4b]">
+<!-- Row 1: Kier -->
+<tr class="hover:bg-[#faf8fe] transition-colors group h-11">
+<td class="py-2.5 px-4 font-medium text-[#1e1b4b]">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-[#0891b2]"></span>
+<span class="font-semibold text-sm">Kier</span>
+</div>
+</td>
+<td class="py-2.5 px-4">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium bg-[#ecfeff] text-[#0891b2] border border-[#a5f3fc]">
+<span class="material-symbols-outlined text-[13px]">book_2</span>
+                    1 libro asociado
+                  </span>
+</td>
+<td class="py-2.5 px-4 text-right">
+<div class="inline-flex items-center gap-1">
+<button class="p-1 rounded text-on-surface-variant hover:text-primary hover:bg-[#f6f3fc] transition-colors" title="Editar editorial">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+<!-- Disabled / tooltip 'En uso' -->
+<button class="p-1 rounded text-outline-variant cursor-not-allowed opacity-50 relative group/btn" disabled="" title="En uso: no se puede eliminar">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+<span class="invisible group-hover/btn:visible absolute right-0 -top-7 px-1.5 py-0.5 rounded bg-[#1e1b4b] text-white text-[10px] whitespace-nowrap shadow-sm z-20">En uso</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 2: Seix Barral -->
+<tr class="hover:bg-[#faf8fe] transition-colors group h-11">
+<td class="py-2.5 px-4 font-medium text-[#1e1b4b]">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-[#0891b2]"></span>
+<span class="font-semibold text-sm">Seix Barral</span>
+</div>
+</td>
+<td class="py-2.5 px-4">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium bg-[#ecfeff] text-[#0891b2] border border-[#a5f3fc]">
+<span class="material-symbols-outlined text-[13px]">book_2</span>
+                    1 libro asociado
+                  </span>
+</td>
+<td class="py-2.5 px-4 text-right">
+<div class="inline-flex items-center gap-1">
+<button class="p-1 rounded text-on-surface-variant hover:text-primary hover:bg-[#f6f3fc] transition-colors" title="Editar editorial">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+<button class="p-1 rounded text-outline-variant cursor-not-allowed opacity-50 relative group/btn" disabled="" title="En uso: no se puede eliminar">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+<span class="invisible group-hover/btn:visible absolute right-0 -top-7 px-1.5 py-0.5 rounded bg-[#1e1b4b] text-white text-[10px] whitespace-nowrap shadow-sm z-20">En uso</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 3: Debolsillo -->
+<tr class="hover:bg-[#faf8fe] transition-colors group h-11">
+<td class="py-2.5 px-4 font-medium text-[#1e1b4b]">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-[#0891b2]"></span>
+<span class="font-semibold text-sm">Debolsillo</span>
+</div>
+</td>
+<td class="py-2.5 px-4">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium bg-[#ecfeff] text-[#0891b2] border border-[#a5f3fc]">
+<span class="material-symbols-outlined text-[13px]">book_2</span>
+                    1 libro asociado
+                  </span>
+</td>
+<td class="py-2.5 px-4 text-right">
+<div class="inline-flex items-center gap-1">
+<button class="p-1 rounded text-on-surface-variant hover:text-primary hover:bg-[#f6f3fc] transition-colors" title="Editar editorial">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+<button class="p-1 rounded text-outline-variant cursor-not-allowed opacity-50 relative group/btn" disabled="" title="En uso: no se puede eliminar">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+<span class="invisible group-hover/btn:visible absolute right-0 -top-7 px-1.5 py-0.5 rounded bg-[#1e1b4b] text-white text-[10px] whitespace-nowrap shadow-sm z-20">En uso</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 4: Tusquets -->
+<tr class="hover:bg-[#faf8fe] transition-colors group h-11">
+<td class="py-2.5 px-4 font-medium text-[#1e1b4b]">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-[#0891b2]"></span>
+<span class="font-semibold text-sm">Tusquets</span>
+</div>
+</td>
+<td class="py-2.5 px-4">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium bg-[#ecfeff] text-[#0891b2] border border-[#a5f3fc]">
+<span class="material-symbols-outlined text-[13px]">book_2</span>
+                    1 libro asociado
+                  </span>
+</td>
+<td class="py-2.5 px-4 text-right">
+<div class="inline-flex items-center gap-1">
+<button class="p-1 rounded text-on-surface-variant hover:text-primary hover:bg-[#f6f3fc] transition-colors" title="Editar editorial">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+<button class="p-1 rounded text-outline-variant cursor-not-allowed opacity-50 relative group/btn" disabled="" title="En uso: no se puede eliminar">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+<span class="invisible group-hover/btn:visible absolute right-0 -top-7 px-1.5 py-0.5 rounded bg-[#1e1b4b] text-white text-[10px] whitespace-nowrap shadow-sm z-20">En uso</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 5: Editorial de ejemplo (0 libros asociados, Eliminar habilitado) -->
+<tr class="hover:bg-[#faf8fe] transition-colors group h-11 bg-white">
+<td class="py-2.5 px-4 font-medium text-[#1e1b4b]">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-outline-variant"></span>
+<span class="font-semibold text-sm">Editorial de ejemplo</span>
+<span class="text-[10px] px-1.5 py-0.2 bg-[#f3f4f6] text-[#4b5563] rounded border border-gray-200">Sin catálogo</span>
+</div>
+</td>
+<td class="py-2.5 px-4">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium bg-[#f3f4f6] text-[#4b5563] border border-gray-200">
+<span class="material-symbols-outlined text-[13px]">remove</span>
+                    0 libros asociados
+                  </span>
+</td>
+<td class="py-2.5 px-4 text-right">
+<div class="inline-flex items-center gap-1">
+<button class="p-1 rounded text-on-surface-variant hover:text-primary hover:bg-[#f6f3fc] transition-colors" title="Editar editorial">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+<!-- Enabled / Active red action -->
+<button class="p-1 rounded text-error hover:bg-error-container hover:text-on-error-container transition-colors" title="Eliminar editorial sin uso">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+</button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Card Table Footer Note & Pagination -->
+<div class="p-3.5 bg-[#fbf9fe] border-t border-[#f3e8ff] flex flex-col sm:flex-row items-center justify-between gap-3 text-body-sm text-[#4a4455]">
+<div class="flex items-center gap-2 text-xs">
+<span class="material-symbols-outlined text-[#0891b2] text-[18px]">info</span>
+<span>Las opciones usadas por libros deben reasignarse antes de eliminarlas.</span>
+</div>
+<div class="text-xs font-medium text-[#7c6f93]">
+            Mostrando <strong class="text-[#1e1b4b]">5</strong> de <strong class="text-[#1e1b4b]">5</strong> editoriales
+          </div>
+</div>
+</section>
+<!-- Right column: Inline Form / Editor Card 'Nueva editorial' -->
+<section class="lg:col-span-4 bg-surface-container-lowest rounded-xl border border-[#e9d5ff] shadow-sm flex flex-col h-fit sticky top-20">
+<!-- Card Header -->
+<div class="p-4 border-b border-[#f3e8ff] bg-gradient-to-r from-white to-[#f4f9fb]">
+<div class="flex items-center justify-between mb-1">
+<h2 class="font-headline-sm text-headline-sm text-[#1e1b4b] flex items-center gap-2">
+<span class="material-symbols-outlined text-[#0891b2] text-[20px]">library_add</span>
+              Nueva editorial
+            </h2>
+<span class="text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded bg-[#ecfeff] text-[#0891b2] border border-[#a5f3fc]">
+              Formulario
+            </span>
+</div>
+<p class="font-body-sm text-body-sm text-[#4a4455]">
+            Agregá un sello editorial al catálogo
+          </p>
+</div>
+<!-- Form Body -->
+<div class="p-5 space-y-4">
+<div>
+<label class="block font-label-lg text-label-lg text-[#1e1b4b] mb-1.5" for="editorial-name">
+              Nombre de la editorial <span class="text-error">*</span>
+</label>
+<div class="relative">
+<input class="w-full h-10 px-3 bg-white border border-[#ddd6fe] rounded text-body-md text-[#1e1b4b] placeholder-[#7c6f93] focus:border-[#0891b2] focus:ring-2 focus:ring-[#0891b2]/20 transition-all outline-none" id="editorial-name" placeholder="Ej. Siglo XXI, Alfaguara, Sudamericana..." type="text"/>
+</div>
+<p class="mt-2 text-xs text-[#7c6f93] flex items-start gap-1.5">
+<span class="material-symbols-outlined text-[15px] text-[#0891b2] shrink-0 mt-0.5">check_circle</span>
+<span>Aparecerá disponible inmediatamente en el formulario de nuevos libros.</span>
+</p>
+</div>
+<!-- Editorial Tips / Context Info Box -->
+<div class="p-3 rounded-lg bg-[#f0f9ff] border border-[#bae6fd] text-xs text-[#0369a1] space-y-1">
+<div class="font-semibold flex items-center gap-1 text-[#0284c7]">
+<span class="material-symbols-outlined text-[14px]">lightbulb</span>
+              Buenas prácticas de carga
+            </div>
+<p class="leading-relaxed">
+              Verificá la ortografía habitual de la casa editorial. Podés agrupar colecciones o sellos principales bajo su nombre matriz.
+            </p>
+</div>
+</div>
+<!-- Card Footer Action Buttons -->
+<div class="p-4 bg-[#fbf9fe] border-t border-[#f3e8ff] flex items-center justify-end gap-2.5">
+<button class="px-4 py-2 bg-white hover:bg-[#f6f3fc] text-[#4a4455] border border-[#ddd6fe] font-label-md text-label-md rounded shadow-2xs transition-colors" type="button">
+            Cancelar
+          </button>
+<!-- Save button with turquoise #0891b2 accent and check icon -->
+<button class="px-4 py-2 bg-[#0891b2] hover:bg-[#0e7490] text-white font-label-md text-label-md rounded shadow-sm flex items-center gap-1.5 active:scale-[0.98] transition-all" type="button">
+<span class="material-symbols-outlined text-[16px]">check</span>
+<span>Guardar editorial</span>
+</button>
+</div>
+</section>
+</div>
+</main>
+<!-- Discrete Footer -->
+<footer class="mt-auto border-t border-surface-container-highest bg-surface-container-lowest py-3 text-xs text-on-surface-variant">
+<div class="max-w-[1440px] mx-auto px-margin flex flex-col md:flex-row items-center justify-between gap-2"><div class="flex items-center gap-2"><span class="font-semibold text-primary">CoLibri</span><span>·</span><span>Librería</span></div></div>
+</footer>
+</body></html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CoLibri - Sistema de Gestión de Inventario</title>
+<!-- Google Fonts: Inter & Literata -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;0,7..72,700;1,7..72,400&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS v3 -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-secondary-container": "#5c0068",
+            "on-primary": "#ffffff",
+            "primary-fixed-dim": "#d3bbff",
+            "surface-bright": "#fef7ff",
+            "surface": "#fef7ff",
+            "secondary-fixed-dim": "#fda9ff",
+            "primary-fixed": "#ebddff",
+            "surface-container-high": "#efe4ff",
+            "on-surface-variant": "#4a4455",
+            "on-secondary-fixed": "#36003d",
+            "error": "#ba1a1a",
+            "secondary-fixed": "#ffd6fb",
+            "surface-dim": "#e2d3ff",
+            "primary": "#5300b7",
+            "on-surface": "#24005b",
+            "secondary-container": "#ef5aff",
+            "on-tertiary": "#ffffff",
+            "on-tertiary-fixed": "#001f28",
+            "inverse-surface": "#391e70",
+            "tertiary-fixed": "#b7eaff",
+            "outline-variant": "#ccc3d7",
+            "outline": "#7b7486",
+            "on-tertiary-container": "#75dbff",
+            "error-container": "#ffdad6",
+            "tertiary-fixed-dim": "#6cd3f7",
+            "surface-variant": "#eaddff",
+            "surface-container-highest": "#eaddff",
+            "inverse-primary": "#d3bbff",
+            "secondary": "#a400b7",
+            "on-primary-fixed": "#250059",
+            "tertiary-container": "#006077",
+            "primary-container": "#6d28d9",
+            "surface-container-low": "#f9f1ff",
+            "surface-container-lowest": "#ffffff",
+            "on-primary-container": "#dac5ff",
+            "background": "#fef7ff",
+            "on-tertiary-fixed-variant": "#004e61",
+            "on-background": "#24005b",
+            "on-secondary": "#ffffff",
+            "tertiary": "#004759",
+            "on-error-container": "#93000a",
+            "surface-tint": "#7331df",
+            "on-secondary-fixed-variant": "#7d008c",
+            "on-primary-fixed-variant": "#5b00c5",
+            "surface-container": "#f4eaff",
+            "on-error": "#ffffff",
+            "inverse-on-surface": "#f6edff"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "space-sm": "0.5rem",
+            "margin-panel": "1rem",
+            "gutter-compact": "0.5rem",
+            "space-md": "0.75rem",
+            "space-xs": "0.25rem",
+            "space-lg": "1.25rem",
+            "margin": "1.5rem",
+            "gutter": "1rem",
+            "space-xl": "2rem"
+          },
+          "fontFamily": {
+            "headline-lg": ["Literata", "serif"],
+            "headline-sm": ["Literata", "serif"],
+            "headline-md": ["Literata", "serif"],
+            "label-md": ["Inter", "sans-serif"],
+            "label-lg": ["Inter", "sans-serif"],
+            "body-sm": ["Inter", "sans-serif"],
+            "body-lg": ["Inter", "sans-serif"],
+            "display": ["Literata", "serif"],
+            "code-table": ["Inter", "monospace"],
+            "body-md": ["Inter", "sans-serif"],
+            "label-sm": ["Inter", "sans-serif"]
+          },
+          "fontSize": {
+            "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "600" }],
+            "headline-sm": ["16px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "600" }],
+            "headline-md": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "500" }],
+            "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500" }],
+            "label-lg": ["13px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "600" }],
+            "body-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.01em", "fontWeight": "400" }],
+            "body-lg": ["15px", { "lineHeight": "22px", "letterSpacing": "-0.01em", "fontWeight": "400" }],
+            "display": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "600" }],
+            "code-table": ["12px", { "lineHeight": "16px", "letterSpacing": "-0.02em", "fontWeight": "400" }],
+            "body-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0em", "fontWeight": "400" }],
+            "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "600" }]
+          }
+        }
+      }
+    };
+  </script>
+
+<style>
+html { color-scheme: dark; }
+body { background:radial-gradient(ellipse at 78% 18%,#942b8855,transparent 55%),radial-gradient(ellipse at 15% 72%,#396ad333,transparent 50%),linear-gradient(135deg,#31105a,#5b1b7b 58%,#83267e)!important; }
+.colibri-nav { position:relative;z-index:60;display:flex;align-items:center;gap:28px;padding:16px 4%;background:#240c44db;border-bottom:1px solid #e9baff25;font:14px Inter,Arial,sans-serif;color:#f4e8fc; }
+.colibri-brand {display:flex;align-items:center;gap:12px;margin-right:12px;font:700 25px Georgia,serif;color:#fff;text-decoration:none;}
+.colibri-brand img {width:32px;height:34px;object-fit:cover;object-position:50% 52%;border-radius:5px;}
+.colibri-nav-link { color:#e6cdf6;text-decoration:none; padding:10px 0;white-space:nowrap; }
+.colibri-nav-link.active {color:#fff;box-shadow:0 2px #eaa2fa;}
+.colibri-admin {position:relative;}
+.colibri-admin summary {cursor:pointer;padding:10px 0;list-style:none;}
+.colibri-admin summary::after {content:' ▾';color:#df9eee;}
+.colibri-admin-panel {position:absolute;top:100%;left:0;min-width:200px;background:#442062;border:1px solid #b782cc66;box-shadow:0 12px 30px #18052966;padding:8px;border-radius:12px;}
+.colibri-admin-panel a {display:block;padding:10px 12px;text-decoration:none;color:#f2e2ff;border-radius:7px;}
+.colibri-admin-panel a:hover {background:#733296;}
+.colibri-add {margin-left:auto;background:linear-gradient(105deg,#7331d4,#a522a7);border:1px solid #db8ce366;border-radius:9px;color:#fff;padding:10px 17px;text-decoration:none;font-weight:600;white-space:nowrap;}
+.bg-white {background-color:#f0e2fa!important;}
+.preview-route-bar {position:relative;z-index:30;display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:0 auto 18px;padding:7px;background:#301346bb;border:1px solid #c69cdd55;border-radius:12px;width:max-content;max-width:calc(100% - 28px);font:12px Inter,Arial,sans-serif;}
+.preview-route-bar a {color:#ebd9ff;text-decoration:none;padding:7px 10px;border-radius:7px;}
+.preview-route-bar a.active {background:#8c36ad;color:white;}
+@media(max-width:700px){.colibri-nav{gap:14px;padding:12px 18px;flex-wrap:wrap;}.colibri-brand{font-size:22px;}.colibri-add{padding:8px 11px;}.colibri-nav-link{font-size:13px;}.colibri-admin{font-size:13px;}}
+</style>
+</head>
+<body data-preview-page="inicio" class="min-h-screen flex flex-col font-body-md text-white antialiased selection:bg-fuchsia-500 selection:text-white bg-gradient-to-br from-[#240a42] via-[#35125e] via-[#4d1678] to-[#1e0738] relative overflow-x-hidden">
+<!-- Ambient Glow Effects -->
+<div class="pointer-events-none absolute inset-0 overflow-hidden">
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[900px] h-[550px] bg-gradient-to-b from-[#8b239d]/25 via-[#64228E]/20 to-transparent blur-3xl rounded-full"></div>
+<div class="absolute top-1/3 -left-48 w-[600px] h-[600px] bg-[#3B176B]/40 blur-[120px] rounded-full"></div>
+<div class="absolute bottom-10 -right-48 w-[600px] h-[600px] bg-[#982786]/25 blur-[120px] rounded-full"></div>
+</div>
+<!-- Top Horizontal Navbar -->
+<header class="colibri-nav"><a class="colibri-brand" href="inicio-preview.html"><img src="colibri2.jpg" alt="Logo CoLibri"><span>CoLibri</span></a><a class="colibri-nav-link active" href="inicio-preview.html">Inicio</a><a class="colibri-nav-link " href="resultados-preview.html">Libros</a><details class="colibri-admin"><summary>Administración</summary><div class="colibri-admin-panel"><a href="listas-preview.html?lista=Géneros">Géneros</a><a href="listas-preview.html?lista=Subcategorías">Subcategorías</a><a href="listas-preview.html?lista=Editoriales">Editoriales</a><a href="listas-preview.html?lista=Formatos">Formatos</a><a href="listas-preview.html?lista=Ubicaciones">Ubicaciones</a><a href="listas-preview.html?lista=Estados">Estados</a><a href="listas-preview.html?lista=Idiomas">Idiomas</a></div></details><a class="colibri-add" href="libro-preview.html">+ Agregar libro</a></header>
+<!-- Main Centered Landing Screen (Spatial Google-like layout) -->
+<main class="relative z-10 flex-1 flex flex-col items-center justify-center px-6 py-10 w-full max-w-[1440px] mx-auto">
+<div class="w-full flex flex-col items-center max-w-4xl -mt-6">
+<!-- Generously sized center logo container: 460px x 330px with custom styling -->
+<div class="w-[460px] max-w-[92vw] h-[330px] rounded-[24px] overflow-hidden shadow-[0_20px_40px_-15px_rgba(0,0,0,0.65)] ring-1 ring-white/15 bg-black/20 flex-shrink-0 transition-transform duration-300 hover:scale-[1.01]">
+<img alt="CoLibri" src="colibri2.jpg" style="width:100%; height:100%; object-fit: cover; object-position: 50% 52%; border-radius: 24px; box-shadow: 0 20px 40px -15px rgba(0,0,0,0.5);"/>
+</div>
+<!-- Main Search Form navigating to Libros / Resultados -->
+<form action="#" class="w-full max-w-[840px] mt-8 flex flex-col items-center" method="GET">
+<!-- Wide Pill Search Bar -->
+<div class="w-full h-16 bg-[#f2e7fc]/95 hover:bg-white text-[#2a0845] rounded-full shadow-[0_12px_36px_rgba(20,5,38,0.55)] border border-purple-200/60 focus-within:ring-4 focus-within:ring-fuchsia-400/40 focus-within:border-fuchsia-400 flex items-center px-6 transition-all duration-200 group">
+<span class="material-symbols-outlined text-[24px] text-purple-900/60 mr-3.5 flex-shrink-0 group-focus-within:text-purple-900 transition-colors">
+            search
+          </span>
+<input autocomplete="off" class="flex-1 bg-transparent border-0 text-[#24005b] placeholder-[#6f568a] text-[16px] leading-relaxed focus:ring-0 focus:outline-none font-body-md" name="q" placeholder="Buscar por título o autor/a..." type="text"/>
+<button class="ml-2 flex-shrink-0 inline-flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-[#6d28d9] to-[#a21caf] hover:from-[#7c3aed] hover:to-[#c026d3] text-white font-label-lg rounded-full shadow-md active:scale-95 transition-all focus:outline-none" type="submit">
+<span class="material-symbols-outlined text-[19px]">search</span>
+<span>Buscar</span>
+</button>
+</div>
+<!-- 4 Clean Filter Dropdowns Horizontally Centered -->
+<div class="flex flex-wrap items-center justify-center gap-3 mt-5 w-full">
+<!-- Género -->
+<div class="relative min-w-[160px]">
+<select class="w-full appearance-none bg-[#37125e]/80 hover:bg-[#431773] text-purple-100 text-label-md font-label-md border border-purple-400/30 hover:border-fuchsia-400/60 rounded-full py-2.5 pl-4 pr-9 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-fuchsia-400 shadow-sm cursor-pointer transition-all"><option value="">Género (Todos)</option><option value="Religión &amp; espiritualidad">Religión &amp; espiritualidad</option><option value="Novela">Novela</option><option value="Crónica">Crónica</option><option value="Poesía">Poesía</option></select>
+<span class="material-symbols-outlined pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-[18px] text-purple-300">
+              expand_more
+            </span>
+</div>
+<!-- Subcategoría -->
+<div class="relative min-w-[165px]">
+<select class="w-full appearance-none bg-[#37125e]/80 hover:bg-[#431773] text-purple-100 text-label-md font-label-md border border-purple-400/30 hover:border-fuchsia-400/60 rounded-full py-2.5 pl-4 pr-9 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-fuchsia-400 shadow-sm cursor-pointer transition-all"><option value="">Subcategoría (Todos)</option><option value="Ensayo">Ensayo</option><option value="Contemporánea">Contemporánea</option><option value="Ficción">Ficción</option><option value="No ficción">No ficción</option></select>
+<span class="material-symbols-outlined pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-[18px] text-purple-300">
+              expand_more
+            </span>
+</div>
+<!-- Editorial -->
+<div class="relative min-w-[160px]">
+<select class="w-full appearance-none bg-[#37125e]/80 hover:bg-[#431773] text-purple-100 text-label-md font-label-md border border-purple-400/30 hover:border-fuchsia-400/60 rounded-full py-2.5 pl-4 pr-9 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-fuchsia-400 shadow-sm cursor-pointer transition-all"><option value="">Editorial (Todas)</option><option value="Kier">Kier</option><option value="Seix Barral">Seix Barral</option><option value="Debolsillo">Debolsillo</option><option value="Tusquets">Tusquets</option></select>
+<span class="material-symbols-outlined pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-[18px] text-purple-300">
+              expand_more
+            </span>
+</div>
+<!-- Estado -->
+<div class="relative min-w-[150px]">
+<select class="w-full appearance-none bg-[#37125e]/80 hover:bg-[#431773] text-purple-100 text-label-md font-label-md border border-purple-400/30 hover:border-fuchsia-400/60 rounded-full py-2.5 pl-4 pr-9 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-fuchsia-400 shadow-sm cursor-pointer transition-all"><option value="">Estado (Todos)</option><option value="Disponible">Disponible</option><option value="Vendido">Vendido</option><option value="Pedir">Pedir</option><option value="En espera">En espera</option></select>
+<span class="material-symbols-outlined pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-[18px] text-purple-300">
+              expand_more
+            </span>
+</div>
+</div>
+<!-- Restrained Hint Text -->
+<p class="mt-6 text-purple-200/75 text-body-md font-body-md tracking-normal text-center select-none">
+          Buscá un título o autor para ver los resultados.
+        </p>
+</form>
+</div>
+</main>
+<!-- Editorial Desktop Footer Bar -->
+<footer class="w-full max-w-[1440px] mx-auto px-6 py-5 flex items-center justify-center text-purple-300/70 font-label-sm text-label-sm border-t border-[#4c1775]/50 relative z-10 mt-auto">
+<span>CoLibri · Librería</span>
+</footer>
+<div class="preview-route-bar" aria-label="Vistas del boceto"><a class="active" href="inicio-preview.html">Inicio</a><a class="" href="resultados-preview.html">Libros</a><a class="" href="libro-preview.html">Ficha del libro</a><a class="" href="listas-preview.html">Administrar listas</a></div><script src="preview-v2.js"></script></body></html>

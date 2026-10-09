@@ -1,0 +1,1 @@
+{"projectId": "13227700106738505093", "selectedScreenIds": ["05099592fd3c4934966637d17fc05b43"], "prompt": "Change ONLY the Estado search dropdown options in Inicio: first option Estado (Todos), followed by exactly Disponible, Vendido, Pedir, En espera. Default Estado (Todos). Remove Agotado and En Reserva. Preserve every other element and the overall design."}

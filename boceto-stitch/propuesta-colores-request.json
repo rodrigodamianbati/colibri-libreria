@@ -1,0 +1,11 @@
+{
+  "projectId": "13227700106738505093",
+  "selectedScreenIds": ["b5f0db7149db4489974ff68d488c0e5d"],
+  "deviceType": "DESKTOP",
+  "variantOptions": {
+    "aspects": ["COLOR_SCHEME"],
+    "creativeRange": "EXPLORE",
+    "variantCount": 2
+  },
+  "prompt": "Solicitud de propuesta solamente para la librería CoLibri. Genera dos bocetos alternativos de paleta cromática a partir de esta pantalla actual, conservando la estructura y el contenido. No reemplaces las pantallas originales. No incorpores otras modificaciones: por ahora el usuario solo quiere recibir propuestas de una gama de colores más adecuada. Mantén la composición actual de Inicio con navegación superior, logo grande y centrado, buscador grande y filtros, sin listado en Inicio. Preferencia por colores fríos: violetas, magentas y turquesas; fondos con color y profundidad, evitando el predominio del blanco. Busca un resultado armónico, legible y cómodo para un sistema de inventario de libros. La identidad usa el logo original colibri2.jpg, con ave y texto CoLibrí sobre un fondo oliva amarillo: ten en cuenta ese color al combinarlo y conserva la identidad del logo, sin inventar fotografías. Propón colores coherentes también para Libros, formulario de alta y Administración, sin rediseñar esas pantallas en este pedido. Incluye en tu respuesta los valores HEX recomendados y sus funciones: fondo general, superficie de tarjetas, texto principal y secundario, botón principal, acento magenta y acento turquesa. Las propuestas quedan exclusivamente en Stitch para revisión posterior."
+}

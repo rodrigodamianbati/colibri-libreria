@@ -1,0 +1,5 @@
+{
+  "projectId": "13227700106738505093",
+  "selectedScreenIds": ["b5f0db7149db4489974ff68d488c0e5d"],
+  "prompt": "Correct ONLY the image in the large centered logo area on Inicio. The generated photograph of a woman working in a bookstore is incorrect and must be removed. This area must be the CoLibri LOGO: olive background with olive-yellow Co / Librí lettering and outlined hummingbird, as in the original project's logo. The actual source image is the user's local file colibri2.jpg. Use an img element src=colibri2.jpg, object-fit cover, object-position 50% 52%, same 460x330px viewport. If you cannot access this exact file, show a restrained olive brand placeholder with Co / Librí text, clearly a logo area, never any generated photograph, people, bookshop interiors or unrelated illustration. The exact image will be bound in the local preview. Preserve the centered search bar, four filters, colored background, navbar, and absence of table unchanged. Do not add extra content."
+}
