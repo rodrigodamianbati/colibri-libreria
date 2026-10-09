@@ -1,0 +1,45 @@
+:root {
+  --violeta: #9875b1;
+  --violeta-nav: #76548f;
+  --verde: #91a664;
+  --verde-hover: #a5b97b;
+  --tinta: #30213e;
+  --tinta-verde: #263515;
+}
+html { color-scheme: light; }
+.colibri-hero-wide {width:min(100%,840px);aspect-ratio:4 / 1;height:auto;}
+.colibri-hero-wide img {display:block;width:100%;height:100%;object-fit:contain;object-position:center;}
+body { background: linear-gradient(135deg, #9875b1, #ab8bbf 55%, #bc99b5) !important; }
+.colibri-nav { position:relative;z-index:60;display:flex;align-items:center;gap:28px;padding:16px 4%;background:var(--violeta-nav);border-bottom:1px solid #dbc3df;font:14px Inter,Arial,sans-serif;color:#fff; }
+.colibri-brand {display:flex;align-items:center;gap:12px;margin-right:12px;font:700 25px Georgia,serif;color:#fff;text-decoration:none;}
+.colibri-brand img {width:32px;height:34px;object-fit:cover;object-position:50% 52%;border-radius:5px;}
+.colibri-nav-link {color:#fff;text-decoration:none;padding:10px 0;white-space:nowrap;}
+.colibri-nav-link.active {box-shadow:0 2px #e2ec98;}
+.colibri-admin {position:relative;}
+.colibri-admin summary {cursor:pointer;padding:10px 0;list-style:none;}
+.colibri-admin summary::after {content:' ▾';color:#e2ec98;}
+.colibri-admin-panel {position:absolute;top:100%;left:0;min-width:200px;background:#f0e3f0;border:1px solid #bd8aab;box-shadow:0 12px 30px #50355833;padding:8px;border-radius:12px;}
+.colibri-admin-panel a {display:block;padding:10px 12px;text-decoration:none;color:var(--tinta);border-radius:7px;}
+.colibri-admin-panel a:hover {background:#dcc6e5;}
+.colibri-add {margin-left:auto;background:var(--verde);border:1px solid #c6d59e;border-radius:9px;color:var(--tinta-verde);padding:10px 17px;text-decoration:none;font-weight:600;white-space:nowrap;}
+.colibri-add:hover {background:var(--verde-hover);}
+/* Lighter action surfaces retain dark text for legibility. */
+main button[style*="background-color: #91a664"],
+main [class*="bg-[#91a664]"]:not(img) {background-color:var(--verde)!important;color:var(--tinta-verde)!important;}
+main button[style*="background-color: #91a664"] *,
+main button[class*="bg-[#91a664]"] * {color:var(--tinta-verde)!important;}
+main button[style*="background-color: #91a664"]:hover,
+main button[class*="bg-[#91a664]"]:hover {background-color:var(--verde-hover)!important;}
+body[data-preview-page="inicio"] main select {background:#f0e3f0!important;color:var(--tinta)!important;border-color:#b08ac2!important;}
+body[data-preview-page="inicio"] main select + span {color:#604677!important;}
+body[data-preview-page="inicio"] main > div > p {color:var(--tinta)!important;}
+main h1, main > div > p, main > p,
+main a[href="#"], main [class*="text-white/60"], main [class*="text-white/70"],
+main [class*="text-white/80"], main [class*="text-purple-100"],
+main [class*="text-purple-200"] {color:var(--tinta)!important;}
+body[data-preview-page="inicio"] main form > p {color:var(--tinta)!important;}
+footer {background:#80618f!important;color:#fff!important;}
+.preview-route-bar {position:relative;z-index:30;display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:0 auto 18px;padding:7px;background:#f0e3f0;border:1px solid #bd8aab;border-radius:12px;width:max-content;max-width:calc(100% - 28px);font:12px Inter,Arial,sans-serif;}
+.preview-route-bar a {color:var(--tinta);text-decoration:none;padding:7px 10px;border-radius:7px;}
+.preview-route-bar a.active {background:#d4bcdf;color:#30213e;}
+@media(max-width:700px){.colibri-nav{gap:14px;padding:12px 18px;flex-wrap:wrap;}.colibri-brand{font-size:22px;}.colibri-add{padding:8px 11px;}.colibri-nav-link{font-size:13px;}.colibri-admin{font-size:13px;}}

@@ -85,7 +85,7 @@
     }
   }
   const context = document.createElement('div');
-  context.style.cssText = 'margin:18px 0;color:#eddafa;font:14px Inter,sans-serif';
+  context.style.cssText = 'margin:18px 0;color:#30213e;font:14px Inter,sans-serif';
   context.textContent = `${matching.length} ${matching.length === 1 ? 'título' : 'títulos'} · ${matching.length} ${matching.length === 1 ? 'ejemplar' : 'ejemplares'}` + (initial.get('q') ? ` · Búsqueda: «${initial.get('q')}»` : ' · Todos los libros') + ' · Datos de ejemplo';
   document.querySelector('main table')?.closest('section')?.before(context);
   // Replace static example counters with counts for the actual displayed sample.

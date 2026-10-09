@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CoLibri - Sistema de Gestión de Inventario</title>
+<!-- Google Fonts: Inter & Literata -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;0,7..72,700;1,7..72,400&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS v3 -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "palette-violet": "#6f4b93",
+            "palette-olive": "#405326",
+            "palette-lime": "#d7e37f",
+            "palette-mauve": "#bd8aab",
+            "palette-darkmauve": "#885775"
+          },
+          "fontFamily": {
+            "headline-lg": ["Literata", "serif"],
+            "headline-sm": ["Literata", "serif"],
+            "headline-md": ["Literata", "serif"],
+            "label-md": ["Inter", "sans-serif"],
+            "label-lg": ["Inter", "sans-serif"],
+            "body-sm": ["Inter", "sans-serif"],
+            "body-lg": ["Inter", "sans-serif"],
+            "display": ["Literata", "serif"],
+            "code-table": ["Inter", "monospace"],
+            "body-md": ["Inter", "sans-serif"],
+            "label-sm": ["Inter", "sans-serif"]
+          },
+          "fontSize": {
+            "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "600" }],
+            "headline-sm": ["16px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "600" }],
+            "headline-md": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "500" }],
+            "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500" }],
+            "label-lg": ["13px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "600" }],
+            "body-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.01em", "fontWeight": "400" }],
+            "body-lg": ["15px", { "lineHeight": "22px", "letterSpacing": "-0.01em", "fontWeight": "400" }],
+            "display": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "600" }],
+            "code-table": ["12px", { "lineHeight": "16px", "letterSpacing": "-0.02em", "fontWeight": "400" }],
+            "body-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0em", "fontWeight": "400" }],
+            "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "600" }]
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="min-h-screen flex flex-col font-body-md text-white antialiased selection:bg-[#d7e37f] selection:text-[#4d632f] bg-gradient-to-br from-[#482866] via-[#7d57a2] via-[#925f80] to-[#3d1e4e] relative overflow-x-hidden">
+<!-- Ambient Glow Effects Palette №79 -->
+<div class="pointer-events-none absolute inset-0 overflow-hidden">
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[900px] h-[550px] bg-gradient-to-b from-[#bd8aab]/25 via-[#6f4b93]/30 to-transparent blur-3xl rounded-full"></div>
+<div class="absolute top-1/3 -left-48 w-[600px] h-[600px] bg-[#405326]/35 blur-[120px] rounded-full"></div>
+<div class="absolute bottom-10 -right-48 w-[600px] h-[600px] bg-[#885775]/40 blur-[120px] rounded-full"></div>
+</div>
+<!-- Top Horizontal Navbar -->
+<header class="sticky top-0 z-50 bg-[#482866]/90 backdrop-blur-md border-b border-[#bd8aab]/35 shadow-lg">
+<div class="max-w-[1440px] mx-auto px-6 h-16 flex items-center justify-between">
+<!-- Left side: Brand Identity & Nav Links -->
+<div class="flex items-center space-x-10">
+<a class="flex items-center space-x-3 group" href="#">
+<div class="w-8 h-8 rounded-md bg-[#4d632f] flex items-center justify-center p-1 shadow-sm border border-[#d7e37f]/50">
+<img alt="Logo CoLibri" class="w-full h-full object-contain" src="data:image/jpeg;base64,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"/>
+</div>
+<span class="font-display text-headline-lg text-white tracking-tight font-semibold">CoLibri</span>
+</a>
+<!-- Horizontal Nav Links -->
+<nav class="flex items-center space-x-7 h-16">
+<a class="text-white font-label-lg text-label-lg border-b-2 border-[#d7e37f] h-full flex items-center pt-0.5 font-medium transition-colors" href="#">
+            Inicio
+          </a>
+<a class="text-[#bd8aab] hover:text-white font-label-lg text-label-lg transition-colors duration-150 h-full flex items-center pt-0.5" href="#">
+            Libros
+          </a>
+<!-- Administración Dropdown Container -->
+<div class="relative group h-full flex items-center">
+<button class="inline-flex items-center gap-2 px-4 py-2 bg-[#4d632f] hover:bg-[#597437] active:scale-[0.98] text-white hover:text-[#d7e37f] font-label-lg text-label-lg rounded-xl shadow-md border border-[#d7e37f]/60 transition-all focus:outline-none focus:ring-2 focus:ring-[#d7e37f] focus:ring-offset-2 focus:ring-offset-[#482866]" type="button">
+<span>Administración</span>
+<span class="material-symbols-outlined text-[18px] text-[#d7e37f] group-hover:text-white transition-transform group-hover:rotate-180 duration-150">arrow_drop_down</span>
+</button>
+<!-- Dropdown Menu -->
+<div class="absolute left-0 top-full mt-1 w-48 bg-[#42225f] border border-[#bd8aab]/40 rounded-xl shadow-2xl py-2 hidden group-hover:block transition-all z-50 backdrop-blur-lg">
+<a class="block px-4 py-2 font-label-md text-label-md text-purple-100 hover:bg-[#6f4b93] hover:text-white transition-colors" href="#">Géneros</a>
+<a class="block px-4 py-2 font-label-md text-label-md text-purple-100 hover:bg-[#6f4b93] hover:text-white transition-colors" href="#">Subcategorías</a>
+<a class="block px-4 py-2 font-label-md text-label-md text-purple-100 hover:bg-[#6f4b93] hover:text-white transition-colors" href="#">Editoriales</a>
+<a class="block px-4 py-2 font-label-md text-label-md text-purple-100 hover:bg-[#6f4b93] hover:text-white transition-colors" href="#">Formatos</a>
+<a class="block px-4 py-2 font-label-md text-label-md text-purple-100 hover:bg-[#6f4b93] hover:text-white transition-colors" href="#">Ubicaciones</a>
+<a class="block px-4 py-2 font-label-md text-label-md text-purple-100 hover:bg-[#6f4b93] hover:text-white transition-colors" href="#">Estados</a>
+<a class="block px-4 py-2 font-label-md text-label-md text-purple-100 hover:bg-[#6f4b93] hover:text-white transition-colors" href="#">Idiomas</a>
+</div>
+</div>
+</nav>
+</div>
+<!-- Right side: Primary Action Only (+ Agregar libro) -->
+<div class="flex items-center">
+<button class="inline-flex items-center gap-2 px-4 py-2 bg-[#4d632f] hover:bg-[#597437] active:scale-[0.98] text-white hover:text-[#d7e37f] font-label-lg text-label-lg rounded-xl shadow-md border border-[#d7e37f]/60 transition-all focus:outline-none focus:ring-2 focus:ring-[#d7e37f] focus:ring-offset-2 focus:ring-offset-[#482866]" type="button">
+<span class="material-symbols-outlined text-[19px] text-[#d7e37f]">add</span>
+<span>Agregar libro</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Main Centered Landing Screen (Spatial Google-like layout) -->
+<main class="relative z-10 flex-1 flex flex-col items-center justify-center px-6 py-10 w-full max-w-[1440px] mx-auto">
+<div class="w-full flex flex-col items-center max-w-4xl -mt-6">
+<!-- Generously sized center logo container: 460px x 330px with colibri2.jpg on olive #405326 background -->
+<div class="w-[460px] max-w-[92vw] h-[330px] rounded-[24px] overflow-hidden shadow-[0_20px_40px_-15px_rgba(0,0,0,0.65)] ring-1 ring-[#bd8aab]/40 bg-[#4d632f] flex-shrink-0 transition-transform duration-300 hover:scale-[1.01] flex items-center justify-center">
+<img alt="CoLibri" class="w-full h-full object-cover object-[50%_52%] rounded-[24px]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8wuU-ZmT3kUx4dxAAqieK-e85k7coC1DvQHSrzQMsXenG3he66NBD1dkPC68xF0SmhRuk9EL2DO_oVIFscd4HAPd59UOP9Rzjn8qUBAgsDl5S12i4vWmSvShdeQ8ULFZccxkWd6yB9Z-gaahE4a7j62y8GT1-v8hDd7vfsG4JmmYj_VI0rb3MduEGG-qfsnL_WvkN8FPQA1Ay7mYXuuGkWkDAyy7HsOsm4y7I7sj6dgoc4-dfo8VPEuMtbRoj3L4QDMAqciY_Yq0O"/>
+</div>
+<!-- Main Search Form navigating to Libros / Resultados -->
+<form action="#" class="w-full max-w-[840px] mt-8 flex flex-col items-center" method="GET" onsubmit="event.preventDefault(); window.location.href='#libros';">
+<!-- Wide Pill Search Bar (840x64px) -->
+<div class="w-full h-16 bg-[#f7f3f9] hover:bg-white text-[#381c52] rounded-full shadow-[0_12px_36px_rgba(30,10,45,0.45)] border border-[#bd8aab] focus-within:ring-4 focus-within:ring-[#d7e37f]/60 focus-within:border-[#405326] flex items-center px-6 transition-all duration-200 group">
+<span class="material-symbols-outlined text-[24px] text-[#6f4b93] mr-3.5 flex-shrink-0 group-focus-within:text-[#405326] transition-colors">
+            search
+          </span>
+<input autocomplete="off" class="flex-1 bg-transparent border-0 text-[#381c52] placeholder-[#885775] text-[16px] leading-relaxed focus:ring-0 focus:outline-none font-body-md" name="q" placeholder="Buscar por título o autor/a..." type="text"/>
+<button class="ml-2 flex-shrink-0 inline-flex items-center gap-2 px-6 py-2.5 bg-[#4d632f] hover:bg-[#597437] text-white hover:text-[#d7e37f] border border-[#d7e37f]/60 font-label-lg rounded-full shadow-md active:scale-95 transition-all focus:outline-none focus:ring-2 focus:ring-[#d7e37f]" type="submit">
+<span class="material-symbols-outlined text-[19px] text-[#d7e37f]">search</span>
+<span>Buscar</span>
+</button>
+</div>
+<!-- 4 Clean Filter Dropdowns Horizontally Centered -->
+<div class="flex flex-wrap items-center justify-center gap-3 mt-5 w-full">
+<!-- Género -->
+<div class="relative min-w-[160px]">
+<select class="w-full appearance-none bg-[#7d57a2]/45 hover:bg-[#7d57a2]/65 text-white text-label-md font-label-md border border-[#bd8aab] hover:border-[#d7e37f] rounded-full py-2.5 pl-4 pr-9 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-[#d7e37f] shadow-sm cursor-pointer transition-all">
+<option class="bg-[#42225f] text-white" value="">Género (Todos)</option>
+<option class="bg-[#42225f] text-white" value="filosofia">Filosofía &amp; Espiritualidad</option>
+<option class="bg-[#42225f] text-white" value="novela">Novela Contemporánea</option>
+<option class="bg-[#42225f] text-white" value="cronica">Crónica &amp; Periodismo</option>
+<option class="bg-[#42225f] text-white" value="poesia">Poesía</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-[18px] text-[#d7e37f]">
+              expand_more
+            </span>
+</div>
+<!-- Subcategoría -->
+<div class="relative min-w-[165px]">
+<select class="w-full appearance-none bg-[#7d57a2]/45 hover:bg-[#7d57a2]/65 text-white text-label-md font-label-md border border-[#bd8aab] hover:border-[#d7e37f] rounded-full py-2.5 pl-4 pr-9 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-[#d7e37f] shadow-sm cursor-pointer transition-all">
+<option class="bg-[#42225f] text-white" value="">Subcategoría (Todos)</option>
+<option class="bg-[#42225f] text-white" value="ensayo">Ensayo</option>
+<option class="bg-[#42225f] text-white" value="ficcion">Ficción</option>
+<option class="bg-[#42225f] text-white" value="no-ficcion">No Ficción</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-[18px] text-[#d7e37f]">
+              expand_more
+            </span>
+</div>
+<!-- Editorial -->
+<div class="relative min-w-[160px]">
+<select class="w-full appearance-none bg-[#7d57a2]/45 hover:bg-[#7d57a2]/65 text-white text-label-md font-label-md border border-[#bd8aab] hover:border-[#d7e37f] rounded-full py-2.5 pl-4 pr-9 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-[#d7e37f] shadow-sm cursor-pointer transition-all">
+<option class="bg-[#42225f] text-white" value="">Editorial (Todos)</option>
+<option class="bg-[#42225f] text-white" value="kier">Kier</option>
+<option class="bg-[#42225f] text-white" value="seix-barral">Seix Barral</option>
+<option class="bg-[#42225f] text-white" value="debolsillo">Debolsillo</option>
+<option class="bg-[#42225f] text-white" value="tusquets">Tusquets</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-[18px] text-[#d7e37f]">
+              expand_more
+            </span>
+</div>
+<!-- Estado -->
+<div class="relative min-w-[150px]">
+<select class="w-full appearance-none bg-[#7d57a2]/45 hover:bg-[#7d57a2]/65 text-white text-label-md font-label-md border border-[#bd8aab] hover:border-[#d7e37f] rounded-full py-2.5 pl-4 pr-9 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-[#d7e37f] shadow-sm cursor-pointer transition-all">
+<option class="bg-[#42225f] text-white" value="">Estado (Todos)</option>
+<option class="bg-[#42225f] text-white" value="disponible">Disponible</option>
+<option class="bg-[#42225f] text-white" value="vendido">Vendido</option>
+<option class="bg-[#42225f] text-white" value="pedir">Pedir</option>
+<option class="bg-[#42225f] text-white" value="en-espera">En espera</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-[18px] text-[#d7e37f]">
+              expand_more
+            </span>
+</div>
+</div>
+<!-- Restrained Hint Text -->
+<p class="mt-6 text-[#bd8aab] text-body-md font-body-md tracking-normal text-center select-none">
+          Buscá un título o autor para ver los resultados.
+        </p>
+</form>
+</div>
+</main>
+<!-- Editorial Desktop Footer Bar -->
+<footer class="w-full max-w-[1440px] mx-auto px-6 py-5 flex items-center justify-center text-[#bd8aab]/80 font-label-sm text-label-sm border-t border-[#bd8aab]/30 relative z-10 mt-auto">
+<span>CoLibri · Librería</span>
+</footer>
+</body></html>

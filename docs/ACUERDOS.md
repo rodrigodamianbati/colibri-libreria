@@ -32,7 +32,7 @@ El boceto ilustra Editoriales. El comportamiento de eliminación de elementos de
 - Administración permite acceder a los siete catálogos independientes.
 - La vista local usa el logo real colibri2.jpg. Las pantallas de Stitch pueden usar una imagen de ejemplo, autorizada por el usuario al no estar disponible la carga de imagen mediante MCP.
 
-## Colores y propuestas pendientes de aplicar
+## Colores y aplicación local
 
 Paleta elegida: https://paletasdecolores.com/paleta-de-colores-79/.
 
@@ -44,6 +44,8 @@ Paleta elegida: https://paletasdecolores.com/paleta-de-colores-79/.
 | Malva rosado | #bd8aab |
 | Malva oscuro | #885775 |
 
-Se pidió aclarar solo un poco los violetas y verdes. Stitch generó cuatro versiones refinadas y reportó violeta #7c589e y verde oliva #4c6130, con lima #d7e37f / #e2ec98. Estos valores son la propuesta del servicio y todavía no se aplicaron ni se validaron en la vista local.
+Se pidió aclarar solo un poco los violetas y verdes. Stitch generó cuatro versiones refinadas y reportó violeta #7c589e y verde oliva #4c6130, con lima #d7e37f / #e2ec98.
 
-El usuario considera que Stitch no reprodujo exactamente lo buscado, aunque el resultado sirve como referencia. Antes de copiarlo se guarda este estado en Git.
+El usuario considera que Stitch no reprodujo exactamente lo buscado, aunque el resultado sirve como referencia. El estado anterior se guardó en Git antes de copiar las pantallas.
+
+Posteriormente se incorporaron las cuatro pantallas de Stitch a la vista local, aclarando más los fondos violetas y verdes porque aún resultaban demasiado oscuros: violeta base #9875b1, gradiente hacia #ab8bbf y #bc99b5, verde de acciones #91a664 y texto oscuro #263515. El logo real colibri2.jpg reemplaza la imagen de ejemplo. Se mantiene la búsqueda con filtros y el stock de alta en 0.

@@ -26,6 +26,14 @@ El boceto usa Tailwind, fuentes y otros recursos externos: esta vista de diseño
 
 Proyecto de Stitch: https://stitch.withgoogle.com/projects/13227700106738505093.
 
-La paleta №79 y su versión aclarada están propuestas en Stitch. **No se copiaron al boceto local**. La última versión remota usa una imagen de ejemplo; el archivo real `colibri2.jpg` se conserva en el repositorio y en la vista local.
+Las cuatro pantallas de la última versión de Stitch están incorporadas al boceto local. Sus fuentes se conservan en `boceto-stitch/refinada-*.html`. La vista local aclara aún más los violetas y verdes mediante `paleta-local.css`, con violeta base `#9875b1` y verde de acciones `#91a664`; los botones claros usan texto oscuro. La versión remota usa una imagen de ejemplo; la vista local usa el archivo real `colibri2.jpg`.
+
+Para regenerar las cuatro vistas a partir de las fuentes de Stitch y los ajustes locales:
+
+```powershell
+python boceto-stitch/prepare_v2.py
+```
+
+El inicio usa `colibri-largo.jpeg` en un banner horizontal de hasta 840 px, con proporción 4:1 y ancho adaptable. La barra de navegación conserva `colibri2.jpg`.
 
 Las credenciales de Stitch no forman parte del repositorio. El inventario Excel original tampoco se incluye en este guardado del boceto.

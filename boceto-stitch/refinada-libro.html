@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CoLibri — Nuevo libro</title>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Literata & Inter Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;0,7..72,700;1,7..72,400&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS v3 -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "primary": "#5300b7",
+            "tertiary": "#004759",
+            "background": "#2c0e52",
+            "inverse-primary": "#d3bbff",
+            "surface": "#fef7ff",
+            "surface-dim": "#e2d3ff",
+            "on-error-container": "#93000a",
+            "on-surface": "#24005b",
+            "tertiary-fixed": "#b7eaff",
+            "surface-bright": "#fef7ff",
+            "on-primary-container": "#dac5ff",
+            "secondary-fixed-dim": "#fda9ff",
+            "tertiary-fixed-dim": "#6cd3f7",
+            "on-tertiary-container": "#75dbff",
+            "on-tertiary-fixed-variant": "#004e61",
+            "on-tertiary": "#ffffff",
+            "inverse-on-surface": "#f6edff",
+            "primary-fixed-dim": "#d3bbff",
+            "primary-fixed": "#ebddff",
+            "primary-container": "#7c22b9",
+            "on-background": "#24005b",
+            "surface-container": "#f4eaff",
+            "on-secondary-fixed-variant": "#7d008c",
+            "on-secondary-fixed": "#36003d",
+            "surface-variant": "#eaddff",
+            "surface-tint": "#7331df",
+            "on-tertiary-fixed": "#001f28",
+            "inverse-surface": "#391e70",
+            "secondary-fixed": "#ffd6fb",
+            "secondary": "#a400b7",
+            "on-primary-fixed-variant": "#5b00c5",
+            "on-primary-fixed": "#250059",
+            "on-surface-variant": "#4a4455",
+            "error": "#ba1a1a",
+            "on-secondary": "#ffffff",
+            "on-primary": "#ffffff",
+            "on-error": "#ffffff",
+            "surface-container-low": "#f9f1ff",
+            "tertiary-container": "#006077",
+            "surface-container-highest": "#eaddff",
+            "surface-container-lowest": "#ffffff",
+            "outline": "#7b7486",
+            "on-secondary-container": "#5c0068",
+            "error-container": "#ffdad6",
+            "outline-variant": "#ccc3d7",
+            "surface-container-high": "#efe4ff",
+            "secondary-container": "#ef5aff"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "space-lg": "1.25rem",
+            "space-xl": "2rem",
+            "space-sm": "0.5rem",
+            "margin-panel": "1rem",
+            "space-md": "0.75rem",
+            "gutter-compact": "0.5rem",
+            "space-xs": "0.25rem",
+            "gutter": "1rem",
+            "margin": "1.5rem"
+          },
+          "fontFamily": {
+            "body-lg": ["Inter", "sans-serif"],
+            "body-sm": ["Inter", "sans-serif"],
+            "headline-lg": ["Literata", "serif"],
+            "body-md": ["Inter", "sans-serif"],
+            "label-lg": ["Inter", "sans-serif"],
+            "headline-md": ["Literata", "serif"],
+            "headline-sm": ["Literata", "serif"],
+            "display": ["Literata", "serif"],
+            "code-table": ["Inter", "monospace"],
+            "label-md": ["Inter", "sans-serif"],
+            "label-sm": ["Inter", "sans-serif"]
+          },
+          "fontSize": {
+            "body-lg": ["15px", { "lineHeight": "22px", "letterSpacing": "-0.01em", "fontWeight": "400" }],
+            "body-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.01em", "fontWeight": "400" }],
+            "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "600" }],
+            "body-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0em", "fontWeight": "400" }],
+            "label-lg": ["13px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "600" }],
+            "headline-md": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "500" }],
+            "headline-sm": ["16px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "600" }],
+            "display": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "600" }],
+            "code-table": ["12px", { "lineHeight": "16px", "letterSpacing": "-0.02em", "fontWeight": "400" }],
+            "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500" }],
+            "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "600" }]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 20;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    .custom-input-focus:focus-within {
+      outline: none;
+      box-shadow: 0 0 0 2px #fff, 0 0 0 4px #982786;
+      border-color: #982786;
+    }
+  </style>
+</head>
+<body class="min-h-full flex flex-col font-body-md text-on-surface antialiased bg-[radial-gradient(ellipse_at_top,_#64228E_0%,_#3B176B_45%,_#210940_100%)] bg-fixed selection:bg-fuchsia-300 selection:text-purple-950" style="background: radial-gradient(ellipse at top, #7b559f 0%, #956282 60%, #58335c 100%); background-attachment: fixed;">
+<!-- TopNavBar (Deep Plum) -->
+<header class="flex items-center justify-between px-margin w-full h-14 bg-[#240a42]/95 backdrop-blur-md border-b border-[#531c77] sticky top-0 z-40 shadow-md" style="background-color: rgba(74, 40, 88, 0.95); border-bottom-color: #986584;">
+<div class="flex items-center gap-8">
+<!-- Brand Logo -->
+<a class="flex items-center gap-2 group" href="#">
+<div class="w-8 h-8 rounded-xl bg-purple-950/80 border border-purple-400/30 flex items-center justify-center text-purple-200 shadow-sm group-hover:border-purple-300 transition-colors">
+<span class="material-symbols-outlined text-[20px]" data-icon="flutter">flutter</span>
+</div>
+<span class="font-display text-headline-lg text-white tracking-tight font-semibold">CoLibri</span>
+</a>
+<!-- Navigation Links -->
+<nav class="hidden md:flex items-center gap-6 h-14">
+<a class="text-purple-200/80 font-label-lg text-label-lg hover:text-white transition-colors duration-150 flex items-center h-full" href="#">Inicio</a>
+<a class="text-white font-label-lg text-label-lg border-b-2 border-fuchsia-400 h-full flex items-center pb-0.5 font-semibold" href="#" style="border-bottom-color: #d7e37f;">Libros</a>
+<div class="relative group h-full flex items-center">
+<button class="text-purple-200/80 font-label-lg text-label-lg hover:text-white flex items-center gap-1 transition-colors duration-150" type="button">
+<span>Administración</span>
+<span class="material-symbols-outlined text-[16px] text-purple-300/70" data-icon="expand_more">expand_more</span>
+</button>
+</div>
+</nav>
+</div>
+<!-- Trailing Actions (Only + Agregar libro) -->
+<div class="flex items-center gap-3">
+<button class="inline-flex items-center gap-1.5 bg-gradient-to-r from-[#982786] to-[#7c22b9] hover:from-[#ab2c97] hover:to-[#8d27d2] text-white px-3.5 py-1.5 rounded-xl font-label-lg text-label-lg shadow-sm shadow-purple-950/40 transition-all duration-150 active:scale-[0.98]" style="background: #4d642e; color: #e1ec91;" type="button">
+<span class="material-symbols-outlined text-[18px]" data-icon="add">add</span>
+<span>Agregar libro</span>
+</button>
+</div>
+</header>
+<!-- Main Canvas -->
+<main class="flex-1 w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+<!-- Top Breadcrumb & Title Section -->
+<div class="mb-6">
+<a class="inline-flex items-center gap-1.5 text-purple-200 hover:text-white font-label-lg text-label-lg transition-colors mb-3 group" href="#">
+<span class="material-symbols-outlined text-[18px] transition-transform group-hover:-translate-x-0.5" data-icon="arrow_back">arrow_back</span>
+<span>Volver a libros</span>
+</a>
+<div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1">
+<div>
+<h1 class="font-headline-lg text-display text-white tracking-tight font-semibold">Nuevo libro</h1>
+<p class="font-body-md text-purple-200/90 mt-1">Completá los datos del título. Todos los campos son obligatorios.</p>
+</div>
+</div>
+</div>
+<!-- Form Container (Pale Lilac Panel with crisp readability) -->
+<div class="bg-[#EEE0FA] rounded-2xl border border-purple-300/60 shadow-xl shadow-purple-950/25 p-6 sm:p-8 relative" style="background-color: #faf5fa; border-color: #cba0ba; box-shadow: 0 20px 25px -5px rgba(74, 40, 88, 0.22);">
+<form class="space-y-6" id="new-book-form" onsubmit="event.preventDefault();">
+<!-- 2-Column Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-5">
+<!-- 1. Título -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-purple-950 flex items-center justify-between font-semibold" for="titulo">
+<span>Título <span class="text-rose-600">*</span></span>
+<span class="font-label-sm text-label-sm text-purple-700/80 font-normal">Requerido</span>
+</label>
+<div class="relative custom-input-focus rounded-xl border border-purple-300 bg-white shadow-xs transition-all" style="border-color: #bd8aab;">
+<input class="w-full bg-transparent px-3 py-2 text-body-md font-body-md text-purple-950 placeholder:text-purple-400 border-0 focus:ring-0 rounded-xl" id="titulo" name="titulo" placeholder="Ej. Ficciones, Rayuela..." required="" type="text"/>
+</div>
+</div>
+<!-- 2. Autor/a -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-purple-950 flex items-center justify-between font-semibold" for="autor">
+<span>Autor/a <span class="text-rose-600">*</span></span>
+<span class="font-label-sm text-label-sm text-purple-700/80 font-normal">Requerido</span>
+</label>
+<div class="relative custom-input-focus rounded-xl border border-purple-300 bg-white shadow-xs transition-all" style="border-color: #bd8aab;">
+<input class="w-full bg-transparent px-3 py-2 text-body-md font-body-md text-purple-950 placeholder:text-purple-400 border-0 focus:ring-0 rounded-xl" id="autor" name="autor" placeholder="Ej. Jorge Luis Borges, Mariana Enríquez..." required="" type="text"/>
+</div>
+</div>
+<!-- 3. Editorial -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-purple-950 font-semibold" for="editorial">Editorial <span class="text-rose-600">*</span></label>
+<div class="relative custom-input-focus rounded-xl border border-purple-300 bg-white shadow-xs transition-all" style="border-color: #bd8aab;">
+<select class="w-full bg-transparent px-3 py-2 text-body-md font-body-md text-purple-950 border-0 focus:ring-0 rounded-xl appearance-none pr-9" id="editorial" name="editorial" required="">
+<option class="text-purple-400" disabled="" selected="" value="">Seleccioná editorial</option>
+<option value="Editorial Sudamericana">Editorial Sudamericana</option>
+<option value="Siglo XXI">Siglo XXI</option>
+<option value="Tusquets">Tusquets</option>
+<option value="Seix Barral">Seix Barral</option>
+<option value="Anagrama">Anagrama</option>
+<option value="Eterna Cadencia">Eterna Cadencia</option>
+<option value="Adriana Hidalgo">Adriana Hidalgo</option>
+<option value="Mansalva">Mansalva</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-3 top-2.5 text-[18px] text-purple-500" data-icon="unfold_more">unfold_more</span>
+</div>
+</div>
+<!-- 4. Género -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-purple-950 font-semibold" for="genero">Género <span class="text-rose-600">*</span></label>
+<div class="relative custom-input-focus rounded-xl border border-purple-300 bg-white shadow-xs transition-all" style="border-color: #bd8aab;">
+<select class="w-full bg-transparent px-3 py-2 text-body-md font-body-md text-purple-950 border-0 focus:ring-0 rounded-xl appearance-none pr-9" id="genero" name="genero" required="">
+<option class="text-purple-400" disabled="" selected="" value="">Seleccioná género</option>
+<option value="Ficción">Ficción</option>
+<option value="Ensayo">Ensayo</option>
+<option value="Poesía">Poesía</option>
+<option value="Filosofía">Filosofía</option>
+<option value="Historia">Historia</option>
+<option value="Infantil y Juvenil">Infantil y Juvenil</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-3 top-2.5 text-[18px] text-purple-500" data-icon="unfold_more">unfold_more</span>
+</div>
+</div>
+<!-- 5. Subcategoría -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-purple-950 font-semibold" for="subcategoria">Subcategoría <span class="text-rose-600">*</span></label>
+<div class="relative custom-input-focus rounded-xl border border-purple-300 bg-white shadow-xs transition-all" style="border-color: #bd8aab;">
+<select class="w-full bg-transparent px-3 py-2 text-body-md font-body-md text-purple-950 border-0 focus:ring-0 rounded-xl appearance-none pr-9" id="subcategoria" name="subcategoria" required="">
+<option class="text-purple-400" disabled="" selected="" value="">Seleccioná subcategoría</option>
+<option value="Cuento">Cuento</option>
+<option value="Novela">Novela</option>
+<option value="Crónica">Crónica</option>
+<option value="Autoayuda">Autoayuda</option>
+<option value="Novela Gráfica">Novela Gráfica</option>
+<option value="Teatro">Teatro</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-3 top-2.5 text-[18px] text-purple-500" data-icon="unfold_more">unfold_more</span>
+</div>
+</div>
+<!-- 6. Formato -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-purple-950 font-semibold" for="formato">Formato <span class="text-rose-600">*</span></label>
+<div class="relative custom-input-focus rounded-xl border border-purple-300 bg-white shadow-xs transition-all" style="border-color: #bd8aab;">
+<select class="w-full bg-transparent px-3 py-2 text-body-md font-body-md text-purple-950 border-0 focus:ring-0 rounded-xl appearance-none pr-9" id="formato" name="formato" required="">
+<option class="text-purple-400" disabled="" selected="" value="">Seleccioná formato</option>
+<option value="Papel">Papel</option>
+<option value="PDF">PDF</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-3 top-2.5 text-[18px] text-purple-500" data-icon="unfold_more">unfold_more</span>
+</div>
+</div>
+<!-- 7. Año de edición -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-purple-950 font-semibold" for="anio">Año de edición <span class="text-rose-600">*</span></label>
+<div class="relative custom-input-focus rounded-xl border border-purple-300 bg-white shadow-xs transition-all" style="border-color: #bd8aab;">
+<input class="w-full bg-transparent px-3 py-2 text-body-md font-body-md text-purple-950 placeholder:text-purple-400 border-0 focus:ring-0 rounded-xl" id="anio" max="2099" min="1500" name="anio" placeholder="Ej. 2024" required="" type="number"/>
+</div>
+</div>
+<!-- 8. Idioma -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-purple-950 font-semibold" for="idioma">Idioma <span class="text-rose-600">*</span></label>
+<div class="relative custom-input-focus rounded-xl border border-purple-300 bg-white shadow-xs transition-all" style="border-color: #bd8aab;">
+<select class="w-full bg-transparent px-3 py-2 text-body-md font-body-md text-purple-950 border-0 focus:ring-0 rounded-xl appearance-none pr-9" id="idioma" name="idioma" required="">
+<option class="text-purple-400" disabled="" selected="" value="">Seleccioná idioma</option>
+<option value="Castellano">Castellano</option>
+<option value="Inglés">Inglés</option>
+<option value="Portugués">Portugués</option>
+<option value="Francés">Francés</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-3 top-2.5 text-[18px] text-purple-500" data-icon="unfold_more">unfold_more</span>
+</div>
+</div>
+<!-- 9. Ubicación física -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-purple-950 font-semibold" for="ubicacion">Ubicación física <span class="text-rose-600">*</span></label>
+<div class="relative custom-input-focus rounded-xl border border-purple-300 bg-white shadow-xs transition-all" style="border-color: #bd8aab;">
+<select class="w-full bg-transparent px-3 py-2 text-body-md font-body-md text-purple-950 border-0 focus:ring-0 rounded-xl appearance-none pr-9" id="ubicacion" name="ubicacion" required="">
+<option class="text-purple-400" disabled="" selected="" value="">Seleccioná ubicación</option>
+<option value="Estante 1">Estante 1</option>
+<option value="Estante 2">Estante 2</option>
+<option value="Mesa de novedades">Mesa de novedades</option>
+<option value="Depósito">Depósito</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-3 top-2.5 text-[18px] text-purple-500" data-icon="unfold_more">unfold_more</span>
+</div>
+</div>
+<!-- 10. Estado -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-purple-950 font-semibold" for="estado">Estado <span class="text-rose-600">*</span></label>
+<div class="relative custom-input-focus rounded-xl border border-purple-300 bg-white shadow-xs transition-all" style="border-color: #bd8aab;">
+<select class="w-full bg-transparent px-3 py-2 text-body-md font-body-md text-purple-950 border-0 focus:ring-0 rounded-xl appearance-none pr-9" id="estado" name="estado" required="">
+<option class="text-purple-400" disabled="" selected="" value="">Seleccioná estado</option>
+<option value="Disponible">Disponible</option>
+<option value="Vendido">Vendido</option>
+<option value="Pedir">Pedir</option>
+<option value="En espera">En espera</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-3 top-2.5 text-[18px] text-purple-500" data-icon="unfold_more">unfold_more</span>
+</div>
+</div>
+<!-- 11. Precio de venta -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-purple-950 font-semibold" for="precio">Precio de venta <span class="text-rose-600">*</span></label>
+<div class="relative custom-input-focus rounded-xl border border-purple-300 bg-white shadow-xs transition-all flex items-center" style="border-color: #bd8aab;">
+<span class="pl-3.5 pr-1.5 font-label-md text-label-md text-purple-800 font-medium select-none">$ [ARS]</span>
+<input class="w-full bg-transparent py-2 pr-3 pl-1 text-body-md font-body-md font-code-table text-right text-purple-950 placeholder:text-purple-400 border-0 focus:ring-0 rounded-xl" id="precio" name="precio" placeholder="Ej. 18.500,00" required="" type="text"/>
+</div>
+</div>
+<!-- 12. Stock -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-purple-950 font-semibold" for="stock">Stock <span class="text-rose-600">*</span></label>
+<div class="relative custom-input-focus rounded-xl border border-purple-300 bg-white shadow-xs transition-all" style="border-color: #bd8aab;">
+<input class="w-full bg-transparent px-3 py-2 text-body-md font-body-md font-code-table text-purple-950 border-0 focus:ring-0 rounded-xl" id="stock" min="0" name="stock" required="" type="number" value="0"/>
+</div>
+<p class="text-body-sm font-body-sm text-purple-800 mt-0.5">Cantidad de ejemplares. Podés modificarla directamente.</p>
+</div>
+</div>
+<!-- 13. Descripción breve (Full width) -->
+<div class="flex flex-col gap-1.5 pt-1">
+<label class="font-label-lg text-label-lg text-purple-950 font-semibold" for="descripcion">Descripción breve <span class="text-rose-600">*</span></label>
+<div class="relative custom-input-focus rounded-xl border border-purple-300 bg-white shadow-xs transition-all" style="border-color: #bd8aab;">
+<textarea class="w-full bg-transparent p-3 text-body-md font-body-md text-purple-950 placeholder:text-purple-400 border-0 focus:ring-0 rounded-xl resize-none" id="descripcion" name="descripcion" placeholder="Resumen, sinopsis o notas de catálogo del ejemplar..." required="" rows="3"></textarea>
+</div>
+</div>
+<!-- Readonly Metadata Info Strip -->
+<div class="rounded-xl p-3.5 border border-purple-300/80 bg-purple-200/50 flex flex-wrap items-center justify-between gap-3 text-body-sm font-body-sm text-purple-900" style="background-color: #eee1ec; border-color: #cba0ba; color: #4a2b48;">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-purple-700" data-icon="event" style="color: #6f4b93;">event</span>
+<span style="color: #6f4b93;">Fecha de alta: <strong class="font-semibold text-purple-950">Automática al guardar</strong></span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-purple-700" data-icon="update" style="color: #6f4b93;">update</span>
+<span style="color: #6f4b93;">Última modificación: <strong class="font-semibold text-purple-950">Automática</strong></span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-purple-600" data-icon="receipt_long" style="color: #885775;">receipt_long</span>
+<span style="color: #885775;">Historial de ventas: <span class="text-purple-800 font-medium">Sin ventas registradas</span></span>
+</div>
+</div>
+<!-- Form Actions -->
+<div class="pt-4 border-t border-purple-300/70 flex items-center justify-end gap-3">
+<button class="border border-purple-300 bg-white hover:bg-purple-50 text-purple-950 transition-colors duration-150 rounded-xl px-6 py-2.5 font-label-lg text-label-lg active:scale-[0.98] font-medium" style="border-color: #bd8aab; color: #6f4b93;" type="button">
+            Cancelar
+          </button>
+<button class="bg-gradient-to-r from-[#982786] to-[#64228E] hover:from-[#aa2c97] hover:to-[#7326a5] text-white shadow-md shadow-purple-950/20 rounded-xl px-7 py-2.5 font-label-lg text-label-lg flex items-center gap-2 transition-all duration-150 active:scale-[0.98] font-medium" style="background: #4d642e; color: #e1ec91; border: 1px solid #4d642e;" type="submit">
+<span class="material-symbols-outlined text-[18px]" data-icon="check">check</span>
+<span>Guardar libro</span>
+</button>
+</div>
+</form>
+</div>
+</main>
+<!-- Bottom Desktop Operational Footer -->
+<footer class="w-full bg-[#240a42]/90 border-t border-[#531c77] px-margin py-3.5 mt-auto" style="background-color: rgba(74, 40, 88, 0.95); border-top-color: #986584;">
+<div class="max-w-7xl mx-auto flex items-center justify-center text-body-sm font-body-sm text-purple-200/80">
+<span>CoLibri · Librería</span>
+</div>
+</footer>
+</body></html>

@@ -9,7 +9,7 @@
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;0,7..72,700;1,7..72,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
 <script>
     tailwind.config = {
       theme: {
@@ -51,36 +51,10 @@
       border-radius: 9999px;
     }
   </style>
-</link>
-<style>
-html { color-scheme: dark; }
-body { background:radial-gradient(ellipse at 78% 18%,#942b8855,transparent 55%),radial-gradient(ellipse at 15% 72%,#396ad333,transparent 50%),linear-gradient(135deg,#31105a,#5b1b7b 58%,#83267e)!important; }
-.colibri-nav { position:relative;z-index:60;display:flex;align-items:center;gap:28px;padding:16px 4%;background:#240c44db;border-bottom:1px solid #e9baff25;font:14px Inter,Arial,sans-serif;color:#f4e8fc; }
-.colibri-brand {display:flex;align-items:center;gap:12px;margin-right:12px;font:700 25px Georgia,serif;color:#fff;text-decoration:none;}
-.colibri-brand img {width:32px;height:34px;object-fit:cover;object-position:50% 52%;border-radius:5px;}
-.colibri-nav-link { color:#e6cdf6;text-decoration:none; padding:10px 0;white-space:nowrap; }
-.colibri-nav-link.active {color:#fff;box-shadow:0 2px #eaa2fa;}
-.colibri-admin {position:relative;}
-.colibri-admin summary {cursor:pointer;padding:10px 0;list-style:none;}
-.colibri-admin summary::after {content:' ▾';color:#df9eee;}
-.colibri-admin-panel {position:absolute;top:100%;left:0;min-width:200px;background:#442062;border:1px solid #b782cc66;box-shadow:0 12px 30px #18052966;padding:8px;border-radius:12px;}
-.colibri-admin-panel a {display:block;padding:10px 12px;text-decoration:none;color:#f2e2ff;border-radius:7px;}
-.colibri-admin-panel a:hover {background:#733296;}
-.colibri-add {margin-left:auto;background:linear-gradient(105deg,#7331d4,#a522a7);border:1px solid #db8ce366;border-radius:9px;color:#fff;padding:10px 17px;text-decoration:none;font-weight:600;white-space:nowrap;}
-.bg-white {background-color:#f0e2fa!important;}
-.preview-route-bar {position:relative;z-index:30;display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:0 auto 18px;padding:7px;background:#301346bb;border:1px solid #c69cdd55;border-radius:12px;width:max-content;max-width:calc(100% - 28px);font:12px Inter,Arial,sans-serif;}
-.preview-route-bar a {color:#ebd9ff;text-decoration:none;padding:7px 10px;border-radius:7px;}
-.preview-route-bar a.active {background:#8c36ad;color:white;}
-@media(max-width:700px){.colibri-nav{gap:14px;padding:12px 18px;flex-wrap:wrap;}.colibri-brand{font-size:22px;}.colibri-add{padding:8px 11px;}.colibri-nav-link{font-size:13px;}.colibri-admin{font-size:13px;}}
-</style>
-</head>
-<body data-preview-page="resultados" class="min-h-full flex flex-col bg-gradient-to-br from-[#270b4a] via-[#3B176B] to-[#64228E] text-white selection:bg-[#982786] selection:text-white relative overflow-x-hidden">
+<link rel="stylesheet" href="paleta-local.css"></head>
+<body data-preview-page="resultados" class="min-h-full flex flex-col bg-gradient-to-br from-[#270b4a] via-[#3B176B] to-[#64228E] text-white selection:bg-[#982786] selection:text-white relative overflow-x-hidden" style="background: linear-gradient(135deg, #80608f 0%, #7b559f 50%, #94658c 100%); color: #ffffff;">
 <!-- Subtle ambient background glows -->
-<div class="fixed inset-0 pointer-events-none overflow-hidden z-0">
-<div class="absolute -top-40 left-1/4 w-[600px] h-[600px] bg-[#982786]/20 rounded-full blur-[140px]"></div>
-<div class="absolute top-1/3 -right-20 w-[500px] h-[500px] bg-[#06b6d4]/10 rounded-full blur-[160px]"></div>
-<div class="absolute -bottom-32 left-10 w-[550px] h-[550px] bg-[#3B176B]/60 rounded-full blur-[140px]"></div>
-</div>
+<div class="fixed inset-0 pointer-events-none overflow-hidden z-0"><div class="absolute -top-40 left-1/4 w-[600px] h-[600px] rounded-full blur-[140px]" style="background-color: rgba(189, 138, 171, 0.2);"></div><div class="absolute top-1/3 -right-20 w-[500px] h-[500px] rounded-full blur-[160px]" style="background-color: rgba(136, 87, 117, 0.25);"></div><div class="absolute -bottom-32 left-10 w-[550px] h-[550px] rounded-full blur-[140px]" style="background-color: rgba(111, 75, 147, 0.4);"></div></div>
 <!-- Top Horizontal Navbar -->
 <header class="colibri-nav"><a class="colibri-brand" href="inicio-preview.html"><img src="colibri2.jpg" alt="Logo CoLibri"><span>CoLibri</span></a><a class="colibri-nav-link " href="inicio-preview.html">Inicio</a><a class="colibri-nav-link active" href="resultados-preview.html">Libros</a><details class="colibri-admin"><summary>Administración</summary><div class="colibri-admin-panel"><a href="listas-preview.html?lista=Géneros">Géneros</a><a href="listas-preview.html?lista=Subcategorías">Subcategorías</a><a href="listas-preview.html?lista=Editoriales">Editoriales</a><a href="listas-preview.html?lista=Formatos">Formatos</a><a href="listas-preview.html?lista=Ubicaciones">Ubicaciones</a><a href="listas-preview.html?lista=Estados">Estados</a><a href="listas-preview.html?lista=Idiomas">Idiomas</a></div></details><a class="colibri-add" href="libro-preview.html">+ Agregar libro</a></header>
 <!-- Main Content Area -->
@@ -102,39 +76,39 @@ body { background:radial-gradient(ellipse at 78% 18%,#942b8855,transparent 55%),
 </div>
 </div>
 <!-- Quick Action info badge -->
-<div class="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full bg-[#200b3b]/60 border border-[#982786]/40 text-xs text-[#E1C8F4]">
-<span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+<div class="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full bg-[#200b3b]/60 border border-[#982786]/40 text-xs text-[#E1C8F4]" style="background-color: rgba(77, 99, 47, 0.4); border: 1px solid rgba(228, 238, 160, 0.55); color: #e4eea0;">
+<span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse" style="background-color: #e4eea0;"></span>
 <span>2 títulos coincidentes</span>
 </div>
 </div>
 <!-- Search & Filters Container (Compact bar) -->
-<section class="bg-[#2a0e4e]/75 backdrop-blur-md border border-[#64228E]/50 rounded-2xl p-4 lg:p-5 shadow-xl shadow-black/20 space-y-4">
+<section class="bg-[#2a0e4e]/75 backdrop-blur-md border border-[#64228E]/50 rounded-2xl p-4 lg:p-5 shadow-xl shadow-black/20 space-y-4" style="background-color: rgba(148, 101, 140, 0.4); border: 1px solid rgba(189, 138, 171, 0.55);">
 <!-- Search Input row with clear action -->
 <div class="flex flex-col md:flex-row items-stretch md:items-center gap-3">
 <div class="relative flex-1">
 <span class="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-[#982786] text-[22px] pointer-events-none">
             search
           </span>
-<input class="w-full pl-11 pr-4 py-2.5 rounded-xl bg-[#EEE0FA] border border-[#d8b4f8] text-[#2C103F] placeholder-[#6b478a] text-sm font-medium focus:outline-none focus:ring-2 focus:ring-[#982786] focus:bg-white shadow-inner transition" placeholder="Buscar por título o autor/a..." type="text"/>
+<input class="w-full pl-11 pr-4 py-2.5 rounded-xl bg-[#EEE0FA] border border-[#d8b4f8] text-[#2C103F] placeholder-[#6b478a] text-sm font-medium focus:outline-none focus:ring-2 focus:ring-[#982786] focus:bg-white shadow-inner transition" placeholder="Buscar por título o autor/a..." style="background-color: #f5edf5; border: 1px solid #bd8aab; color: #819452;" type="text"/>
 </div>
 <div class="flex items-center space-x-2.5 flex-shrink-0">
-<button class="inline-flex items-center space-x-1.5 px-5 py-2.5 rounded-xl bg-gradient-to-r from-[#64228E] to-[#982786] hover:from-[#7327a3] hover:to-[#aa2c96] text-white text-sm font-semibold shadow-md shadow-[#64228E]/40 active:scale-95 transition">
+<button class="inline-flex items-center space-x-1.5 px-5 py-2.5 rounded-xl bg-gradient-to-r from-[#64228E] to-[#982786] hover:from-[#7327a3] hover:to-[#aa2c96] text-white text-sm font-semibold shadow-md shadow-[#64228E]/40 active:scale-95 transition" style="background: #7e4f9b; color: #ffffff; border: 1px solid rgba(206, 165, 192, 0.6);">
 <span class="material-symbols-outlined text-[18px]">search</span>
 <span>Buscar</span>
 </button>
-<button class="inline-flex items-center space-x-1 px-3.5 py-2.5 rounded-xl bg-[#EEE0FA]/15 hover:bg-[#EEE0FA]/25 text-[#E1C8F4] hover:text-white border border-[#EEE0FA]/25 text-xs font-medium transition" title="Limpiar búsqueda">
+<button class="inline-flex items-center space-x-1 px-3.5 py-2.5 rounded-xl bg-[#EEE0FA]/15 hover:bg-[#EEE0FA]/25 text-[#E1C8F4] hover:text-white border border-[#EEE0FA]/25 text-xs font-medium transition" style="background-color: rgba(245, 237, 245, 0.18); border: 1px solid rgba(189, 138, 171, 0.4); color: #f5edf5;" title="Limpiar búsqueda">
 <span class="material-symbols-outlined text-[16px]">restart_alt</span>
 <span>Limpiar búsqueda</span>
 </button>
 </div>
 </div>
 <!-- Compact 4-filter dropdown bar -->
-<div class="grid grid-cols-2 md:grid-cols-4 gap-2.5 pt-1 border-t border-[#64228E]/30">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-2.5 pt-1 border-t border-[#64228E]/30" style="border-top: 1px solid rgba(189, 138, 171, 0.35);">
 <!-- Filter: Género -->
 <div class="flex flex-col">
 <label class="text-[11px] font-semibold tracking-wider uppercase text-[#E1C8F4]/70 mb-1 ml-0.5">Género</label>
 <div class="relative">
-<select class="w-full appearance-none px-3 py-2 pr-8 rounded-lg bg-[#EEE0FA]/90 hover:bg-[#EEE0FA] border border-[#c4a1e8] text-[#2C103F] text-xs font-medium focus:outline-none focus:ring-2 focus:ring-[#982786] transition cursor-pointer"><option value="">Género (Todos)</option><option value="Religión &amp; espiritualidad">Religión &amp; espiritualidad</option><option value="Novela">Novela</option><option value="Crónica">Crónica</option><option value="Poesía">Poesía</option></select>
+<select class="w-full appearance-none px-3 py-2 pr-8 rounded-lg bg-[#EEE0FA]/90 hover:bg-[#EEE0FA] border border-[#c4a1e8] text-[#2C103F] text-xs font-medium focus:outline-none focus:ring-2 focus:ring-[#982786] transition cursor-pointer" style="background-color: #f5edf5; border: 1px solid #bd8aab; color: #819452;"><option value="">Género (Todos)</option><option value="Religión &amp; espiritualidad">Religión &amp; espiritualidad</option><option value="Novela">Novela</option><option value="Crónica">Crónica</option><option value="Poesía">Poesía</option></select>
 <span class="material-symbols-outlined absolute right-2.5 top-1/2 -translate-y-1/2 text-[#64228E] text-[16px] pointer-events-none">unfold_more</span>
 </div>
 </div>
@@ -142,7 +116,7 @@ body { background:radial-gradient(ellipse at 78% 18%,#942b8855,transparent 55%),
 <div class="flex flex-col">
 <label class="text-[11px] font-semibold tracking-wider uppercase text-[#E1C8F4]/70 mb-1 ml-0.5">Subcategoría</label>
 <div class="relative">
-<select class="w-full appearance-none px-3 py-2 pr-8 rounded-lg bg-[#EEE0FA]/90 hover:bg-[#EEE0FA] border border-[#c4a1e8] text-[#2C103F] text-xs font-medium focus:outline-none focus:ring-2 focus:ring-[#982786] transition cursor-pointer"><option value="">Subcategoría (Todos)</option><option value="Ensayo">Ensayo</option><option value="Contemporánea">Contemporánea</option><option value="Ficción">Ficción</option><option value="No ficción">No ficción</option></select>
+<select class="w-full appearance-none px-3 py-2 pr-8 rounded-lg bg-[#EEE0FA]/90 hover:bg-[#EEE0FA] border border-[#c4a1e8] text-[#2C103F] text-xs font-medium focus:outline-none focus:ring-2 focus:ring-[#982786] transition cursor-pointer" style="background-color: #f5edf5; border: 1px solid #bd8aab; color: #819452;"><option value="">Subcategoría (Todos)</option><option value="Ensayo">Ensayo</option><option value="Contemporánea">Contemporánea</option><option value="Ficción">Ficción</option><option value="No ficción">No ficción</option></select>
 <span class="material-symbols-outlined absolute right-2.5 top-1/2 -translate-y-1/2 text-[#64228E] text-[16px] pointer-events-none">unfold_more</span>
 </div>
 </div>
@@ -150,7 +124,7 @@ body { background:radial-gradient(ellipse at 78% 18%,#942b8855,transparent 55%),
 <div class="flex flex-col">
 <label class="text-[11px] font-semibold tracking-wider uppercase text-[#E1C8F4]/70 mb-1 ml-0.5">Editorial</label>
 <div class="relative">
-<select class="w-full appearance-none px-3 py-2 pr-8 rounded-lg bg-[#EEE0FA]/90 hover:bg-[#EEE0FA] border border-[#c4a1e8] text-[#2C103F] text-xs font-medium focus:outline-none focus:ring-2 focus:ring-[#982786] transition cursor-pointer"><option value="">Editorial (Todas)</option><option value="Kier">Kier</option><option value="Seix Barral">Seix Barral</option><option value="Debolsillo">Debolsillo</option><option value="Tusquets">Tusquets</option></select>
+<select class="w-full appearance-none px-3 py-2 pr-8 rounded-lg bg-[#EEE0FA]/90 hover:bg-[#EEE0FA] border border-[#c4a1e8] text-[#2C103F] text-xs font-medium focus:outline-none focus:ring-2 focus:ring-[#982786] transition cursor-pointer" style="background-color: #f5edf5; border: 1px solid #bd8aab; color: #819452;"><option value="">Editorial (Todas)</option><option value="Kier">Kier</option><option value="Seix Barral">Seix Barral</option><option value="Debolsillo">Debolsillo</option><option value="Tusquets">Tusquets</option></select>
 <span class="material-symbols-outlined absolute right-2.5 top-1/2 -translate-y-1/2 text-[#64228E] text-[16px] pointer-events-none">unfold_more</span>
 </div>
 </div>
@@ -158,151 +132,22 @@ body { background:radial-gradient(ellipse at 78% 18%,#942b8855,transparent 55%),
 <div class="flex flex-col">
 <label class="text-[11px] font-semibold tracking-wider uppercase text-[#E1C8F4]/70 mb-1 ml-0.5">Estado</label>
 <div class="relative">
-<select class="w-full appearance-none px-3 py-2 pr-8 rounded-lg bg-[#EEE0FA]/90 hover:bg-[#EEE0FA] border border-[#c4a1e8] text-[#2C103F] text-xs font-medium focus:outline-none focus:ring-2 focus:ring-[#982786] transition cursor-pointer"><option value="">Estado (Todos)</option><option value="Disponible">Disponible</option><option value="Vendido">Vendido</option><option value="Pedir">Pedir</option><option value="En espera">En espera</option></select>
+<select class="w-full appearance-none px-3 py-2 pr-8 rounded-lg bg-[#EEE0FA]/90 hover:bg-[#EEE0FA] border border-[#c4a1e8] text-[#2C103F] text-xs font-medium focus:outline-none focus:ring-2 focus:ring-[#982786] transition cursor-pointer" style="background-color: #f5edf5; border: 1px solid #bd8aab; color: #819452;"><option value="">Estado (Todos)</option><option value="Disponible">Disponible</option><option value="Vendido">Vendido</option><option value="Pedir">Pedir</option><option value="En espera">En espera</option></select>
 <span class="material-symbols-outlined absolute right-2.5 top-1/2 -translate-y-1/2 text-[#64228E] text-[16px] pointer-events-none">unfold_more</span>
 </div>
 </div>
 </div>
 </section>
 <!-- Results Table Card (Muted pale lilac #EEE0FA surface, deep plum text) -->
-<section class="bg-[#EEE0FA] border border-[#d5b3f7] rounded-2xl shadow-2xl overflow-hidden text-[#2C103F]">
-<!-- Table Header Bar -->
-<div class="px-6 py-4 bg-[#e8d5fa] border-b border-[#d0adf2] flex flex-wrap items-center justify-between gap-3">
-<div class="flex items-center space-x-3">
-<div class="p-1.5 rounded-lg bg-[#64228E]/10 text-[#64228E]">
-<span class="material-symbols-outlined text-[20px]">menu_book</span>
-</div>
-<div>
-<h2 class="text-base font-bold text-[#2C103F] tracking-tight">
-              Catálogo coincidente
-            </h2>
-<p class="text-xs text-[#5f337e]">
-              Mostrando los ejemplares encontrados en el inventario activo
-            </p>
-</div>
-</div>
-<div class="flex items-center space-x-2">
-<span class="text-[11px] font-medium px-2.5 py-1 rounded-md bg-[#d8bbf5] text-[#411b5e] border border-[#c69fe8]">
-            Datos de ejemplo
-          </span>
-</div>
-</div>
-<!-- Responsive Table Viewport -->
-<div class="overflow-x-auto custom-scrollbar">
-<table class="w-full text-left text-sm border-collapse">
-<thead>
-<tr class="bg-[#dfc7f7] border-b border-[#cca7f0] text-xs font-bold uppercase tracking-wider text-[#481d68]">
-<th class="py-3.5 px-6" scope="col">Título</th>
-<th class="py-3.5 px-6" scope="col">Autor/a</th>
-<th class="py-3.5 px-6" scope="col">Editorial</th>
-<th class="py-3.5 px-6 text-right" scope="col">Precio de venta</th>
-<th class="py-3.5 px-6 text-center" scope="col">Stock</th>
-<th class="py-3.5 px-6 text-center" scope="col">Estado</th>
-<th class="py-3.5 px-6 text-center" scope="col">Acciones</th>
-</tr>
-</thead>
-<tbody class="divide-y divide-[#e1caf5] bg-[#EEE0FA]">
-<!-- Row 1: El día que apagaron la luz -->
-<tr class="hover:bg-[#e7d2f9] transition-colors duration-150 group">
-<td class="py-4 px-6 font-semibold text-[#2C103F] flex items-center space-x-2.5">
-<span class="w-2 h-2 rounded-full bg-[#982786]/70 flex-shrink-0"></span>
-<span class="group-hover:text-[#64228E] transition">El día que apagaron la luz</span>
-</td>
-<td class="py-4 px-6 font-medium text-[#4a2366]">
-                Camila Fabbri
-              </td>
-<td class="py-4 px-6 text-[#4a2366]">
-<span class="inline-flex items-center px-2 py-0.5 rounded bg-[#e2ccf5] text-xs font-medium text-[#4a2366]">
-                  Seix Barral
-                </span>
-</td>
-<td class="py-4 px-6 text-right font-bold text-[#2C103F] tracking-tight">
-                $ 24.000,00
-              </td>
-<td class="py-4 px-6 text-center">
-<span class="inline-flex items-center justify-center min-w-[28px] h-7 px-2 rounded-md bg-[#ddc4f6] text-[#2C103F] font-bold text-xs">
-                  1
-                </span>
-</td>
-<td class="py-4 px-6 text-center">
-<span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-800 border border-emerald-300">
-<span class="w-1.5 h-1.5 rounded-full bg-emerald-500 mr-1.5"></span>
-                  Disponible
-                </span>
-</td>
-<td class="py-4 px-6 text-center">
-<button class="inline-flex items-center space-x-1 px-3 py-1.5 rounded-lg bg-[#64228E] hover:bg-[#7927ad] text-white text-xs font-semibold shadow-sm transition active:scale-95" title="Editar ficha del libro">
-<span class="material-symbols-outlined text-[15px]">edit</span>
-<span>Editar</span>
-</button>
-</td>
-</tr>
-<!-- Row 2: El coleccionista -->
-<tr class="hover:bg-[#e7d2f9] transition-colors duration-150 group">
-<td class="py-4 px-6 font-semibold text-[#2C103F] flex items-center space-x-2.5">
-<span class="w-2 h-2 rounded-full bg-[#982786]/70 flex-shrink-0"></span>
-<span class="group-hover:text-[#64228E] transition">El coleccionista</span>
-</td>
-<td class="py-4 px-6 font-medium text-[#4a2366]">
-                Nora Roberts
-              </td>
-<td class="py-4 px-6 text-[#4a2366]">
-<span class="inline-flex items-center px-2 py-0.5 rounded bg-[#e2ccf5] text-xs font-medium text-[#4a2366]">
-                  Debolsillo
-                </span>
-</td>
-<td class="py-4 px-6 text-right font-bold text-[#2C103F] tracking-tight">
-                $ 21.500,00
-              </td>
-<td class="py-4 px-6 text-center">
-<span class="inline-flex items-center justify-center min-w-[28px] h-7 px-2 rounded-md bg-[#ddc4f6] text-[#2C103F] font-bold text-xs">
-                  1
-                </span>
-</td>
-<td class="py-4 px-6 text-center">
-<span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-800 border border-emerald-300">
-<span class="w-1.5 h-1.5 rounded-full bg-emerald-500 mr-1.5"></span>
-                  Disponible
-                </span>
-</td>
-<td class="py-4 px-6 text-center">
-<button class="inline-flex items-center space-x-1 px-3 py-1.5 rounded-lg bg-[#64228E] hover:bg-[#7927ad] text-white text-xs font-semibold shadow-sm transition active:scale-95" title="Editar ficha del libro">
-<span class="material-symbols-outlined text-[15px]">edit</span>
-<span>Editar</span>
-</button>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-<!-- Table Footer / Pagination row -->
-<div class="px-6 py-3.5 bg-[#e4cdf7] border-t border-[#d2b1f3] flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-[#481d68] font-medium">
-<div class="flex items-center space-x-2">
-<span class="font-bold text-[#2C103F]">2 títulos · 2 ejemplares</span>
-<span class="text-[#7e4f9f]">en el catálogo consultado</span>
-</div>
-<div class="flex items-center space-x-2">
-<span class="text-[#643487]">Página 1 de 1</span>
-<div class="inline-flex rounded-lg border border-[#c7a3e8] bg-[#eedcfc] p-0.5">
-<button class="p-1 rounded text-[#a686c7] cursor-not-allowed" disabled="">
-<span class="material-symbols-outlined text-[16px] block">chevron_left</span>
-</button>
-<button class="px-2 py-0.5 rounded bg-[#64228E] text-white font-bold text-xs">1</button>
-<button class="p-1 rounded text-[#a686c7] cursor-not-allowed" disabled="">
-<span class="material-symbols-outlined text-[16px] block">chevron_right</span>
-</button>
-</div>
-</div>
-</div>
-</section>
+<section class="rounded-2xl shadow-2xl overflow-hidden" style="background-color: #f5edf5; border: 1px solid #bd8aab; color: #35213b;"><div class="px-6 py-4 flex flex-wrap items-center justify-between gap-3" style="background-color: #ebddeb; border-bottom: 1px solid #bd8aab;"><div class="flex items-center space-x-3"><div class="p-1.5 rounded-lg" style="background-color: rgba(111, 75, 147, 0.15); color: #6f4b93;"><span class="material-symbols-outlined text-[20px]">menu_book</span></div><div><h2 class="text-base font-bold tracking-tight" style="color: #819452;">Catálogo coincidente</h2><p class="text-xs" style="color: #885775;">Mostrando los ejemplares encontrados en el inventario activo</p></div></div><div class="flex items-center space-x-2"><span class="text-[11px] font-medium px-2.5 py-1 rounded-md" style="background-color: #ebddeb; color: #6f4b93; border: 1px solid #bd8aab;">Datos de ejemplo</span></div></div><div class="overflow-x-auto custom-scrollbar"><table class="w-full text-left text-sm border-collapse"><thead><tr class="text-xs font-bold uppercase tracking-wider" style="background-color: #e4d1e2; border-bottom: 1px solid #bd8aab; color: #6f4b93;"><th class="py-3.5 px-6" scope="col">Título</th><th class="py-3.5 px-6" scope="col">Autor/a</th><th class="py-3.5 px-6" scope="col">Editorial</th><th class="py-3.5 px-6 text-right" scope="col">Precio de venta</th><th class="py-3.5 px-6 text-center" scope="col">Stock</th><th class="py-3.5 px-6 text-center" scope="col">Estado</th><th class="py-3.5 px-6 text-center" scope="col">Acciones</th></tr></thead><tbody class="divide-y" style="border-color: #bd8aab;"><tr class="group transition-colors duration-150" style="border-bottom: 1px solid #ebddeb;"><td class="py-4 px-6 font-semibold flex items-center space-x-2.5" style="color: #35213b;"><span class="w-2 h-2 rounded-full flex-shrink-0" style="background-color: #885775;"></span><span>El día que apagaron la luz</span></td><td class="py-4 px-6 font-medium" style="color: #56336a;">Camila Fabbri</td><td class="py-4 px-6"><span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium" style="background-color: #e8d7e6; color: #6f4b93; border: 1px solid #bd8aab;">Seix Barral</span></td><td class="py-4 px-6 text-right font-bold tracking-tight" style="color: #819452;">$ 24.000,00</td><td class="py-4 px-6 text-center"><span class="inline-flex items-center justify-center min-w-[28px] h-7 px-2 rounded-md font-bold text-xs" style="background-color: #ebddeb; color: #819452;">1</span></td><td class="py-4 px-6 text-center"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold" style="background-color: rgba(215, 227, 127, 0.45); color: #819452; border: 1px solid #819452;"><span class="w-1.5 h-1.5 rounded-full mr-1.5" style="background-color: #819452;"></span>Disponible</span></td><td class="py-4 px-6 text-center"><button class="inline-flex items-center space-x-1 px-3 py-1.5 rounded-lg text-white text-xs font-semibold shadow-sm transition active:scale-95" style="background-color: #6f4b93;" title="Editar ficha del libro"><span class="material-symbols-outlined text-[15px]">edit</span><span>Editar</span></button></td></tr><tr class="group transition-colors duration-150"><td class="py-4 px-6 font-semibold flex items-center space-x-2.5" style="color: #35213b;"><span class="w-2 h-2 rounded-full flex-shrink-0" style="background-color: #885775;"></span><span>El coleccionista</span></td><td class="py-4 px-6 font-medium" style="color: #56336a;">Nora Roberts</td><td class="py-4 px-6"><span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium" style="background-color: #e8d7e6; color: #6f4b93; border: 1px solid #bd8aab;">Debolsillo</span></td><td class="py-4 px-6 text-right font-bold tracking-tight" style="color: #819452;">$ 21.500,00</td><td class="py-4 px-6 text-center"><span class="inline-flex items-center justify-center min-w-[28px] h-7 px-2 rounded-md font-bold text-xs" style="background-color: #ebddeb; color: #819452;">1</span></td><td class="py-4 px-6 text-center"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold" style="background-color: rgba(215, 227, 127, 0.45); color: #819452; border: 1px solid #819452;"><span class="w-1.5 h-1.5 rounded-full mr-1.5" style="background-color: #819452;"></span>Disponible</span></td><td class="py-4 px-6 text-center"><button class="inline-flex items-center space-x-1 px-3 py-1.5 rounded-lg text-white text-xs font-semibold shadow-sm transition active:scale-95" style="background-color: #6f4b93;" title="Editar ficha del libro"><span class="material-symbols-outlined text-[15px]">edit</span><span>Editar</span></button></td></tr></tbody></table></div><div class="px-6 py-3.5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs font-medium" style="background-color: #ebddeb; border-top: 1px solid #bd8aab; color: #6f4b93;"><div class="flex items-center space-x-2"><span class="font-bold" style="color: #819452;">2 títulos · 2 ejemplares</span><span style="color: #885775;">en el catálogo consultado</span></div><div class="flex items-center space-x-2"><span style="color: #6f4b93;">Página 1 de 1</span><div class="inline-flex rounded-lg p-0.5" style="border: 1px solid #bd8aab; background-color: #f5edf5;"><button class="p-1 rounded cursor-not-allowed" disabled="" style="color: #bd8aab;"><span class="material-symbols-outlined text-[16px] block">chevron_left</span></button><button class="px-2 py-0.5 rounded font-bold text-xs text-white" style="background-color: #6f4b93;">1</button><button class="p-1 rounded cursor-not-allowed" disabled="" style="color: #bd8aab;"><span class="material-symbols-outlined text-[16px] block">chevron_right</span></button></div></div></div></section>
 <!-- Subtle Empty-State note reference without clutter -->
-<div class="p-3.5 rounded-xl bg-[#200b3b]/40 border border-[#64228E]/40 text-center text-xs text-[#E1C8F4]/80 flex items-center justify-center space-x-2">
+<div class="p-3.5 rounded-xl bg-[#200b3b]/40 border border-[#64228E]/40 text-center text-xs text-[#E1C8F4]/80 flex items-center justify-center space-x-2" style="background-color: rgba(136, 87, 117, 0.25); border: 1px solid rgba(189, 138, 171, 0.4); color: #f5edf5;">
 <span class="material-symbols-outlined text-[16px] text-[#982786]">info</span>
 <span>Si no encontrás un ejemplar, podés ajustar los filtros superiores o agregarlo con el botón <strong>+ Agregar libro</strong>.</span>
 </div>
 </main>
 <!-- Persistent Minimal Footer -->
-<footer class="relative z-10 w-full py-4 text-center text-xs text-[#E1C8F4]/70 border-t border-[#64228E]/30 bg-[#1d0836]/60 backdrop-blur-sm">
+<footer class="relative z-10 w-full py-4 text-center text-xs text-[#E1C8F4]/70 border-t border-[#64228E]/30 bg-[#1d0836]/60 backdrop-blur-sm" style="background-color: rgba(90, 60, 117, 0.88); border-top: 1px solid rgba(189, 138, 171, 0.4); color: #ebddeb;">
 <p>CoLibri · Librería</p>
 </footer>
 <div class="preview-route-bar" aria-label="Vistas del boceto"><a class="" href="inicio-preview.html">Inicio</a><a class="active" href="resultados-preview.html">Libros</a><a class="" href="libro-preview.html">Ficha del libro</a><a class="" href="listas-preview.html">Administrar listas</a></div><script src="preview-v2.js"></script></body>
